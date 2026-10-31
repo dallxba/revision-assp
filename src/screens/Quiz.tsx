@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ficheParId } from '../content'
-import { retour } from '../lib/route'
+import { aller, retour } from '../lib/route'
 import { melanger } from '../lib/srs'
 import { majEtat, marquerJour } from '../lib/store'
 import { Entete, Icone } from './ui'
@@ -20,7 +20,8 @@ export function Quiz({ ficheId }: { ficheId?: string }) {
   const [score, setScore] = useState(0)
   const [fini, setFini] = useState(false)
 
-  if (!ref || questions.length === 0) return <Entete titre="Quiz introuvable" retour={() => retour('/parcours')} />
+  const quitter = () => (ref ? aller(`/bloc/${ref.matiere.id}/${ref.blocId}`) : retour('/parcours'))
+  if (!ref || questions.length === 0) return <Entete titre="Quiz introuvable" retour={() => quitter()} />
   const q = questions[i]
 
   const choisir = (k: number) => {
@@ -54,15 +55,15 @@ export function Quiz({ ficheId }: { ficheId?: string }) {
     const parfait = score === questions.length
     return (
       <div className="page session">
-        <Entete retour={() => retour('/parcours')} />
+        <Entete retour={() => quitter()} />
         <div className="fin">
           <p className="gros-chiffre">
             {score}/{questions.length}
           </p>
           <h1>{parfait ? 'Sans faute.' : score >= questions.length / 2 ? 'Bien joué.' : 'À retravailler.'}</h1>
           <p className="legende">{parfait ? 'Tu maîtrises cette fiche. Les cartes vont maintenant s\'espacer.' : 'Relis la fiche, puis refais le quiz plus tard.'}</p>
-          <button className="btn principal large" onClick={() => retour('/parcours')}>
-            Retour à la fiche
+          <button className="btn principal large" onClick={() => quitter()}>
+            Retour au parcours
           </button>
         </div>
       </div>
@@ -72,7 +73,7 @@ export function Quiz({ ficheId }: { ficheId?: string }) {
   return (
     <div className="page session">
       <header className="entete-session">
-        <button className="btn-retour" onClick={() => retour('/parcours')} aria-label="Quitter le quiz">
+        <button className="btn-retour" onClick={() => quitter()} aria-label="Quitter le quiz">
           <Icone nom="retour" />
         </button>
         <div className="progression">

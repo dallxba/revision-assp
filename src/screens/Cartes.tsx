@@ -25,7 +25,8 @@ export function SessionCartes({ mode }: { mode: 'jour' | { fiche?: string } }) {
   const [reussies, setReussies] = useState(0)
   const [vue, setVue] = useState(false)
 
-  const quitter = () => (mode === 'jour' ? aller('/') : retour('/parcours'))
+  const ref = mode === 'jour' ? undefined : mode.fiche ? ficheParId.get(mode.fiche) : undefined
+  const quitter = () => (ref ? aller(`/bloc/${ref.matiere.id}/${ref.blocId}`) : mode === 'jour' ? aller('/') : retour('/parcours'))
 
   if (file.length === 0) {
     return (

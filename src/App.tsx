@@ -41,7 +41,6 @@ export function App() {
       break
     case 'fiche':
       ecran = <FicheEcran id={a} />
-      onglet = 'parcours'
       break
     case 'cartes':
       ecran = <SessionCartes mode={a === 'fiche' ? { fiche: b } : 'jour'} />

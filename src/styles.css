@@ -1225,3 +1225,287 @@ section {
   color: var(--teal);
   border: 0;
 }
+
+/* ---------- Lecture écran par écran ---------- */
+
+.lecteur {
+  min-height: 100dvh;
+  max-width: 640px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px calc(96px + env(safe-area-inset-bottom));
+}
+
+.entete-lecteur {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: calc(6px + env(safe-area-inset-top)) 0 6px;
+  margin-top: calc(-1 * env(safe-area-inset-top));
+  background: var(--papier);
+}
+
+.entete-lecteur .btn-retour {
+  margin: 0;
+}
+
+.segments {
+  flex: 1;
+  display: flex;
+  gap: 3px;
+}
+
+.segments span {
+  flex: 1;
+  height: 5px;
+  border-radius: 99px;
+  background: var(--surface-2);
+  transition: background 250ms var(--ease);
+}
+
+.segments span.fait {
+  background: var(--teal);
+}
+
+.segments span.actuel {
+  background: var(--coral);
+}
+
+.segments span.q:not(.fait):not(.actuel) {
+  background: var(--coral-clair);
+}
+
+.ecran {
+  padding-top: 12px;
+}
+
+.ecran.depuis-droite {
+  animation: glisse-droite 280ms var(--ease);
+}
+
+.ecran.depuis-gauche {
+  animation: glisse-gauche 280ms var(--ease);
+}
+
+@keyframes glisse-droite {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+}
+
+@keyframes glisse-gauche {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ecran,
+  .pop {
+    animation: none !important;
+  }
+}
+
+.titre-notion {
+  font-size: 27px;
+  line-height: 1.2;
+  margin: 4px 0 6px;
+}
+
+.lecteur .cours {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.lecteur .cours > div > p:first-child {
+  margin-top: 0;
+}
+
+.badge-verif {
+  display: inline-block;
+  margin: 6px 0 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--encre-2);
+  background: var(--ambre-clair);
+  padding: 3px 10px;
+  border-radius: 99px;
+}
+
+.pied-lecteur {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  display: flex;
+  gap: 10px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  background: linear-gradient(to top, var(--papier) 70%, color-mix(in srgb, var(--papier) 0%, transparent));
+}
+
+.btn.rond {
+  flex: none;
+  width: 52px;
+  padding: 0;
+  color: var(--teal);
+}
+
+.pied-lecteur .btn.principal {
+  min-height: 52px;
+  font-size: 17px;
+}
+
+.pastille-question {
+  display: inline-block;
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--coral);
+  background: var(--coral-clair);
+  padding: 3px 10px;
+  border-radius: 99px;
+}
+
+.question-eclair .titre-notion {
+  margin-bottom: 18px;
+}
+
+.fin-lecture {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 32px;
+  gap: 8px;
+}
+
+.fin-lecture h1 {
+  font-size: 30px;
+}
+
+.fin-lecture .pile {
+  width: 100%;
+  margin-top: 16px;
+}
+
+.fin-lecture .sources {
+  align-self: stretch;
+}
+
+.bilan {
+  display: flex;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.bilan > div {
+  background: var(--surface);
+  border-radius: 14px;
+  padding: 12px 18px;
+  text-align: center;
+  min-width: 120px;
+}
+
+.bilan .chiffre {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--teal);
+}
+
+.pop {
+  animation: pop 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+@keyframes pop {
+  from {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+}
+
+/* ---------- Encadrés et schémas ---------- */
+
+.encadre {
+  margin: 16px 0;
+  padding: 12px 16px 14px;
+  border-radius: 16px;
+  background: var(--teal-clair);
+  font-size: 17px;
+}
+
+.encadre p,
+.encadre ul {
+  margin: 6px 0 0;
+}
+
+.encadre-titre {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0 !important;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--teal);
+}
+
+.encadre-astuce {
+  background: var(--ambre-clair);
+}
+
+.encadre-astuce .encadre-titre {
+  color: var(--encre-2);
+}
+
+.encadre-metier {
+  background: var(--surface);
+  border: 1.5px solid var(--plum);
+}
+
+.encadre-metier .encadre-titre {
+  color: var(--plum);
+}
+
+.encadre-attention {
+  background: var(--rouge-clair);
+}
+
+.encadre-attention .encadre-titre {
+  color: var(--rouge);
+}
+
+.schema {
+  margin: 16px 0;
+  padding: 12px;
+  background: var(--surface);
+  border-radius: 16px;
+}
+
+.schema svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.schema figcaption {
+  font-size: 14px;
+  color: var(--encre-3);
+}
+
+.cours strong {
+  color: var(--encre);
+  background: linear-gradient(transparent 62%, color-mix(in srgb, var(--coral) 22%, transparent) 62%);
+}

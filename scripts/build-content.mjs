@@ -173,6 +173,19 @@ for (const nom of fichiers) {
   chapitres.push({ bloc: meta.bloc, chapitre: { id: meta.id, titre: meta.titre, code: meta.code, fiches } })
 }
 
+// Écrans trop longs : on prévient sans bloquer (une notion par écran, ~90 mots).
+const longs = []
+for (const { chapitre } of chapitres)
+  for (const f of chapitre.fiches) {
+    if (!f.cartes.length && !f.quiz.length) continue
+    for (const bloc of f.cours.split(/^## /m)) {
+      if (/^Je v[ée]rifie/i.test(bloc)) continue
+      const mots = bloc.replace(/<[^>]+>/g, ' ').split(/\s+/).filter((w) => /[\p{L}\d]/u.test(w)).length
+      if (mots > 120) longs.push(`${f.id} « ${bloc.split('\n')[0].slice(0, 50)} » : ${mots} mots`)
+    }
+  }
+if (longs.length) console.warn('Écrans de plus de 120 mots :\n- ' + longs.join('\n- '))
+
 if (erreurs.length) {
   console.error('Contenu invalide :\n- ' + erreurs.join('\n- '))
   process.exit(1)

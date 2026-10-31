@@ -18,98 +18,89 @@ verifiee: false
 
 **Ce qu'il faut retenir :** la peau est un organe qui recouvre tout le corps. Elle est formée de trois couches superposées : l'épiderme en surface, le derme au milieu et l'hypoderme en profondeur. Elle possède aussi des annexes : poils, glandes sébacées, glandes sudoripares et ongles.
 
-### Définition
+### La peau, un organe
 
-La peau est un **organe** : elle est constituée de plusieurs tissus qui travaillent ensemble pour assurer des fonctions précises. Avec ses annexes, elle forme le **tégument**, c'est-à-dire l'enveloppe du corps. Chez l'adulte, sa surface est d'environ 2 m² et elle représente environ 16 % du poids du corps.
+La peau est un **organe** : plusieurs tissus qui travaillent ensemble.
 
-> **Vocabulaire**
-> - **Organe** : ensemble de tissus différents qui assurent ensemble une ou plusieurs fonctions.
-> - **Tégument** : enveloppe qui recouvre le corps (la peau et ses annexes).
+- Elle recouvre **tout le corps**.
+- Chez l'adulte : environ **2 m²** et **16 %** du poids du corps.
+- Avec ses annexes, elle forme le **tégument**, l'enveloppe du corps.
 
-### L'épiderme, la couche superficielle
+> [!RETENIR]
+> Trois couches, de la surface vers la profondeur : **épiderme**, **derme**, **hypoderme**.
 
-L'épiderme est un **épithélium pavimenteux stratifié kératinisé** : il est formé de plusieurs couches de cellules, aplaties en surface et chargées de kératine. Son épaisseur moyenne est d'environ 0,1 mm ; elle est plus faible sur les paupières et plus forte sur la plante des pieds.
+::schema[peau-couches]
 
-L'épiderme **n'est pas vascularisé** : il ne contient aucun vaisseau sanguin. Ses cellules sont nourries par diffusion à partir du derme. C'est pourquoi une égratignure qui ne touche que l'épiderme ne saigne pas.
+### L'épiderme : une barrière sans vaisseaux
 
-On y distingue plusieurs couches, de la profondeur vers la surface :
+L'épiderme est la couche **superficielle**, fine (environ **0,1 mm**).
 
-1. la **couche basale** (ou germinative), où les cellules se divisent en permanence ;
-2. la **couche épineuse** ;
-3. la **couche granuleuse** ;
-4. la **couche cornée**, formée de cellules mortes, aplaties et remplies de kératine, qui finissent par tomber (desquamation).
+- Il est fait de plusieurs couches de cellules : un **épithélium pavimenteux stratifié kératinisé**.
+- Il **n'a pas de vaisseaux sanguins** : il est nourri par le derme.
 
-Les principales cellules de l'épiderme sont :
+> [!ASTUCE]
+> Une égratignure qui ne touche que l'épiderme **ne saigne pas**. Si ça saigne, le derme est atteint.
 
-- les **kératinocytes**, les plus nombreux : nés dans la couche basale, ils remontent vers la surface en se chargeant de kératine, puis meurent et tombent. L'épiderme se renouvelle ainsi en environ 4 semaines ;
-- les **mélanocytes**, situés dans la couche basale, qui fabriquent la **mélanine**, un pigment qui colore la peau et la protège des rayons ultraviolets (UV) ;
-- les **cellules de Langerhans**, qui participent à l'**immunité** : elles repèrent les éléments étrangers qui pénètrent dans la peau et alertent le système immunitaire.
+### Les couches de l'épiderme
 
-### Le derme, la couche intermédiaire
+De la profondeur vers la surface :
 
-Le derme est un **tissu conjonctif** plus épais que l'épiderme. Il contient :
+1. **Couche basale** (germinative) : les cellules s'y divisent.
+2. **Couche épineuse**.
+3. **Couche granuleuse**.
+4. **Couche cornée** : cellules **mortes**, plates, pleines de **kératine**. Elles tombent : c'est la **desquamation**.
 
-- des **fibres de collagène**, qui donnent à la peau sa résistance, et des **fibres d'élastine**, qui lui donnent son élasticité ;
-- des **vaisseaux sanguins**, qui nourrissent la peau et participent à la régulation de la température ;
-- des **terminaisons nerveuses** et des **récepteurs sensoriels**, sensibles au toucher, à la pression, à la température et à la douleur ;
-- la partie profonde des annexes.
+> [!RETENIR]
+> L'épiderme se renouvelle en environ **4 semaines**.
 
-### L'hypoderme, la couche profonde
+### Les cellules de l'épiderme
 
-L'hypoderme est surtout constitué de **tissu adipeux**, c'est-à-dire de cellules remplies de graisse (les adipocytes). Il joue trois rôles : **réserve** d'énergie, **isolant** thermique et **amortisseur** des chocs. Certains manuels le présentent comme un tissu situé sous la peau plutôt que comme une couche de la peau : les deux présentations existent.
+| Cellule | Rôle |
+|---|---|
+| **Kératinocyte** | La plus nombreuse ; fabrique la kératine |
+| **Mélanocyte** | Fabrique la **mélanine**, pigment qui protège des UV |
+| **Cellule de Langerhans** | Repère les intrus : rôle d'**immunité** |
 
-> **Vocabulaire**
-> - **Kératine** : protéine dure et imperméable qui remplit les cellules de la couche cornée, des poils et des ongles.
-> - **Mélanine** : pigment brun-noir fabriqué par les mélanocytes.
-> - **Collagène** : protéine en fibres qui rend le derme solide.
-> - **Élastine** : protéine en fibres qui permet à la peau de reprendre sa forme après avoir été étirée.
-> - **Tissu adipeux** : tissu formé de cellules qui stockent les graisses.
+Les kératinocytes naissent dans la couche basale, montent vers la surface, meurent et tombent.
+
+### Le derme : solidité et vie
+
+Le derme est un **tissu conjonctif**, plus épais que l'épiderme. Il contient :
+
+- des fibres de **collagène** : la **résistance** ;
+- des fibres d'**élastine** : l'**élasticité** ;
+- des **vaisseaux sanguins** : nourrir la peau, régler la température ;
+- des **récepteurs sensoriels** : toucher, pression, chaud, froid, douleur ;
+- la base des **annexes** (poils, glandes).
+
+### L'hypoderme : la réserve
+
+L'hypoderme est fait surtout de **tissu adipeux** (cellules de graisse, les **adipocytes**).
+
+Trois rôles :
+
+- **réserve** d'énergie ;
+- **isolant** contre le froid ;
+- **amortisseur** des chocs.
+
+> [!ATTENTION]
+> Certains manuels le présentent comme un tissu **sous** la peau, pas comme une couche de la peau. Les deux versions existent : suivez celle de votre prof.
 
 ### Les annexes de la peau
 
-- **Les poils** : ils naissent dans un **follicule pileux**, un repli de l'épiderme enfoncé dans le derme. À chaque follicule est attaché un petit **muscle arrecteur** (ou horripilateur) : en se contractant, il redresse le poil et provoque la « chair de poule ».
-- **Les glandes sébacées** : situées dans le derme, elles s'ouvrent dans le follicule pileux et produisent le **sébum**, une substance grasse qui lubrifie la peau et les poils et limite leur dessèchement.
-- **Les glandes sudoripares** : tubes enroulés situés dans le derme profond, elles produisent la **sueur**, composée surtout d'eau et de sels minéraux, qui s'écoule à la surface par un pore.
-- **Les ongles** : lames de kératine dure qui protègent l'extrémité des doigts et des orteils.
+::schema[peau-coupe]
 
-### Schéma à compléter : coupe de la peau
+| Annexe | Ce qu'elle fait |
+|---|---|
+| **Poil** + muscle arrecteur | Le muscle redresse le poil : « chair de poule » |
+| **Glande sébacée** | Produit le **sébum** (gras) ; s'ouvre dans le follicule du poil |
+| **Glande sudoripare** | Produit la **sueur** (eau + sels) ; s'ouvre par un pore |
+| **Ongle** | Lame de kératine qui protège le bout des doigts |
 
-Description du schéma (coupe verticale de la peau, de la surface vers la profondeur) :
+### Sur le terrain
 
-- En haut, une bande fine et ondulée : l'épiderme, dont la partie la plus superficielle est la couche cornée et la plus profonde la couche basale. Un poil sort de la surface ; plus loin, un pore marque la sortie d'une glande sudoripare.
-- Au milieu, une zone plus épaisse : le derme. On y voit le follicule pileux qui entoure la racine du poil, une glande sébacée en forme de petit sac accolée au follicule, un muscle arrecteur oblique qui relie le follicule au haut du derme, des vaisseaux sanguins (en rouge et en bleu) et des terminaisons nerveuses (en jaune).
-- En bas, une couche formée de grosses cellules rondes : l'hypoderme, avec ses cellules adipeuses. La partie enroulée de la glande sudoripare se trouve à la limite du derme et de l'hypoderme, reliée au pore par un long canal.
-
-Légendes à placer :
-
-1. Épiderme
-2. Couche cornée
-3. Couche basale (germinative)
-4. Derme
-5. Hypoderme
-6. Poil
-7. Follicule pileux
-8. Muscle arrecteur du poil
-9. Glande sébacée
-10. Glande sudoripare
-11. Pore sudoripare
-12. Vaisseaux sanguins
-13. Terminaison nerveuse
-14. Cellules adipeuses
-
-**Consigne : légendez le schéma** en reportant chaque numéro au bon endroit.
-
-### Tableau récapitulatif
-
-| Couche | Constitution | Rôle principal |
-|---|---|---|
-| Épiderme | Épithélium pavimenteux stratifié kératinisé, non vascularisé ; kératinocytes, mélanocytes, cellules de Langerhans | Barrière protectrice, protection contre les UV, défense immunitaire |
-| Derme | Tissu conjonctif : fibres de collagène et d'élastine, vaisseaux sanguins, terminaisons nerveuses, annexes | Solidité et élasticité, nutrition de l'épiderme, sensibilité, régulation de la température |
-| Hypoderme | Tissu adipeux (adipocytes), vaisseaux | Réserve d'énergie, isolation thermique, amortissement des chocs |
-
-### Exemple tiré du métier
-
-En EHPAD, la peau des personnes âgées est plus fine et plus fragile : l'épiderme s'amincit et le derme contient moins de collagène et d'élastine. Pendant la toilette ou une mobilisation, le professionnel évite de frotter ou de tirer sur la peau, qui se déchire plus facilement.
+> [!METIER]
+> En EHPAD, la peau âgée est **fine** et **fragile** : moins de collagène, moins d'élastine. Pendant la toilette ou un transfert, on ne **frotte pas** et on ne **tire pas** sur la peau : elle se déchire facilement.
 
 ### Je vérifie
 
@@ -153,72 +144,77 @@ En EHPAD, la peau des personnes âgées est plus fine et plus fragile : l'épide
 
 **Ce qu'il faut retenir :** la peau protège l'organisme contre les chocs, les microbes, les UV et la déshydratation. Elle participe au maintien de la température du corps, permet de percevoir l'environnement, fabrique de la vitamine D et stocke de l'énergie. Elle a aussi un rôle essentiel dans la relation avec les autres.
 
-### La protection
+### Une barrière contre les microbes
 
-**Une barrière mécanique.** La couche cornée résiste aux frottements, le derme à l'étirement, et l'hypoderme amortit les chocs.
+La peau intacte empêche les microbes d'entrer grâce à :
 
-**Une barrière contre les microbes.** Plusieurs éléments empêchent les micro-organismes de pénétrer dans l'organisme :
+- la **couche cornée**, compacte ;
+- le **film hydrolipidique** : sueur + sébum ;
+- un **pH légèrement acide** qui freine les microbes ;
+- la **flore commensale** : des microbes « gentils » qui prennent la place des pathogènes ;
+- les **cellules de Langerhans**.
 
-- la **couche cornée**, compacte, que les microbes ne traversent pas lorsque la peau est intacte ; la desquamation élimine aussi ceux qui s'y sont fixés ;
-- le **film hydrolipidique**, mélange de sueur et de sébum qui recouvre la peau ;
-- le **pH légèrement acide** de la surface de la peau, qui freine le développement de nombreux microbes pathogènes ;
-- la **flore cutanée commensale**, ensemble de micro-organismes qui vivent normalement sur la peau sans nous nuire et qui occupent la place des microbes pathogènes ;
-- les **cellules de Langerhans**, qui déclenchent une réponse immunitaire si des éléments étrangers pénètrent.
+> [!ATTENTION]
+> Une peau **lésée** (plaie, crevasse) devient une **porte d'entrée** pour les microbes.
 
-**Une protection contre les UV.** Sous l'effet du soleil, les mélanocytes produisent davantage de mélanine : c'est le bronzage. La mélanine absorbe une partie des UV et protège ainsi les cellules de la peau.
+### Les autres protections
 
-**Une protection contre la déshydratation.** La kératine et le film hydrolipidique limitent les pertes d'eau à travers la peau.
+- **Mécanique** : la couche cornée résiste aux frottements, l'hypoderme amortit les chocs.
+- **Contre les UV** : au soleil, les mélanocytes produisent plus de **mélanine**. C'est le **bronzage**.
+- **Contre la déshydratation** : la kératine et le film hydrolipidique limitent les pertes d'eau.
 
-> **Vocabulaire**
-> - **Film hydrolipidique** : fine couche d'eau (sueur) et de graisses (sébum) à la surface de la peau.
-> - **pH** : mesure de l'acidité ; un pH inférieur à 7 est acide.
-> - **Flore commensale** : micro-organismes qui vivent sur un hôte sans lui nuire.
-> - **Pathogène** : capable de provoquer une maladie.
+> [!RETENIR]
+> Protéger = **chocs**, **microbes**, **UV**, **perte d'eau**.
 
-### La thermorégulation
+### Quand il fait chaud
 
-La température du corps reste proche de 37 °C. La peau aide à la maintenir constante.
+Objectif : garder le corps vers **37 °C**.
 
-**Quand il fait chaud** (ou pendant un effort) :
+1. Les vaisseaux du derme se **dilatent** : c'est la **vasodilatation**.
+2. Plus de sang passe en surface et perd de la chaleur : la peau **rougit**.
+3. Les glandes sudoripares produisent de la **sueur**.
+4. La sueur **s'évapore** et refroidit le corps.
 
-- les glandes sudoripares produisent de la sueur ; son **évaporation** à la surface de la peau consomme de la chaleur et refroidit le corps ;
-- les vaisseaux du derme se dilatent (**vasodilatation**) : davantage de sang passe près de la surface et perd de la chaleur. La peau devient rouge.
+> [!METIER]
+> En crèche, par forte chaleur : faire **boire souvent**, habiller léger, rester à l'ombre.
 
-**Quand il fait froid** :
+### Quand il fait froid
 
-- les vaisseaux du derme se resserrent (**vasoconstriction**) : moins de sang arrive en surface, la chaleur est conservée. La peau devient pâle ;
-- les muscles arrecteurs se contractent : c'est la **chair de poule**. Chez l'être humain, dont les poils sont peu fournis, son effet isolant reste faible ;
-- les muscles du corps se contractent de façon involontaire et rapide : c'est le **frisson**, qui produit de la chaleur (ce n'est pas la peau qui agit ici, mais les muscles) ;
-- l'hypoderme, grâce à sa graisse, joue en permanence le rôle d'**isolant** et limite les pertes de chaleur.
+1. Les vaisseaux du derme se **resserrent** : c'est la **vasoconstriction**. La peau **pâlit**, la chaleur reste à l'intérieur.
+2. Les muscles arrecteurs se contractent : **chair de poule** (effet faible chez l'humain).
+3. L'**hypoderme** isole.
+4. Les muscles du corps tremblent : le **frisson** produit de la chaleur.
 
-> **Vocabulaire**
-> - **Thermorégulation** : ensemble des mécanismes qui maintiennent la température du corps constante.
-> - **Vasodilatation** : augmentation du diamètre d'un vaisseau sanguin.
-> - **Vasoconstriction** : diminution du diamètre d'un vaisseau sanguin.
+> [!ASTUCE]
+> Le frisson vient des **muscles**, pas de la peau.
 
-### La sensibilité
+### Sentir le monde
 
-Les récepteurs sensoriels du derme permettent de percevoir le **toucher**, la **pression**, le **chaud** et le **froid**, ainsi que la **douleur**. Les informations sont transmises par les nerfs jusqu'au cerveau. La douleur est un signal d'alerte, par exemple au contact d'un objet brûlant.
+Les **récepteurs sensoriels** du derme captent :
 
-### La synthèse de vitamine D
+- le **toucher** et la **pression** ;
+- le **chaud** et le **froid** ;
+- la **douleur**.
 
-Sous l'effet des rayons UV du soleil, la peau fabrique de la **vitamine D** à partir d'un dérivé du cholestérol. Cette vitamine est ensuite activée par le foie puis par les reins. Elle favorise l'absorption du calcium et donc la solidité des os.
+Les nerfs transmettent l'information au **cerveau**.
 
-### Un rôle d'élimination limité
+> [!RETENIR]
+> La douleur est un **signal d'alerte** : elle fait retirer la main d'un objet brûlant.
 
-La sueur contient, en plus de l'eau et des sels minéraux, une petite quantité de déchets comme l'urée. Ce rôle reste limité : ce sont surtout les reins qui éliminent les déchets.
+### Vitamine D, réserve et élimination
 
-### La réserve énergétique
+- **Vitamine D** : la peau la fabrique sous l'effet des **UV**. Elle aide à absorber le **calcium**, donc à garder des os solides.
+- **Réserve** : la graisse de l'hypoderme est utilisée quand on mange trop peu.
+- **Élimination** : la sueur contient un peu de déchets (urée). Rôle **limité** : ce sont surtout les **reins** qui éliminent.
 
-Les graisses stockées dans l'hypoderme constituent une réserve d'énergie que l'organisme peut utiliser lorsque les apports alimentaires sont insuffisants.
+### La peau dans la relation
 
-### Le rôle social et relationnel
+- On **rougit** d'émotion, on **pâlit** de peur : la peau communique.
+- Son aspect touche l'**image de soi**.
+- Le **toucher** est une communication à part entière.
 
-La peau participe à la communication : on rougit sous l'effet de l'émotion, on pâlit sous l'effet de la peur. Son aspect influence l'**image de soi** et le regard des autres. Enfin, le **toucher** est un moyen de communication à part entière. Dans la relation de soin, un geste doux et respectueux rassure, apaise et montre à la personne qu'elle est considérée. Il doit toujours être annoncé et accepté par la personne.
-
-### Exemple tiré du métier
-
-En crèche, par forte chaleur, le professionnel fait boire régulièrement les jeunes enfants, les habille légèrement et les garde à l'ombre, car leur thermorégulation est moins efficace que celle de l'adulte.
+> [!METIER]
+> Dans le soin, un geste doux **rassure**. Il est toujours **annoncé** et **accepté** par la personne.
 
 ### Je vérifie
 
@@ -261,108 +257,145 @@ En crèche, par forte chaleur, le professionnel fait boire régulièrement les j
 
 **Ce qu'il faut retenir**
 
-La peau du nourrisson et celle de la personne âgée sont plus fines et plus fragiles que celle de l'adulte. Chez une personne alitée, une compression prolongée peut provoquer une escarre : c'est une lésion grave mais en grande partie évitable. Les brûlures se classent selon leur profondeur, et leur gravité dépend aussi de la surface, de la localisation et de l'âge.
+### La peau du nourrisson
 
-### 3.1 La peau du nourrisson et du jeune enfant
+- **Plus fine** et **plus perméable** : les produits passent dans l'organisme. On utilise seulement des produits **adaptés à l'âge**.
+- **Thermorégulation moins efficace** : il se refroidit vite, par exemple après le bain.
+- **Peu protégée des UV** : elle brûle vite au soleil.
 
-Chez le nourrisson, la peau est plus fine et plus perméable que chez l'adulte. Les produits appliqués (savons, crèmes, antiseptiques) passent donc plus facilement dans l'organisme : on n'utilise que des produits adaptés à l'âge. Le nourrisson a aussi une grande surface de peau par rapport à son poids, et sa thermorégulation est moins efficace : il se refroidit vite, par exemple après le bain. Enfin, sa protection naturelle contre les ultraviolets (UV) est encore peu efficace : sa peau brûle facilement au soleil.
+> [!METIER]
+> **Érythème fessier** : rougeur sous la couche, due à l'urine, aux selles, à l'humidité et aux frottements. Il peut se compliquer d'une **mycose**.
 
-L'**érythème fessier** est une irritation fréquente de la zone couverte par la couche. Il est favorisé par le contact prolongé avec l'urine et les selles, par l'humidité et par les frottements. Il peut se compliquer d'une mycose.
+### La peau de la personne âgée
 
-### 3.2 La peau de la personne âgée
+- Plus **fine**, plus **fragile**.
+- Moins de **collagène** et d'**élastine** : moins résistante, moins élastique.
+- Moins de **sébum** : peau **sèche**, démangeaisons.
+- **Cicatrisation lente**.
+- **Sensibilité diminuée** : elle sent moins une pression ou la chaleur.
 
-Avec l'âge, la peau devient plus fine et plus fragile. Le derme contient moins de collagène et moins d'élastine : la peau est moins résistante et moins élastique. Les glandes sébacées produisent moins de sébum, ce qui entraîne une sécheresse cutanée et parfois des démangeaisons. La cicatrisation est plus lente et la sensibilité peut être diminuée : la personne sent moins bien la douleur, le chaud ou une pression prolongée.
+> [!RETENIR]
+> Peau âgée = **fine, sèche, fragile, lente à cicatriser**.
 
-La personne âgée ressent aussi moins la sensation de soif. Elle boit donc parfois trop peu, ce qui expose à la **déshydratation**. Un signe classique de déshydratation est le **pli cutané persistant** : quand on pince doucement la peau, le pli reste marqué au lieu de s'effacer aussitôt. Attention : chez la personne âgée, ce test est moins fiable, car la peau a naturellement perdu une partie de son élasticité. Il faut donc observer d'autres signes, par exemple une bouche et une langue sèches, des urines rares et foncées, une fatigue inhabituelle ou une confusion, et les transmettre.
+### Soif et pli cutané
 
-> **Vocabulaire**
-> - **Érythème** : rougeur de la peau.
-> - **Macération** : ramollissement de la peau maintenue humide trop longtemps.
+La personne âgée ressent **moins la soif** : risque de **déshydratation**.
 
-### 3.3 Les escarres
+Le test du **pli cutané** : on pince doucement la peau. Si le pli **reste marqué**, c'est un signe de déshydratation.
 
-**Définition.** Une escarre est une lésion cutanée d'origine ischémique, liée à une compression prolongée des tissus entre un plan dur (matelas, fauteuil) et une saillie osseuse.
+> [!ATTENTION]
+> Chez la personne âgée, ce test est **peu fiable** : la peau a perdu son élasticité. On cherche aussi : **bouche sèche**, **urines rares et foncées**, **fatigue**, **confusion**. Et on **transmet**.
 
-**Mécanisme.** Lorsque le poids du corps écrase les tissus contre un os, les petits vaisseaux sanguins sont comprimés. Le sang circule mal, les cellules ne reçoivent plus assez d'oxygène et de nutriments : c'est l'**ischémie**. Si la compression dure, les tissus meurent (**nécrose**). Deux phénomènes aggravent la situation :
-- le **cisaillement** : la peau reste collée au drap pendant que les tissus profonds glissent, par exemple quand une personne glisse vers le bas du lit ou qu'on la tire lors d'un transfert ; les vaisseaux sont alors étirés et tordus ;
-- le **frottement**, qui abîme la couche superficielle de l'épiderme.
+### L'escarre : définition
 
-**Zones à risque.** Elles correspondent aux points d'appui, là où l'os est proche de la peau.
+Une **escarre** est une lésion de la peau due à une **compression prolongée**.
 
-| Position | Principales zones à risque |
+Les tissus sont écrasés entre :
+
+- un **plan dur** (matelas, fauteuil) ;
+- et une **saillie osseuse** (un os proche de la peau).
+
+> [!RETENIR]
+> Escarre = **plan dur** + **os** + **temps**. Tombée à l'E2 Métropole 2025.
+
+### Comment se forme une escarre
+
+1. Le poids du corps **écrase** les tissus contre l'os.
+2. Les petits **vaisseaux** sont comprimés.
+3. Les cellules manquent d'**oxygène** : c'est l'**ischémie**.
+4. Si ça dure, les tissus meurent : c'est la **nécrose**.
+
+Ce qui aggrave :
+
+- le **cisaillement** : la peau reste collée au drap pendant que le corps glisse ;
+- le **frottement**.
+
+### Les zones à risque
+
+| Position | Zones à surveiller |
 |---|---|
-| Allongée sur le dos | Sacrum, talons, omoplates, occiput (arrière du crâne), coudes |
-| Allongée sur le côté | Trochanter (relief de la hanche), malléoles (chevilles), genoux, oreille, épaule |
-| Assise (fauteuil) | Ischions (os sur lesquels on est assis), sacrum |
+| Sur le dos | **Sacrum**, **talons**, omoplates, occiput (arrière du crâne), coudes |
+| Sur le côté | **Trochanter** (hanche), malléoles (chevilles), genoux, oreille, épaule |
+| Assise | **Ischions** (os des fesses), sacrum |
 
-**Schéma à réaliser : les points d'appui.**
-Dessinez deux silhouettes simples posées sur une ligne horizontale qui représente le matelas.
-- Silhouette 1, allongée sur le dos : légendez l'occiput, les omoplates, les coudes, le sacrum et les talons.
-- Silhouette 2, allongée sur le côté : légendez l'oreille, l'épaule, le trochanter, le genou (face interne et externe) et la malléole.
-Coloriez en rouge chaque point d'appui et reliez-le à sa légende par un trait.
+> [!ASTUCE]
+> Une zone à risque = là où l'**os est juste sous la peau**.
 
-**Facteurs de risque.** Le risque augmente avec :
-- l'immobilité (alitement, paralysie, personne qui ne peut pas se retourner seule) ;
-- la dénutrition et la déshydratation, qui fragilisent les tissus ;
-- l'incontinence et la transpiration, qui provoquent une macération ;
-- l'âge avancé ;
-- les troubles de la sensibilité ou de la conscience : la personne ne sent pas la douleur ou ne peut pas bouger d'elle-même ;
-- certaines maladies, comme le diabète ou les maladies qui perturbent la circulation du sang.
+### Qui risque une escarre ?
 
-Le risque est évalué par l'équipe soignante à l'aide d'une échelle, par exemple l'échelle de Norton ou l'échelle de Braden.
+- La personne **immobile** (alitée, paralysée, qui ne se tourne pas seule).
+- La personne **dénutrie** ou **déshydratée**.
+- La personne **incontinente** ou qui transpire beaucoup : **macération**.
+- La personne **âgée**.
+- La personne qui **sent mal** ou est peu consciente.
+- Certaines maladies : **diabète**, problèmes de circulation.
 
-**Les stades.** La classification la plus utilisée comporte quatre stades.
+L'équipe évalue le risque avec une **échelle** (Norton, Braden).
 
-| Stade | Aspect |
+### Les 4 stades de l'escarre
+
+| Stade | Ce qu'on voit |
 |---|---|
-| Stade 1 | Rougeur persistante sur une peau intacte, qui ne disparaît pas quand on appuie avec le doigt |
-| Stade 2 | Perte d'une partie de l'épaisseur de la peau (épiderme, partie du derme) : phlyctène (cloque) ou ulcération superficielle |
-| Stade 3 | Perte de toute l'épaisseur de la peau, la lésion atteint l'hypoderme |
-| Stade 4 | Atteinte profonde des muscles, des tendons, voire de l'os |
+| **1** | Rougeur qui **ne blanchit pas** quand on appuie ; peau intacte |
+| **2** | **Cloque** (phlyctène) ou plaie superficielle |
+| **3** | Toute l'épaisseur de la peau est perdue ; l'hypoderme est atteint |
+| **4** | Muscles, tendons, voire **os** atteints |
 
-Repérer le stade 1 est essentiel : la lésion est encore réversible si l'on supprime l'appui.
+> [!RETENIR]
+> Au **stade 1**, c'est encore **réversible** si on supprime l'appui.
 
-### 3.4 Les brûlures
+### Les brûlures : les degrés
 
-**Définition et causes.** Une brûlure est une destruction de la peau, parfois des tissus plus profonds. Elle peut être thermique (liquide chaud, flamme, objet brûlant), chimique (acides, bases, certains produits d'entretien), électrique ou due à un rayonnement (UV du soleil, rayonnements ionisants).
+Causes : **chaleur**, **produit chimique**, **électricité**, **rayonnement** (soleil).
 
-| Degré | Couche atteinte | Aspect | Douleur |
-|---|---|---|---|
-| 1er degré | Épiderme | Rougeur, type coup de soleil | Douloureuse |
-| 2e degré superficiel | Épiderme et partie superficielle du derme | Phlyctènes (cloques), fond rouge | Très douloureuse |
-| 2e degré profond | Épiderme et derme plus en profondeur | Phlyctènes, fond plus pâle | Douleur souvent diminuée |
-| 3e degré | Toute l'épaisseur de la peau | Peau blanche et cartonnée, ou brune à noire | Peu douloureuse, car les terminaisons nerveuses sont détruites |
+| Degré | Aspect | Douleur |
+|---|---|---|
+| **1er** | Rougeur (coup de soleil) | Oui |
+| **2e superficiel** | Cloques, fond rouge | Très forte |
+| **2e profond** | Cloques, fond pâle | Souvent moindre |
+| **3e** | Peau blanche, cartonnée ou noire | Faible : les nerfs sont détruits |
 
-**Gravité.** Elle dépend de la profondeur, de la surface brûlée, de la localisation (visage, cou, mains, pieds, articulations, organes génitaux, voies respiratoires) et de l'âge : les jeunes enfants et les personnes âgées sont plus vulnérables. En secourisme (SST), une brûlure avec cloque dont la surface dépasse la moitié de la paume de la main de la victime est considérée comme grave.
+### Brûlure : gravité et premier geste
 
-**Premier geste.** Refroidir immédiatement la zone sous l'eau courante tempérée, pendant plusieurs minutes. On cite souvent la « règle des 15 » (eau à environ 15 °C pendant environ 15 minutes) ; la durée exacte à retenir est celle du référentiel SST ou PSE en vigueur, à vérifier avec le formateur. On ne perce pas les cloques. On retire les vêtements non collés et les bijoux proches de la zone, puis on alerte les secours si la brûlure est grave (appel au 15 ou au 112).
+La gravité dépend de la **profondeur**, de la **surface**, de la **localisation** (visage, mains, plis…) et de l'**âge**.
 
-### 3.5 Les plaies et la cicatrisation
+> [!ATTENTION]
+> En SST, une cloque plus grande que la **moitié de la paume** de la victime = brûlure **grave**.
 
-Une plaie est une rupture de la continuité de la peau : c'est une porte d'entrée pour les micro-organismes. La cicatrisation se déroule, de façon simplifiée, en trois étapes :
-1. **Nettoyage de la plaie** (phase inflammatoire) : le saignement s'arrête, puis les globules blancs éliminent débris et microbes.
-2. **Bourgeonnement** : un nouveau tissu, rouge et bien vascularisé, comble progressivement la plaie.
-3. **Épidermisation puis maturation** : l'épiderme recouvre la plaie, et la cicatrice se renforce pendant plusieurs mois.
+Premier geste : **refroidir** sous l'eau courante **tempérée**, plusieurs minutes. **Ne pas percer** les cloques. Alerter (**15** ou **112**) si c'est grave.
 
-La cicatrisation est ralentie par l'âge, la dénutrition, le diabète, l'infection ou une mauvaise circulation sanguine.
+> [!ASTUCE]
+> On cite souvent la « règle des 15 » (15 °C, 15 min). Vérifiez la durée exacte avec votre formateur SST ou PSE.
 
-### 3.6 Quelques affections courantes
+### Plaies et cicatrisation
 
-- **Mycoses** : infections de la peau par des champignons microscopiques. Elles se développent surtout dans les plis, favorisées par la chaleur, l'humidité et la macération.
-- **Gale** : maladie due à un acarien qui creuse des sillons dans l'épiderme. Elle provoque des démangeaisons, souvent plus fortes la nuit. Elle se transmet surtout par contact direct de peau à peau, parfois par le linge. En collectivité (EHPAD, crèche), elle peut provoquer une épidémie : tout cas suspect est signalé rapidement.
-- **Eczéma** : inflammation de la peau, non contagieuse, avec rougeurs, démangeaisons et sécheresse.
-- **Érythème fessier** : voir la partie 3.1.
+Une **plaie** ouvre la peau : c'est une **porte d'entrée** pour les microbes.
 
-> **Vocabulaire**
-> - **Ischémie** : diminution ou arrêt de l'apport de sang dans un tissu.
-> - **Nécrose** : mort d'un tissu.
-> - **Saillie osseuse** : partie d'un os qui fait relief sous la peau.
-> - **Phlyctène** : cloque remplie de liquide clair.
-> - **Cisaillement** : glissement des tissus profonds alors que la peau reste fixée au support.
+La cicatrisation, en 3 étapes :
 
-### Situation professionnelle
+1. **Nettoyage** : le saignement s'arrête, les globules blancs éliminent microbes et débris.
+2. **Bourgeonnement** : un tissu rouge comble la plaie.
+3. **Épidermisation** : l'épiderme recouvre la plaie ; la cicatrice se renforce des mois durant.
 
-Mme L., 87 ans, est résidente en EHPAD. Depuis une chute il y a dix jours, elle reste alitée la plupart du temps. Elle mange peu, boit peu et porte une protection pour incontinence. Lors de la toilette, l'agent remarque une rougeur au niveau du sacrum. En appuyant doucement avec le doigt, la rougeur ne blanchit pas. Il s'agit probablement d'une escarre de stade 1, chez une résidente qui cumule les facteurs de risque : immobilité, âge, dénutrition, déshydratation, macération. La conduite à tenir est décrite en partie 4.
+Ralentie par : **âge**, **dénutrition**, **diabète**, **infection**.
+
+### Quelques maladies de peau courantes
+
+| Maladie | À retenir |
+|---|---|
+| **Mycose** | Champignon ; aime les **plis** humides et chauds |
+| **Gale** | Acarien ; démange surtout **la nuit** ; **contagieuse** par contact |
+| **Eczéma** | Inflammation, rougeurs, démangeaisons ; **non contagieux** |
+
+> [!METIER]
+> En EHPAD ou en crèche, une gale suspectée est **signalée vite** : risque d'épidémie.
+
+### Situation : Mme L.
+
+> [!METIER]
+> Mme L., 87 ans, en EHPAD, est **alitée** depuis une chute. Elle mange peu, boit peu, porte une **protection**. À la toilette, une **rougeur au sacrum** ne blanchit pas sous le doigt.
+
+C'est probablement une escarre de **stade 1**. Facteurs de risque : **immobilité**, **âge**, **dénutrition**, **déshydratation**, **macération**.
 
 ### Je vérifie
 
@@ -407,65 +440,102 @@ Mme L., 87 ans, est résidente en EHPAD. Depuis une chute il y a dix jours, elle
 
 **Ce qu'il faut retenir**
 
-Le professionnel ASSP observe la peau, signale toute anomalie et applique les mesures de prévention prévues dans le plan de soins. Les soins des plaies et des escarres constituées relèvent de l'infirmier. Le professionnel protège aussi sa propre peau, car une peau abîmée est une porte d'entrée pour les micro-organismes.
+### Le rôle du professionnel ASSP
 
-### 4.1 Observer et transmettre
+Le professionnel ASSP :
 
-La toilette et les changes sont des moments privilégiés pour observer la peau. Le professionnel regarde :
-- la couleur (pâleur, rougeur, teinte bleutée) ;
-- les rougeurs, surtout sur les points d'appui, en vérifiant si elles disparaissent à la pression du doigt ;
-- la sécheresse, les squames, les démangeaisons ;
-- la présence d'une plaie, d'une cloque, d'un hématome ;
-- la chaleur ou l'humidité anormale de la peau, l'état des plis.
+- **observe** la peau ;
+- **prévient** les escarres selon le **plan de soins** ;
+- **transmet** toute anomalie.
 
-Toute anomalie est transmise sans attendre à l'infirmier, par oral puis par écrit dans les transmissions, de façon précise : localisation, aspect, taille approximative, date et heure.
+> [!ATTENTION]
+> Soigner une plaie ou une escarre installée, c'est le rôle de l'**infirmier**. L'ASSP ne pose pas de diagnostic.
 
-### 4.2 Prévenir les escarres
+### Observer la peau
 
-La prévention repose sur la suppression des appuis prolongés et sur le maintien d'une peau saine.
+Pendant la **toilette** et les **changes**, on regarde :
 
-| Mesure | En pratique |
+- la **couleur** (pâle, rouge, bleutée) ;
+- les **rougeurs** sur les points d'appui : blanchissent-elles sous le doigt ?
+- la **sécheresse**, les démangeaisons ;
+- une **plaie**, une **cloque**, un bleu ;
+- la **chaleur**, l'**humidité**, l'état des **plis**.
+
+### Transmettre
+
+Toute anomalie est transmise **sans attendre** à l'infirmier :
+
+1. d'abord **à l'oral** ;
+2. puis **à l'écrit**, dans les transmissions.
+
+> [!ASTUCE]
+> Une bonne transmission est précise : **où**, **quel aspect**, **quelle taille**, **date et heure**.
+
+### Prévenir les escarres
+
+| Action | En pratique |
 |---|---|
-| Changer de position | Régulièrement, souvent toutes les 2 à 3 heures, selon le rythme prévu dans le plan de soins |
-| Utiliser des supports adaptés | Matelas et coussins anti-escarres, coussins de positionnement, décharge des talons |
-| Mobiliser | Favoriser le lever et la marche dès que c'est possible |
-| Éviter le cisaillement | Soulever la personne au lieu de la tirer, utiliser une alèse de glissement ou une aide technique |
-| Protéger la peau | Hygiène, séchage soigneux des plis, change rapide en cas d'incontinence |
-| Hydrater et nourrir | Proposer à boire souvent, veiller à une alimentation suffisante, en particulier en protéines |
-| Supprimer les sources de frottement | Draps et vêtements sans plis, sans miettes ni objets dans le lit |
+| **Changer de position** | Souvent toutes les **2 à 3 h**, selon le plan de soins |
+| **Supports** | Matelas et coussins anti-escarres, talons dans le vide |
+| **Bouger** | Lever, marcher dès que possible |
+| **Éviter le cisaillement** | **Soulever**, ne pas tirer ; alèse de glissement |
+| **Peau propre et sèche** | Sécher les plis, changer vite la protection |
+| **Boire et manger** | Proposer à boire souvent ; assez de **protéines** |
+| **Lit net** | Draps sans plis, sans miettes |
 
-Il ne faut pas masser une zone rougie : cette pratique est aujourd'hui déconseillée, car elle peut aggraver les lésions des tissus profonds. Seul un effleurage léger, avec un produit adapté, peut être réalisé s'il est prévu par l'équipe.
+### Ne pas masser une rougeur
 
-### 4.3 Les soins d'hygiène et de confort
+> [!ATTENTION]
+> On **ne masse pas** une zone rougie. Le massage **aggrave** les lésions des tissus en profondeur.
 
-Pendant la toilette, le professionnel utilise un savon doux, rince soigneusement pour ne pas laisser de savon irritant, puis sèche la peau par tamponnement, sans frotter, en insistant sur les plis (sous les seins, aine, entre les orteils). Une peau sèche peut être hydratée avec un produit adapté, selon les consignes de l'équipe. C'est aussi un moment de relation : le professionnel explique ce qu'il fait, respecte la pudeur en ne découvrant que la partie du corps concernée et laisse la personne participer selon ses capacités.
+Seul un **effleurage léger**, avec un produit adapté, est possible **s'il est prévu** par l'équipe.
 
-> **Vocabulaire**
-> - **Plan de soins** : document qui précise les soins à réaliser pour une personne et leur fréquence.
-> - **Transmissions** : informations orales ou écrites échangées entre professionnels pour assurer la continuité des soins.
-> - **Squames** : petites pellicules de peau qui se détachent.
-> - **Dermite irritative** : inflammation de la peau due à un contact répété avec un produit ou avec l'eau.
-> - **AES (accident d'exposition au sang)** : contact avec du sang ou un liquide biologique par piqûre, coupure, projection sur une muqueuse ou sur une peau lésée.
+> [!RETENIR]
+> Rougeur = **supprimer l'appui** + **transmettre**. Jamais de massage.
 
-### 4.4 Protéger ses mains et sa propre peau
+### La toilette
 
-L'hygiène des mains suppose des ongles courts sans vernis, pas de bijoux et des avant-bras dégagés. La friction hydroalcoolique est la méthode recommandée sur des mains visiblement propres et sèches ; elle est en général mieux tolérée que des lavages répétés à l'eau et au savon. Les gants sont portés lorsqu'il existe un risque de contact avec du sang, des liquides biologiques ou une peau lésée. Ils sont changés entre deux personnes et entre deux soins, et ne remplacent pas l'hygiène des mains.
+1. **Savon doux**.
+2. **Rincer** bien : le savon restant irrite.
+3. **Sécher en tamponnant**, sans frotter, surtout les **plis** (sous les seins, aine, orteils).
+4. **Hydrater** une peau sèche si l'équipe le prévoit.
 
-Les lavages fréquents et le port prolongé de gants peuvent provoquer une dermite irritative : mains sèches, rouges, crevassées. Or une peau lésée est une porte d'entrée pour les micro-organismes, notamment en cas d'AES. Il faut donc protéger ses mains (crème protectrice en dehors des soins, plaies couvertes) et, en cas d'AES, appliquer immédiatement le protocole de l'établissement.
+> [!METIER]
+> La toilette est aussi un moment de **relation** : expliquer chaque geste, ne découvrir que la partie lavée (**pudeur**), laisser la personne **participer**.
 
-### 4.5 Prévention solaire en crèche et à l'école
+### Protéger ses propres mains
 
-La peau de l'enfant est très sensible aux UV. Il faut :
-- éviter les sorties au soleil entre 12 h et 16 h et ne jamais exposer directement un nourrisson ;
-- couvrir l'enfant : chapeau, tee-shirt, lunettes adaptées ;
-- appliquer sur les zones découvertes une crème à indice de protection élevé, à renouveler régulièrement et après la baignade ;
-- faire boire souvent.
+- **Ongles courts**, sans vernis, **sans bijoux**, avant-bras dégagés.
+- **Friction hydroalcoolique** sur des mains propres et sèches : la méthode recommandée.
+- **Gants** s'il y a risque de contact avec du sang, un liquide biologique ou une peau lésée. On les change entre deux soins.
 
-### Situation professionnelle
+> [!ATTENTION]
+> Les gants **ne remplacent pas** l'hygiène des mains.
 
-Léo, 9 mois, est accueilli en crèche. Au moment du change, la professionnelle constate une rougeur étendue sur les fesses, avec des zones suintantes. Elle nettoie la peau au savon doux, rince, sèche par tamponnement et applique le produit prévu par le protocole. Elle note l'observation, la signale à la responsable et aux parents, et rapproche les changes.
+### Peau abîmée et AES
 
-Pour Mme L. (partie 3), l'agent en EHPAD ne masse pas la rougeur du sacrum. Il installe la résidente de façon à supprimer l'appui, signale immédiatement l'observation à l'infirmier et la note dans les transmissions. Il lui propose à boire et respecte le rythme des changements de position fixé par l'équipe.
+Trop de lavages ou de gants peuvent irriter les mains : c'est la **dermite irritative** (mains sèches, rouges, crevassées).
+
+Une peau abîmée laisse entrer les microbes, surtout lors d'un **AES** (accident d'exposition au sang : piqûre, coupure, projection).
+
+> [!RETENIR]
+> Crème protectrice **hors des soins**, plaies **couvertes**, et en cas d'AES : **protocole** de l'établissement tout de suite.
+
+### Le soleil et les enfants
+
+- Pas de sortie au soleil entre **12 h et 16 h**.
+- **Jamais** de nourrisson en plein soleil.
+- **Chapeau**, tee-shirt, lunettes.
+- **Crème** à indice élevé sur les zones découvertes, à **renouveler**, surtout après la baignade.
+- Faire **boire** souvent.
+
+### Situations : Léo et Mme L.
+
+> [!METIER]
+> **Léo, 9 mois, en crèche** : rougeur suintante sur les fesses. La professionnelle lave au savon doux, rince, sèche en tamponnant, applique le produit du **protocole**, **note**, prévient la responsable et les parents, et **change plus souvent**.
+
+> [!METIER]
+> **Mme L., EHPAD** : l'agent **ne masse pas** le sacrum, **supprime l'appui**, **prévient l'infirmier**, note dans les transmissions, propose à **boire** et respecte le rythme des changements de position.
 
 ### Je vérifie
 
