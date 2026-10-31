@@ -1,0 +1,164 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "organisation-corps",
+  "titre": "L'organisation du corps humain",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "De la cellule à l'organisme",
+      "notion": [
+        {
+          "t": "Des niveaux emboîtés",
+          "b": [
+            "Le corps est construit comme des **poupées russes** : chaque niveau est fait du niveau plus petit.",
+            {"ol": ["**Cellule** : la plus petite unité vivante.", "**Tissu** : des cellules semblables, même rôle.", "**Organe** : plusieurs tissus qui travaillent ensemble.", "**Appareil** (ou système) : plusieurs organes pour une grande fonction.", "**Organisme** : tous les appareils."]},
+            {"svg": "niveaux-organisation"}
+          ]
+        },
+        {
+          "t": "Un exemple : le cœur",
+          "b": [
+            {"l": ["Cellule : une **cellule musculaire** cardiaque.", "Tissu : le **myocarde**.", "Organe : le **cœur**.", "Appareil : le **système cardiovasculaire**."]},
+            {"ret": "Cellule → tissu → organe → appareil → organisme."}
+          ]
+        },
+        {
+          "t": "Les quatre types de tissus",
+          "b": [
+            {"tab": [["Tissu", "Son rôle"], ["**Épithélial**", "Recouvre, forme des glandes (ex. : épiderme)"], ["**Conjonctif**", "Relie, soutient, nourrit (ex. : os, graisse, sang)"], ["**Musculaire**", "Se contracte"], ["**Nerveux**", "Transmet des messages"]]},
+            {"att": "Le **sang** est bien un tissu : un tissu conjonctif **liquide**."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que forment des cellules semblables qui ont le même rôle ?", "choix": ["Un organe", "Un tissu", "Un appareil"], "bonne": 1},
+        {"q": "Quel tissu peut se contracter ?", "choix": ["Le tissu nerveux", "Le tissu musculaire", "Le tissu épithélial"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme P. a une plaie profonde à la jambe. Plusieurs tissus sont touchés : épithélium, tissu conjonctif, parfois muscle. Elle cicatrisera plus lentement qu'une égratignure."},
+        {"lieu": "Crèche", "txt": "Un enfant se coupe le doigt et saigne. Le sang qui coule est un tissu : on porte des gants pour s'en protéger."}
+      ],
+      "bonus": {"t": "Des milliers de milliards", "txt": "Le corps d'un adulte compte plusieurs dizaines de milliers de milliards de cellules. Les globules rouges sont les plus nombreuses.", "verifier": true},
+      "mots": [
+        ["Cellule", "Plus petite unité vivante."],
+        ["Tissu", "Cellules semblables qui ont le même rôle."],
+        ["Organe", "Plusieurs tissus qui assurent une fonction."],
+        ["Appareil", "Plusieurs organes pour une grande fonction."],
+        ["Tissu épithélial", "Tissu qui recouvre les surfaces."],
+        ["Tissu conjonctif", "Tissu qui relie et soutient (os, graisse, sang)."],
+        ["Myocarde", "Muscle du cœur."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Range du plus petit au plus grand.", "items": ["Cellule", "Tissu", "Organe", "Appareil", "Organisme"]},
+        {"type": "relier", "paires": [["Tissu musculaire", "Se contracte"], ["Tissu nerveux", "Transmet des messages"], ["Tissu épithélial", "Recouvre"], ["Tissu conjonctif", "Soutient"]]},
+        {"type": "vf", "items": [["Le sang est un tissu.", true, "Oui : un tissu conjonctif liquide."], ["Un organe est fait d'un seul type de cellule.", false, "Non : il réunit plusieurs tissus."], ["Le cœur est un organe.", true, "Oui : il est fait de plusieurs tissus."]]},
+        {"type": "qcm", "items": [{"q": "Le système cardiovasculaire est...", "choix": ["un tissu", "un organe", "un appareil"], "bonne": 2}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Les grandes fonctions du corps",
+      "notion": [
+        {
+          "t": "Nourrir chaque cellule",
+          "b": [
+            "Chaque cellule a besoin de **nutriments** et de **dioxygène**. Elle rejette des **déchets**.",
+            {"l": ["**Digestif** : fait les nutriments.", "**Respiratoire** : fait entrer l'O₂, sortir le CO₂.", "**Cardiovasculaire** : transporte tout.", "**Urinaire** : élimine les déchets du sang."]},
+            {"svg": "fonctions-nutrition"}
+          ]
+        },
+        {
+          "t": "Relation et reproduction",
+          "b": [
+            {"l": ["**Système nerveux** : reçoit, analyse, commande.", "**Organes des sens** : captent les informations.", "**Appareil locomoteur** : os, muscles, articulations.", "**Appareils génitaux** : la reproduction."]},
+            {"ret": "Trois grandes fonctions : **nutrition**, **relation**, **reproduction**."}
+          ]
+        },
+        {
+          "t": "Coordonner et défendre",
+          "b": [
+            {"l": ["**Système nerveux** : messages rapides par les nerfs.", "**Système endocrinien** : glandes qui libèrent des **hormones** dans le sang.", "**Système immunitaire** : défend contre les microbes."]},
+            {"ex": "L'**insuline** est une hormone : le pancréas la libère dans le sang, elle agit sur tout le corps."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel appareil élimine les déchets du sang ?", "choix": ["Le digestif", "L'urinaire", "Le respiratoire"], "bonne": 1},
+        {"q": "Qu'est-ce qui transporte les hormones ?", "choix": ["Les nerfs", "Le sang", "L'air"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "M. G. boit peu. Il a la peau sèche, il est constipé, ses urines sont foncées et il est confus. Un seul problème touche plusieurs appareils : on observe la personne dans sa globalité."},
+        {"lieu": "Domicile", "txt": "Mme A. est essoufflée et a les jambes gonflées. Le cœur pompe mal : les organes reçoivent moins d'oxygène. L'aide à domicile transmet ses observations."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Nutriment", "Petite molécule issue des aliments, utilisée par les cellules."],
+        ["Dioxygène (O₂)", "Gaz de l'air indispensable aux cellules."],
+        ["Fonction de relation", "Percevoir, bouger, communiquer."],
+        ["Hormone", "Messager chimique transporté par le sang."],
+        ["Système endocrinien", "Ensemble des glandes qui font des hormones."],
+        ["Système immunitaire", "Système de défense contre les microbes."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Digestif", "Fait les nutriments"], ["Respiratoire", "Fait entrer l'O₂"], ["Cardiovasculaire", "Transporte"], ["Urinaire", "Élimine les déchets"]]},
+        {"type": "vf", "items": [["Les organes des sens font partie des fonctions de relation.", true, "Oui : ils captent les informations."], ["Les hormones voyagent par les nerfs.", false, "Non : par le sang."], ["Le système immunitaire défend le corps.", true, "Oui : contre les microbes."]]},
+        {"type": "qcm", "items": [{"q": "À quelle fonction appartient l'appareil locomoteur ?", "choix": ["Nutrition", "Relation", "Reproduction"], "bonne": 1}, {"q": "Que rejette une cellule ?", "choix": ["Des nutriments", "Des déchets", "Du dioxygène"], "bonne": 1}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet de l'oxygène.", "items": ["Air", "Poumons", "Sang", "Cellule"]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Se repérer dans le corps",
+      "notion": [
+        {
+          "t": "La position anatomique",
+          "b": [
+            "Pour décrire le corps, on l'imagine toujours dans la même position : **debout**, face à soi, bras le long du corps, **paumes vers l'avant**.",
+            {"att": "Droite et gauche sont **celles de la personne**. Sur un schéma vu de face, sa gauche est à **droite** de la feuille."}
+          ]
+        },
+        {
+          "t": "Les mots pour s'orienter",
+          "b": [
+            {"tab": [["Mot", "Sens"], ["Supérieur / inférieur", "Vers le haut / vers le bas"], ["Antérieur / postérieur", "Vers l'avant / vers l'arrière"], ["Médian / latéral", "Près de l'axe / loin de l'axe"], ["Proximal / distal", "Près / loin de la racine du membre"]]},
+            {"ex": "**D**istal = **D**istant de l'épaule ou de la hanche. Le poignet est distal par rapport au coude."}
+          ]
+        },
+        {
+          "t": "Les cavités du corps",
+          "b": [
+            {"svg": "cavites-corps"},
+            {"l": ["**Crânienne** : l'encéphale.", "**Thoracique** : cœur, poumons.", "**Abdominale** : estomac, intestin, foie, reins.", "**Pelvienne** : vessie, rectum, organes génitaux internes."]},
+            {"ret": "Le **diaphragme** sépare le thorax de l'abdomen."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Sur un schéma vu de face, la gauche de la personne est...", "choix": ["à gauche de la feuille", "à droite de la feuille", "en haut"], "bonne": 1},
+        {"q": "Quel muscle sépare le thorax de l'abdomen ?", "choix": ["Le diaphragme", "Le cœur", "L'estomac"], "bonne": 0},
+        {"q": "Que veut dire « postérieur » ?", "choix": ["Vers l'avant", "Vers l'arrière", "Vers le haut"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Transmission : « rougeur sur la face postérieure du talon gauche ». Toute l'équipe sait exactement où regarder."},
+        {"lieu": "Hôpital", "txt": "Une infirmière note une douleur « en haut à droite de l'abdomen ». C'est la zone du foie et de la vésicule biliaire."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Position anatomique", "Debout, face à soi, paumes vers l'avant."],
+        ["Antérieur", "Vers l'avant."],
+        ["Postérieur", "Vers l'arrière."],
+        ["Proximal", "Près de la racine du membre."],
+        ["Distal", "Loin de la racine du membre."],
+        ["Diaphragme", "Muscle entre thorax et abdomen."],
+        ["Thorax", "Partie haute du tronc : cœur, poumons."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Cavité thoracique", "Cœur et poumons"], ["Cavité crânienne", "Encéphale"], ["Cavité pelvienne", "Vessie"], ["Cavité abdominale", "Estomac"]]},
+        {"type": "vf", "items": [["Le poignet est proximal par rapport au coude.", false, "Non : il est distal, plus loin de l'épaule."], ["En position anatomique, les paumes sont vers l'avant.", true, "Oui."], ["Le cœur est sous le diaphragme.", false, "Non : il est au-dessus, dans le thorax."]]},
+        {"type": "ordre", "consigne": "Range les cavités de haut en bas.", "items": ["Crânienne", "Thoracique", "Abdominale", "Pelvienne"]},
+        {"type": "qcm", "items": [{"q": "« Rougeur sur la face antérieure du genou » : où regarder ?", "choix": ["Devant le genou", "Derrière le genou", "Sur le côté"], "bonne": 0}]}
+      ]
+    }
+  ]
+}

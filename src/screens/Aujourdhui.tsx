@@ -79,7 +79,9 @@ export function Aujourdhui() {
               <p className="sur-titre">{prochaine.blocTitre}</p>
               <p className="titre">{prochaine.fiche.titre}</p>
               <p className="meta">
-                {prochaine.fiche.cartes.length} cartes · {prochaine.fiche.quiz.length} questions de quiz
+                {prochaine.fiche.lecon
+                  ? `${prochaine.fiche.lecon.chapitreTitre}, cours ${prochaine.fiche.lecon.cours.n} · ${prochaine.fiche.lecon.cours.ex.length} exercices`
+                  : `${prochaine.fiche.cartes.length} cartes · ${prochaine.fiche.quiz.length} questions de quiz`}
               </p>
             </div>
             <Icone nom="fleche" />

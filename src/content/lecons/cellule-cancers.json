@@ -1,0 +1,224 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "cellule-cancers",
+  "titre": "La cellule et les cancers",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; âges des dépistages à vérifier sur le site de l'Institut national du cancer)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "La cellule, unité du vivant",
+      "notion": [
+        {
+          "t": "Ce qu'il y a dans une cellule",
+          "b": [
+            {"svg": "cellule"},
+            {"tab": [["Élément", "Son rôle"], ["**Membrane**", "Entoure la cellule, contrôle les échanges"], ["**Cytoplasme**", "Liquide où baignent les organites"], ["**Noyau**", "Contient l'**ADN**, commande la cellule"], ["**Mitochondries**", "Produisent l'**énergie**"], ["**Ribosomes**", "Fabriquent les **protéines**"]]}
+          ]
+        },
+        {
+          "t": "L'ADN et les chromosomes",
+          "b": [
+            {"l": ["L'**ADN** porte l'information génétique.", "Un **gène** est un morceau d'ADN qui sert à fabriquer une protéine.", "Dans le noyau, l'ADN est rangé en **chromosomes**."]},
+            {"ret": "**46 chromosomes** (23 paires). Paire sexuelle : **XX** chez la femme, **XY** chez l'homme."}
+          ]
+        },
+        {
+          "t": "La cellule produit son énergie",
+          "b": [
+            "La cellule prend du **glucose** et du **dioxygène**. Les mitochondries en tirent de l'**énergie**.",
+            {"ret": "Glucose + dioxygène → énergie + dioxyde de carbone + eau"},
+            "Le CO₂ et l'eau sont rejetés dans le sang."
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Où se trouve l'ADN ?", "choix": ["Dans la membrane", "Dans le noyau", "Dans les ribosomes"], "bonne": 1},
+        {"q": "Quel organite produit l'énergie ?", "choix": ["La mitochondrie", "Le noyau", "La membrane"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "Les antiseptiques détruisent les microbes en abîmant leur membrane. Ils peuvent aussi abîmer nos cellules : on respecte les dilutions et le temps de contact."},
+        {"lieu": "Crèche", "txt": "Les parents de Sami apprennent qu'il a une trisomie 21 : il a un chromosome 21 en trop, soit 47 chromosomes au lieu de 46."}
+      ],
+      "bonus": {"t": "Un globule rouge sans noyau", "txt": "Chez l'humain, les globules rouges matures n'ont pas de noyau. Cela leur laisse plus de place pour l'hémoglobine, qui transporte l'oxygène.", "verifier": false},
+      "mots": [
+        ["Membrane plasmique", "Enveloppe qui entoure la cellule."],
+        ["Noyau", "Centre de commande qui contient l'ADN."],
+        ["Mitochondrie", "Organite qui produit l'énergie."],
+        ["ADN", "Molécule qui porte l'information génétique."],
+        ["Gène", "Morceau d'ADN qui code une protéine."],
+        ["Chromosome", "Forme rangée de l'ADN dans le noyau."],
+        ["Respiration cellulaire", "Production d'énergie à partir de glucose et d'O₂."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Noyau", "Contient l'ADN"], ["Mitochondrie", "Produit l'énergie"], ["Ribosome", "Fabrique les protéines"], ["Membrane", "Contrôle les échanges"]]},
+        {"type": "vf", "items": [["Une cellule humaine a 46 chromosomes.", true, "Oui : 23 paires."], ["Un homme a la paire XX.", false, "Non : XY."], ["La cellule rejette du dioxyde de carbone.", true, "Oui : c'est un déchet de la respiration cellulaire."]]},
+        {"type": "ordre", "consigne": "Range du plus petit au plus grand.", "items": ["Gène", "Chromosome", "Noyau", "Cellule"]},
+        {"type": "qcm", "items": [{"q": "Que consomme la cellule pour produire de l'énergie ?", "choix": ["Glucose et dioxygène", "Eau et CO₂", "Protéines et sel"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Les cellules se divisent",
+      "notion": [
+        {
+          "t": "La mitose",
+          "b": [
+            {"svg": "mitose"},
+            {"ol": ["La cellule **copie son ADN**.", "Les chromosomes se séparent en deux lots identiques.", "La cellule se coupe en deux."]},
+            {"ret": "Une mitose donne **2 cellules identiques**, avec 46 chromosomes chacune."}
+          ]
+        },
+        {
+          "t": "À quoi sert la mitose ?",
+          "b": [
+            {"l": ["**Grandir** : la croissance de l'enfant.", "**Renouveler** : peau, intestin, sang.", "**Réparer** : la cicatrisation."]},
+            {"att": "Les **neurones** adultes ne se divisent presque plus. Une lésion du cerveau laisse souvent des **séquelles**."}
+          ]
+        },
+        {
+          "t": "Une division sous contrôle",
+          "b": [
+            {"l": ["Des gènes donnent l'ordre de se diviser.", "D'autres **freinent** la division ou **réparent** l'ADN.", "Une cellule trop abîmée **s'autodétruit** : l'**apoptose**."]},
+            {"ex": "Les cellules reproductrices viennent d'une autre division, la **méiose** : elles n'ont que **23** chromosomes."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Combien de cellules donne une mitose ?", "choix": ["1", "2", "4"], "bonne": 1},
+        {"q": "Qu'est-ce que l'apoptose ?", "choix": ["Une division rapide", "Une mort programmée de la cellule", "Une copie de l'ADN"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Domicile", "txt": "M. D. est sous chimiothérapie. Elle vise les cellules qui se divisent vite : cheveux, bouche, intestin sont touchés aussi. Il perd ses cheveux et a des aphtes."},
+        {"lieu": "Crèche", "txt": "Une petite plaie au genou se referme en quelques jours : les cellules de la peau se divisent par mitose pour réparer."},
+        {"lieu": "EHPAD", "txt": "Après un AVC, M. R. garde une paralysie du bras. Les neurones détruits ne se remplacent presque pas."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Mitose", "Division en deux cellules identiques."],
+        ["Méiose", "Division qui fait les cellules reproductrices."],
+        ["Apoptose", "Mort programmée d'une cellule abîmée."],
+        ["Cellule mère", "Cellule qui se divise."],
+        ["Cellules filles", "Les deux cellules obtenues."],
+        ["Séquelle", "Trouble qui reste après une maladie ou une lésion."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets les étapes de la mitose dans l'ordre.", "items": ["La cellule copie son ADN", "Les chromosomes se séparent", "La cellule se coupe en deux"]},
+        {"type": "vf", "items": [["Les cellules filles sont identiques à la cellule mère.", true, "Oui, c'est le principe de la mitose."], ["Les neurones adultes se renouvellent très vite.", false, "Non : presque plus du tout."], ["Un ovule a 23 chromosomes.", true, "Oui : il vient de la méiose."]]},
+        {"type": "relier", "paires": [["Croissance", "L'enfant grandit"], ["Renouvellement", "La peau se remplace"], ["Réparation", "Une plaie cicatrise"]]},
+        {"type": "qcm", "items": [{"q": "Pourquoi la chimiothérapie fait-elle tomber les cheveux ?", "choix": ["Elle brûle le cuir chevelu", "Elle vise les cellules qui se divisent vite", "Elle provoque une allergie"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Comment naît un cancer",
+      "notion": [
+        {
+          "t": "Quand la division s'emballe",
+          "b": [
+            {"svg": "cancerisation"},
+            {"ol": ["Une cellule subit des **mutations** : son ADN est modifié.", "Les freins de la division ne marchent plus.", "Elle se multiplie **sans arrêt** et ne meurt plus.", "Il se forme une **tumeur**."]},
+            {"ret": "Cela prend en général **plusieurs années**."}
+          ]
+        },
+        {
+          "t": "Bénigne ou maligne ?",
+          "b": [
+            {"tab": [["Bénigne", "Maligne (cancer)"], ["Croissance lente", "Souvent rapide"], ["Bien limitée", "Envahit les tissus voisins"], ["Pas de métastase", "**Métastases** possibles"]]},
+            {"ex": "Un grain de beauté est une tumeur bénigne. Le mélanome est un cancer de la peau."}
+          ]
+        },
+        {
+          "t": "Les métastases",
+          "b": [
+            "Des cellules cancéreuses se détachent. Elles voyagent par le **sang** ou la **lymphe**. Elles s'installent ailleurs : os, foie, poumon, cerveau.",
+            {"ret": "Une métastase est une **tumeur secondaire**, loin de la tumeur d'origine."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Qu'est-ce qu'une mutation ?", "choix": ["Une modification de l'ADN", "Une cellule morte", "Un vaccin"], "bonne": 0},
+        {"q": "Quelle tumeur peut donner des métastases ?", "choix": ["Bénigne", "Maligne", "Les deux"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "Mme F. a eu un cancer du sein il y a cinq ans. On lui découvre une tache sur un os : c'est une métastase, venue du sein par le sang."},
+        {"lieu": "Domicile", "txt": "M. C. a un grain de beauté qui a grossi et changé de couleur. L'aide à domicile l'encourage à en parler à son médecin."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Cancer", "Multiplication anarchique de cellules anormales."],
+        ["Mutation", "Modification de l'ADN."],
+        ["Tumeur", "Amas de cellules qui se multiplient trop."],
+        ["Bénin", "Qui reste limité, sans métastase."],
+        ["Malin", "Qui envahit et peut donner des métastases."],
+        ["Métastase", "Tumeur secondaire, loin de la tumeur d'origine."],
+        ["Lymphe", "Liquide qui circule dans les vaisseaux lymphatiques."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre la naissance d'un cancer.", "items": ["Mutations de l'ADN", "Division sans contrôle", "Tumeur maligne", "Métastases"]},
+        {"type": "vf", "items": [["Une tumeur bénigne envahit les tissus voisins.", false, "Non : elle reste limitée."], ["Un cancer met souvent plusieurs années à se former.", true, "Oui."], ["Les métastases voyagent par le sang ou la lymphe.", true, "Oui."]]},
+        {"type": "relier", "paires": [["Bénigne", "Bien limitée"], ["Maligne", "Envahit les tissus"], ["Métastase", "Tumeur à distance"]]},
+        {"type": "qcm", "items": [{"q": "Un cancer du poumon envoie des cellules dans le foie. Celle du foie est...", "choix": ["une tumeur bénigne", "une métastase", "une mutation"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Prévenir, dépister, soigner",
+      "notion": [
+        {
+          "t": "Les facteurs de risque",
+          "b": [
+            {"l": ["**Tabac** : le 1er facteur évitable.", "**Alcool**, surpoids, sédentarité, alimentation déséquilibrée.", "**UV** : soleil, cabines.", "**Virus** : HPV (col de l'utérus), hépatites B et C (foie).", "**Travail** : amiante, solvants."]},
+            {"att": "On ne peut pas agir sur l'**âge** ni sur l'**hérédité**."}
+          ]
+        },
+        {
+          "t": "Les signes d'alerte",
+          "b": [
+            "Il faut consulter si :",
+            {"l": ["une **grosseur** apparaît ;", "une **plaie** ne guérit pas ;", "un **grain de beauté** change ;", "une toux dure ;", "il y a du **sang** dans les selles ou les urines ;", "on maigrit sans raison."]}
+          ]
+        },
+        {
+          "t": "Prévenir et dépister",
+          "b": [
+            {"l": ["**Prévention** : éviter le cancer (pas de tabac, crème solaire, vaccins HPV et hépatite B).", "**Dépistage** : trouver le cancer tôt, quand il se soigne mieux."]},
+            {"ret": "3 dépistages organisés en France : **sein**, **côlon-rectum**, **col de l'utérus**."}
+          ]
+        },
+        {
+          "t": "Les traitements",
+          "b": [
+            {"l": ["**Chirurgie** : enlever la tumeur.", "**Chimiothérapie** : médicaments contre les cellules qui se divisent.", "**Radiothérapie** : rayons ciblés.", "**Hormonothérapie**, **immunothérapie** selon les cas."]},
+            {"att": "Effets fréquents : fatigue, nausées, perte de cheveux, **défenses diminuées**."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel est le 1er facteur de risque évitable de cancer ?", "choix": ["Le sport", "Le tabac", "Le froid"], "bonne": 1},
+        {"q": "Lequel n'est PAS un dépistage organisé ?", "choix": ["Sein", "Côlon-rectum", "Cerveau"], "bonne": 2},
+        {"q": "Le vaccin contre le HPV, c'est...", "choix": ["de la prévention", "du dépistage", "un traitement"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Domicile", "txt": "M. D., en chimiothérapie, a mal à la bouche et mange peu. L'aide à domicile propose des repas fractionnés, mous et frais, et transmet à l'infirmière. Ses défenses sont basses : hygiène des mains rigoureuse."},
+        {"lieu": "Lycée", "txt": "Pour une action d'éducation à la santé, des élèves préparent une affiche sur la protection solaire : chapeau, ombre, crème, éviter le soleil aux heures les plus chaudes."},
+        {"lieu": "EHPAD", "txt": "Mme V. est en soins palliatifs pour un cancer. L'équipe soulage la douleur et le confort passe avant tout."}
+      ],
+      "bonus": {"t": "Le tabac et les cancers", "txt": "Le tabac n'est pas lié qu'au cancer du poumon. Il augmente aussi le risque de cancers de la bouche, de la gorge, de la vessie ou du pancréas.", "verifier": true},
+      "mots": [
+        ["Facteur de risque", "Ce qui augmente la probabilité d'une maladie."],
+        ["Prévention", "Actions pour éviter une maladie."],
+        ["Dépistage", "Recherche d'une maladie chez des personnes sans symptôme."],
+        ["Chimiothérapie", "Médicaments qui détruisent les cellules qui se divisent."],
+        ["Radiothérapie", "Traitement par des rayons ciblés."],
+        ["HPV", "Papillomavirus, en cause dans le cancer du col de l'utérus."],
+        ["Soins palliatifs", "Soins de confort quand on ne peut plus guérir."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Mammographie", "Dépistage du sein"], ["Vaccin HPV", "Prévention"], ["Radiothérapie", "Traitement"], ["Tabac", "Facteur de risque"]]},
+        {"type": "vf", "items": [["On peut agir sur son âge pour éviter un cancer.", false, "Non : c'est un facteur non modifiable."], ["Une plaie qui ne guérit pas doit faire consulter.", true, "Oui, c'est un signe d'alerte."], ["La chimiothérapie peut diminuer les défenses.", true, "Oui : hygiène renforcée."]]},
+        {"type": "qcm", "items": [{"q": "Une personne sous chimiothérapie a mal à la bouche. Que proposer ?", "choix": ["Des plats épicés", "Des aliments mous et frais", "Rien, c'est normal"], "bonne": 1}]},
+        {"type": "ordre", "consigne": "Range du plus tôt au plus tard dans la maladie.", "items": ["Prévention", "Dépistage", "Traitement"]}
+      ]
+    }
+  ]
+}

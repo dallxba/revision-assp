@@ -1,4 +1,4 @@
-import type { Chapitre, Fiche, Matiere } from './types'
+import type { Annee, Chapitre, Fiche, Lecon, Matiere } from './types'
 import { bloc4 } from './assp-bloc4'
 import generes from './generated/chapitres.json'
 
@@ -44,6 +44,45 @@ for (const { bloc, chapitre } of generes as { bloc: string; chapitre: Chapitre }
   const cible = matieres.flatMap((m) => m.blocs).find((b) => b.id === bloc)
   if (cible) cible.chapitres.push(chapitre)
   else console.warn(`Chapitre ${chapitre.id} : bloc inconnu « ${bloc} »`)
+}
+
+// Cours courts (src/content/lecons/*.json) : chaque cours devient une fiche.
+// Ses mots de vocabulaire deviennent des cartes, ses QCM des questions de quiz.
+const slug = (t: string) =>
+  t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
+// Rattachement provisoire (plan des chapitres, non vérifié dans le référentiel) tant que le JSON n'a pas de champ « bloc ».
+const BLOC_PAR_DEFAUT: Record<string, string> = { 'cellule-cancers': 'b4' }
+
+const ORDRE = ['organisation-corps', 'peau', 'cardiovasculaire', 'cellule-cancers']
+const lecons = Object.values(import.meta.glob<Lecon>('./lecons/*.json', { eager: true, import: 'default' })).sort(
+  (a, b) => (ORDRE.indexOf(b.id) >>> 0) - (ORDRE.indexOf(a.id) >>> 0),
+)
+for (const l of lecons) {
+  const chapitre: Chapitre = {
+    id: l.id,
+    titre: l.titre,
+    fiches: l.cours.map(
+      (c): Fiche => ({
+        id: `${l.id}-c${c.n}`,
+        titre: c.t,
+        annees: l.annees ?? (['2de', '1re', 'Tle'] as Annee[]),
+        domaine: l.domaine ?? 'Biologie et physiopathologie',
+        epreuves: l.epreuves ?? [],
+        sources: l.sources ?? (l.statut ? [l.statut] : []),
+        verifiee: false,
+        cours: '',
+        cartes: c.mots.map(([mot, def]) => ({ id: `m-${slug(mot)}`, q: `Que veut dire « ${mot} » ?`, r: def })),
+        quiz: [
+          ...c.verif.map((q, j) => ({ ...q, id: `v${j}`, explication: '' })),
+          ...c.ex.flatMap((e, i) => (e.type === 'qcm' ? e.items.map((q, j) => ({ ...q, id: `e${i}-${j}`, explication: '' })) : [])),
+        ],
+        lecon: { cours: c, total: l.cours.length, chapitreTitre: l.titre },
+      }),
+    ),
+  }
+  const cible = matieres.flatMap((m) => m.blocs).find((b) => b.id === (l.bloc ?? BLOC_PAR_DEFAUT[l.id] ?? 'b1'))
+  if (cible) cible.chapitres.unshift(chapitre)
 }
 
 export interface FicheRef {

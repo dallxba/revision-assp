@@ -1,0 +1,352 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "peau",
+  "titre": "La peau",
+  "statut": "brouillon, contenu repris de peau.md (non vérifié par un enseignant)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Un organe en trois couches",
+      "notion": [
+        {"t": "La peau, un organe", "b": [
+          "La peau est un **organe** : plusieurs tissus qui travaillent ensemble. Elle recouvre **tout le corps**.",
+          {"l": ["Chez l'adulte : environ **2 m²**.", "Environ **16 %** du poids du corps."]},
+          {"svg": "couches"},
+          {"ret": "Trois couches, de la surface vers la profondeur : **épiderme**, **derme**, **hypoderme**."}
+        ]},
+        {"t": "L'épiderme, une barrière sans vaisseaux", "b": [
+          "C'est la couche **du dessus**, très fine : environ **0,1 mm**.",
+          {"l": ["Il est fait de plusieurs couches de cellules.", "En surface, les cellules sont **mortes** et pleines de **kératine**. Elles tombent : c'est la **desquamation**.", "Il **n'a pas de vaisseaux sanguins** : c'est le derme qui le nourrit."]},
+          {"ex": "Une égratignure qui **ne saigne pas** n'a touché que l'épiderme. Si ça saigne, le derme est atteint."},
+          {"ret": "L'épiderme se renouvelle en environ **4 semaines**."}
+        ]},
+        {"t": "Le derme, solide et vivant", "b": [
+          "Le derme est **sous l'épiderme**, plus épais. Il contient :",
+          {"l": ["des fibres de **collagène** : la **résistance** ;", "des fibres d'**élastine** : l'**élasticité** ;", "des **vaisseaux sanguins** ;", "des **récepteurs** : toucher, chaud, froid, douleur."]},
+          {"ret": "Le derme est la couche **vivante** de la peau : vaisseaux, nerfs, fibres."}
+        ]},
+        {"t": "L'hypoderme, la réserve", "b": [
+          "L'hypoderme est fait surtout de **graisse** (le **tissu adipeux**). Il a trois rôles :",
+          {"l": ["**réserve** d'énergie ;", "**isolant** contre le froid ;", "**amortisseur** des chocs."]},
+          {"att": "Certains manuels le placent « sous » la peau et pas dans la peau. Suis la version de ton prof."}
+        ]}
+      ],
+      "verif": [
+        {"q": "Quelle couche est tout en haut ?", "choix": ["L'épiderme", "Le derme", "L'hypoderme"], "bonne": 0},
+        {"q": "Dans quelle couche sont les vaisseaux sanguins ?", "choix": ["L'épiderme", "Le derme", "Aucune"], "bonne": 1},
+        {"q": "De quoi est fait surtout l'hypoderme ?", "choix": ["De kératine", "De graisse", "De sueur"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Léo, 2 ans, s'écorche le genou. Ça ne saigne pas : seul l'épiderme est touché. On nettoie et on surveille."},
+        {"lieu": "EHPAD", "txt": "La peau de Mme L., 88 ans, se déchire au moindre frottement. Avec l'âge, le derme perd du collagène et de l'élastine. À la toilette, on ne frotte pas et on ne tire pas sur la peau."},
+        {"lieu": "Domicile", "txt": "M. B. a beaucoup maigri. Il a perdu l'amortisseur de l'hypoderme : ses os appuient plus fort sur la peau, il risque davantage les escarres."}
+      ],
+      "bonus": {"t": "Tes empreintes digitales", "txt": "Les empreintes viennent de petites crêtes à la limite entre le derme et l'épiderme. Elles se forment avant la naissance et ne changent plus. Une coupure superficielle repousse avec le même dessin : seule une blessure profonde du derme laisse une cicatrice.", "verifier": true},
+      "mots": [
+        ["Épiderme", "Couche du dessus de la peau, sans vaisseaux sanguins."],
+        ["Derme", "Couche du milieu : fibres, vaisseaux, nerfs."],
+        ["Hypoderme", "Couche profonde, faite surtout de graisse."],
+        ["Kératine", "Protéine dure qui remplit les cellules de surface."],
+        ["Desquamation", "Chute des cellules mortes de la surface de la peau."],
+        ["Collagène", "Fibre du derme qui donne la résistance."],
+        ["Élastine", "Fibre du derme qui donne l'élasticité."],
+        ["Tissu adipeux", "Tissu fait de cellules de graisse."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Range les couches de la surface vers la profondeur.", "items": ["Épiderme", "Derme", "Hypoderme"]},
+        {"type": "vf", "items": [
+          ["L'épiderme contient des vaisseaux sanguins.", false, "Non : il est nourri par le derme."],
+          ["Les cellules de la surface de la peau sont mortes.", true, "Oui : elles sont pleines de kératine et tombent."],
+          ["L'hypoderme protège du froid.", true, "Oui : la graisse est un isolant."]
+        ]},
+        {"type": "relier", "paires": [["Collagène", "Résistance"], ["Élastine", "Élasticité"], ["Graisse", "Isolant"], ["Kératine", "Couche de surface"]]},
+        {"type": "qcm", "items": [
+          {"q": "La peau de Mme L., 88 ans, se déchire facilement. Quelle couche a changé avec l'âge ?", "choix": ["L'épiderme", "Le derme", "L'hypoderme"], "bonne": 1}
+        ]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Les cellules et les annexes",
+      "notion": [
+        {"t": "Trois cellules à connaître", "b": [
+          "L'épiderme contient surtout trois sortes de cellules :",
+          {"tab": [["Cellule", "Son rôle"], ["**Kératinocyte**", "La plus nombreuse ; fabrique la kératine"], ["**Mélanocyte**", "Fabrique la **mélanine**, qui protège des UV"], ["**Cellule de Langerhans**", "Repère les intrus : **immunité**"]]},
+          {"ret": "Kératinocyte = kératine. Mélanocyte = mélanine. Langerhans = défense."}
+        ]},
+        {"t": "La vie d'un kératinocyte", "b": [
+          {"ol": ["Il naît dans la couche **basale**, tout en bas de l'épiderme.", "Il monte vers la surface.", "Il se remplit de kératine et **meurt**.", "Il tombe : c'est la desquamation."]},
+          {"ex": "Les petites peaux qui partent quand on frotte une peau sèche, ce sont ces cellules mortes."}
+        ]},
+        {"t": "Les annexes de la peau", "b": [
+          "Les **annexes** sont des éléments rattachés à la peau :",
+          {"tab": [["Annexe", "Ce qu'elle fait"], ["**Poil** et son muscle", "Le muscle redresse le poil : la chair de poule"], ["**Glande sébacée**", "Fait le **sébum** (gras) ; s'ouvre à la base du poil"], ["**Glande sudoripare**", "Fait la **sueur** ; s'ouvre par un pore"], ["**Ongle**", "Lame de kératine qui protège le bout des doigts"]]},
+          {"att": "Ne confonds pas : **sébacée** = sébum (gras), **sudoripare** = sueur."}
+        ]}
+      ],
+      "verif": [
+        {"q": "Quelle cellule fabrique la mélanine ?", "choix": ["Le kératinocyte", "Le mélanocyte", "La cellule de Langerhans"], "bonne": 1},
+        {"q": "Que fabrique la glande sébacée ?", "choix": ["La sueur", "Le sébum", "La kératine"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Avec l'âge, les glandes sébacées produisent moins de sébum : la peau devient sèche et gratte. Si le plan de soins le prévoit, on l'hydrate après la toilette."},
+        {"lieu": "Crèche", "txt": "Un enfant à la peau très claire brûle vite au soleil : sa peau fabrique peu de mélanine. Chapeau, ombre et crème."}
+      ],
+      "bonus": {"t": "Même nombre de mélanocytes", "txt": "Que la peau soit claire ou foncée, on a à peu près le même nombre de mélanocytes. Ce qui change, c'est la quantité et le type de mélanine qu'ils fabriquent."},
+      "mots": [
+        ["Kératinocyte", "Cellule la plus nombreuse de l'épiderme ; fabrique la kératine."],
+        ["Mélanocyte", "Cellule qui fabrique la mélanine."],
+        ["Mélanine", "Pigment qui colore la peau et protège des UV."],
+        ["Cellule de Langerhans", "Cellule de l'épiderme qui repère les intrus."],
+        ["Sébum", "Substance grasse faite par les glandes sébacées."],
+        ["Glande sudoripare", "Glande qui fabrique la sueur."],
+        ["Annexes", "Poils, ongles et glandes rattachés à la peau."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Kératinocyte", "Kératine"], ["Mélanocyte", "Mélanine"], ["Glande sébacée", "Sébum"], ["Glande sudoripare", "Sueur"]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre la vie d'un kératinocyte.", "items": ["Il naît dans la couche basale", "Il monte vers la surface", "Il se remplit de kératine et meurt", "Il tombe"]},
+        {"type": "vf", "items": [
+          ["Les cellules de Langerhans participent à la défense du corps.", true, "Oui : elles repèrent les intrus."],
+          ["La glande sudoripare fabrique le sébum.", false, "Non : elle fabrique la sueur. Le sébum vient de la glande sébacée."],
+          ["L'ongle est fait de kératine.", true, "Oui."]
+        ]},
+        {"type": "qcm", "items": [
+          {"q": "Qu'est-ce qui donne la chair de poule ?", "choix": ["Les glandes sudoripares", "Le muscle du poil", "Les mélanocytes"], "bonne": 1}
+        ]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Protéger, régler la chaleur, sentir",
+      "notion": [
+        {"t": "Une barrière contre les microbes", "b": [
+          "Une peau **intacte** empêche les microbes d'entrer grâce à :",
+          {"l": ["la **couche cornée**, compacte ;", "le **film hydrolipidique** : sueur + sébum ;", "un **pH légèrement acide** ;", "la **flore** : des microbes « gentils » qui prennent la place des autres ;", "les **cellules de Langerhans**."]},
+          {"att": "Une peau **abîmée** (plaie, crevasse) devient une **porte d'entrée** pour les microbes."}
+        ]},
+        {"t": "Les autres protections", "b": [
+          {"l": ["**Chocs** : la couche cornée résiste aux frottements, l'hypoderme amortit.", "**UV** : au soleil, les mélanocytes font plus de mélanine. C'est le **bronzage**.", "**Perte d'eau** : la kératine et le film hydrolipidique retiennent l'eau."]},
+          {"ret": "La peau protège contre : les **chocs**, les **microbes**, les **UV**, la **perte d'eau**."}
+        ]},
+        {"t": "Quand il fait chaud", "b": [
+          "But : garder le corps vers **37 °C**.",
+          {"ol": ["Les vaisseaux du derme s'**élargissent** : la **vasodilatation**. La peau rougit.", "Les glandes sudoripares font de la **sueur**.", "La sueur **s'évapore** et refroidit le corps."]}
+        ]},
+        {"t": "Quand il fait froid", "b": [
+          {"ol": ["Les vaisseaux se **resserrent** : la **vasoconstriction**. La peau pâlit, la chaleur reste dedans.", "Les poils se redressent : la chair de poule.", "L'hypoderme isole.", "Les muscles tremblent : le **frisson** fait de la chaleur."]},
+          {"ex": "Le frisson vient des **muscles**, pas de la peau."}
+        ]},
+        {"t": "Sentir, fabriquer, communiquer", "b": [
+          {"l": ["Les **récepteurs** du derme sentent le toucher, le chaud, le froid et la **douleur**, qui est un signal d'alerte.", "Sous les **UV**, la peau fabrique la **vitamine D**, utile pour le calcium et les os.", "La peau **communique** : on rougit, on pâlit. Le toucher rassure."]},
+          {"ret": "Dans le soin, un geste doux est toujours **annoncé** et **accepté** par la personne."}
+        ]}
+      ],
+      "verif": [
+        {"q": "Par temps chaud, que font les vaisseaux du derme ?", "choix": ["Ils se resserrent", "Ils s'élargissent", "Rien"], "bonne": 1},
+        {"q": "Que fabrique la peau grâce aux UV ?", "choix": ["La vitamine D", "Le sébum", "La kératine"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Canicule : on fait boire les enfants souvent, on les habille léger et on reste à l'ombre. Leur corps transpire, il faut compenser l'eau perdue."},
+        {"lieu": "Hôpital", "txt": "Une personne a une crevasse sur la main. Avant un soin, elle se lave les mains et couvre la crevasse : c'est une porte d'entrée pour les microbes."},
+        {"lieu": "EHPAD", "txt": "Avant de toucher Mme D., l'agent lui explique ce qu'il va faire et attend son accord. Le toucher fait partie de la relation."}
+      ],
+      "bonus": {"t": "D'où vient l'odeur de transpiration ?", "txt": "La sueur fraîche n'a presque pas d'odeur. L'odeur apparaît quand les bactéries de la peau décomposent certains composants de la sueur, surtout sous les bras."},
+      "mots": [
+        ["Film hydrolipidique", "Mélange de sueur et de sébum qui protège la peau."],
+        ["Flore cutanée", "Microbes normaux de la peau, qui gênent les autres."],
+        ["Vasodilatation", "Élargissement des vaisseaux : la chaleur s'en va."],
+        ["Vasoconstriction", "Resserrement des vaisseaux : la chaleur reste."],
+        ["Thermorégulation", "Maintien du corps vers 37 °C."],
+        ["Récepteur sensoriel", "Capteur du derme : toucher, chaud, froid, douleur."],
+        ["Vitamine D", "Vitamine fabriquée par la peau grâce aux UV ; aide à fixer le calcium."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Il fait chaud : remets les étapes dans l'ordre.", "items": ["Les vaisseaux du derme s'élargissent", "Les glandes sudoripares font de la sueur", "La sueur s'évapore", "Le corps se refroidit"]},
+        {"type": "relier", "paires": [["Il fait chaud", "Vasodilatation"], ["Il fait froid", "Vasoconstriction"], ["Soleil", "Vitamine D"], ["Microbes", "Film hydrolipidique"]]},
+        {"type": "vf", "items": [
+          ["Le frisson est produit par la peau.", false, "Non : il vient des muscles."],
+          ["Une plaie est une porte d'entrée pour les microbes.", true, "Oui : la barrière est ouverte."],
+          ["La vitamine D aide à garder des os solides.", true, "Oui : elle aide à absorber le calcium."]
+        ]},
+        {"type": "qcm", "items": [
+          {"q": "Lequel de ces éléments ne protège PAS contre les microbes ?", "choix": ["La couche cornée", "La flore cutanée", "La vitamine D"], "bonne": 2},
+          {"q": "Pourquoi la sueur refroidit-elle le corps ?", "choix": ["Parce qu'elle s'évapore", "Parce qu'elle est froide", "Parce qu'elle bouche les pores"], "bonne": 0}
+        ]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "La peau selon l'âge",
+      "notion": [
+        {"t": "La peau du nourrisson", "b": [
+          {"l": ["**Plus fine** et **plus perméable** : les produits passent dans le corps. Seulement des produits **adaptés à l'âge**.", "Il règle mal sa **température** : il se refroidit vite, par exemple après le bain.", "Peu de protection contre les **UV** : il brûle vite."]},
+          {"att": "**Érythème fessier** : rougeur sous la couche, due à l'urine, aux selles, à l'humidité et aux frottements. Il peut se compliquer d'une mycose."}
+        ]},
+        {"t": "La peau de la personne âgée", "b": [
+          {"l": ["Plus **fine** et plus **fragile**.", "Moins de **collagène** et d'**élastine** : moins résistante, moins élastique.", "Moins de **sébum** : peau **sèche**.", "Elle **cicatrise lentement**.", "Elle **sent moins** une pression ou la chaleur."]},
+          {"ret": "Peau âgée = **fine, sèche, fragile, lente à cicatriser**."}
+        ]},
+        {"t": "La soif et le pli cutané", "b": [
+          "La personne âgée ressent **moins la soif** : elle risque la **déshydratation**.",
+          "Le **pli cutané** : on pince doucement la peau. Si le pli **reste**, c'est un signe de déshydratation.",
+          {"att": "Chez la personne âgée, ce test est **peu fiable** : sa peau a perdu son élasticité. On regarde aussi : bouche sèche, urines rares et foncées, fatigue, confusion. Et on **transmet**."}
+        ]}
+      ],
+      "verif": [
+        {"q": "Pourquoi choisir avec soin les produits pour un bébé ?", "choix": ["Sa peau est épaisse", "Sa peau laisse passer les produits", "Il n'a pas de peau sèche"], "bonne": 1},
+        {"q": "Le pli cutané chez la personne âgée est…", "choix": ["Très fiable", "Peu fiable", "Interdit"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Après le bain, on sèche et on habille Inès tout de suite : un nourrisson se refroidit vite."},
+        {"lieu": "Crèche", "txt": "Léo, 9 mois, a les fesses rouges. On change sa couche plus souvent, on lave au savon doux, on sèche en tamponnant, et on applique le produit prévu par le protocole."},
+        {"lieu": "EHPAD", "txt": "M. R. dit qu'il n'a pas soif, mais ses urines sont foncées et il est confus. L'agent lui propose à boire et prévient l'infirmier."}
+      ],
+      "bonus": {"t": "Le vernix", "txt": "À la naissance, beaucoup de bébés sont couverts d'un enduit blanc et gras, le vernix. Il a protégé leur peau dans le liquide amniotique."},
+      "mots": [
+        ["Perméable", "Qui laisse passer les produits."],
+        ["Érythème fessier", "Rougeur de la peau sous la couche."],
+        ["Mycose", "Infection due à un champignon."],
+        ["Déshydratation", "Manque d'eau dans le corps."],
+        ["Pli cutané", "Test : pincer la peau et voir si le pli reste."],
+        ["Cicatrisation", "Réparation de la peau après une plaie."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Nourrisson", "Peau perméable"], ["Personne âgée", "Peau sèche"], ["Couche humide", "Érythème fessier"], ["Pli qui reste", "Déshydratation"]]},
+        {"type": "vf", "items": [
+          ["Un nourrisson règle très bien sa température.", false, "Non : il se refroidit vite."],
+          ["Une personne âgée ressent moins la soif.", true, "Oui : il faut lui proposer à boire souvent."],
+          ["La peau âgée cicatrise plus vite.", false, "Non : plus lentement."]
+        ]},
+        {"type": "qcm", "items": [
+          {"q": "Lequel de ces signes fait penser à une déshydratation chez la personne âgée ?", "choix": ["Urines foncées et rares", "Peau grasse", "Faim importante"], "bonne": 0}
+        ]},
+        {"type": "qcm", "items": [
+          {"q": "Que fais-tu en premier pour un érythème fessier, d'après le protocole ?", "choix": ["Changer plus souvent et garder la peau propre et sèche", "Mettre une couche plus serrée", "Attendre que ça passe"], "bonne": 0}
+        ]}
+      ]
+    },
+    {
+      "n": 5,
+      "t": "Escarres, brûlures et plaies",
+      "notion": [
+        {"t": "L'escarre", "b": [
+          "Une **escarre** est une plaie due à une **pression qui dure**. Les tissus sont écrasés entre :",
+          {"l": ["un **plan dur** (matelas, fauteuil) ;", "et un **os** proche de la peau."]},
+          {"ret": "Escarre = **plan dur** + **os** + **temps**."}
+        ]},
+        {"t": "Comment elle se forme", "b": [
+          {"ol": ["Le poids **écrase** les tissus contre l'os.", "Les petits vaisseaux sont comprimés.", "Les cellules manquent d'**oxygène** : l'**ischémie**.", "Si ça dure, les tissus meurent : la **nécrose**."]},
+          "Ce qui aggrave : le **cisaillement** (la peau reste collée au drap quand le corps glisse) et le **frottement**."
+        ]},
+        {"t": "Les zones à risque", "b": [
+          {"tab": [["Position", "Zones à surveiller"], ["Sur le dos", "**Sacrum**, **talons**, omoplates, arrière du crâne, coudes"], ["Sur le côté", "**Hanche**, chevilles, genoux, oreille, épaule"], ["Assise", "Os des fesses (**ischions**), sacrum"]]},
+          {"ex": "Une zone à risque, c'est là où l'**os est juste sous la peau**."},
+          "Personnes à risque : **immobiles**, **âgées**, **dénutries** ou **déshydratées**, **incontinentes**, qui sentent mal, diabétiques."
+        ]},
+        {"t": "Les 4 stades", "b": [
+          {"tab": [["Stade", "Ce qu'on voit"], ["**1**", "Rougeur qui **ne blanchit pas** quand on appuie ; peau intacte"], ["**2**", "**Cloque** ou plaie superficielle"], ["**3**", "Toute la peau est détruite ; l'hypoderme est atteint"], ["**4**", "Muscles, tendons, voire **os** atteints"]]},
+          {"ret": "Au **stade 1**, c'est encore **réversible** si on supprime l'appui."}
+        ]},
+        {"t": "Les brûlures", "b": [
+          {"tab": [["Degré", "Aspect", "Douleur"], ["**1er**", "Rougeur (coup de soleil)", "Oui"], ["**2e superficiel**", "Cloques, fond rouge", "Très forte"], ["**2e profond**", "Cloques, fond pâle", "Souvent moindre"], ["**3e**", "Peau blanche, cartonnée ou noire", "Faible : nerfs détruits"]]},
+          "Premier geste : **refroidir** sous l'eau courante tempérée, **ne pas percer** les cloques, alerter (**15** ou **112**) si c'est grave.",
+          {"att": "En SST, une cloque plus grande que la **moitié de la paume** de la victime = brûlure **grave**. Vérifie la durée de refroidissement avec ton formateur SST ou PSE."}
+        ]},
+        {"t": "Plaies et cicatrisation", "b": [
+          "Une plaie ouvre la peau : **porte d'entrée** pour les microbes. Elle cicatrise en 3 étapes :",
+          {"ol": ["**Nettoyage** : le saignement s'arrête, les globules blancs nettoient.", "**Bourgeonnement** : un tissu rouge comble la plaie.", "**Épidermisation** : l'épiderme recouvre la plaie."]},
+          "Ce qui ralentit : l'**âge**, la **dénutrition**, le **diabète**, l'**infection**."
+        ]}
+      ],
+      "verif": [
+        {"q": "Une rougeur au sacrum ne blanchit pas sous le doigt, la peau est intacte. Quel stade ?", "choix": ["Stade 1", "Stade 2", "Stade 3"], "bonne": 0},
+        {"q": "Pourquoi une brûlure du 3e degré fait-elle peu mal ?", "choix": ["Elle est petite", "Les nerfs sont détruits", "Elle est refroidie"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme L., 87 ans, est alitée depuis une chute. Elle mange peu, boit peu, porte une protection. À la toilette : une rougeur au sacrum qui ne blanchit pas. Probablement une escarre de stade 1. Ses facteurs de risque : immobilité, âge, dénutrition, déshydratation, humidité."},
+        {"lieu": "Cuisine de collectivité", "txt": "Un collègue se brûle la main avec de l'eau bouillante : petite cloque sur fond rouge, très douloureuse. 2e degré superficiel. On refroidit sous l'eau tempérée, on ne perce pas la cloque."}
+      ],
+      "bonus": {"t": "Elle commence en profondeur", "txt": "Une escarre peut commencer près de l'os, dans les tissus profonds, avant d'être visible en surface. C'est pour ça qu'une simple rougeur sur un point d'appui doit toujours être prise au sérieux et transmise."},
+      "mots": [
+        ["Escarre", "Plaie due à une pression prolongée entre un plan dur et un os."],
+        ["Ischémie", "Manque de sang et d'oxygène dans un tissu."],
+        ["Nécrose", "Mort des tissus."],
+        ["Cisaillement", "La peau reste collée pendant que le corps glisse."],
+        ["Sacrum", "Os en bas du dos, zone à risque sur le dos."],
+        ["Phlyctène", "Cloque."],
+        ["Bourgeonnement", "Étape où un tissu rouge comble la plaie."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre la formation d'une escarre.", "items": ["Le poids écrase les tissus contre l'os", "Les petits vaisseaux sont comprimés", "Les cellules manquent d'oxygène", "Les tissus meurent"]},
+        {"type": "relier", "paires": [["Stade 1", "Rougeur qui ne blanchit pas"], ["Stade 2", "Cloque"], ["Stade 3", "Hypoderme atteint"], ["Stade 4", "Os atteint"]]},
+        {"type": "qcm", "items": [
+          {"q": "Personne assise toute la journée au fauteuil : quelle zone surveiller en priorité ?", "choix": ["Les ischions", "L'oreille", "Les omoplates"], "bonne": 0},
+          {"q": "Cloques sur fond rouge, très douloureuses : quel degré ?", "choix": ["1er degré", "2e superficiel", "3e degré"], "bonne": 1}
+        ]},
+        {"type": "vf", "items": [
+          ["Il faut percer les cloques d'une brûlure.", false, "Non : on ne les perce pas."],
+          ["Une escarre de stade 1 peut disparaître si on supprime l'appui.", true, "Oui : c'est encore réversible."],
+          ["Le diabète accélère la cicatrisation.", false, "Non : il la ralentit."]
+        ]}
+      ]
+    },
+    {
+      "n": 6,
+      "t": "Le rôle de l'ASSP",
+      "notion": [
+        {"t": "Observer, prévenir, transmettre", "b": [
+          "Le professionnel ASSP :",
+          {"l": ["**observe** la peau ;", "**prévient** les escarres selon le **plan de soins** ;", "**transmet** tout ce qui est anormal."]},
+          {"att": "Soigner une plaie ou une escarre installée, c'est le rôle de l'**infirmier**. L'ASSP ne pose pas de diagnostic."}
+        ]},
+        {"t": "Observer et transmettre", "b": [
+          "Pendant la toilette et les changes, on regarde : la **couleur**, les **rougeurs** sur les points d'appui (blanchissent-elles sous le doigt ?), la **sécheresse**, une **plaie** ou une **cloque**, l'**humidité** des plis.",
+          "On transmet **sans attendre** à l'infirmier : d'abord **à l'oral**, puis **à l'écrit**.",
+          {"ex": "Une bonne transmission dit : **où**, **quel aspect**, **quelle taille**, **date et heure**."}
+        ]},
+        {"t": "Prévenir les escarres", "b": [
+          {"tab": [["Action", "En pratique"], ["**Changer de position**", "Souvent toutes les 2 à 3 h, selon le plan de soins"], ["**Supports**", "Matelas et coussins anti-escarres, talons dans le vide"], ["**Éviter le cisaillement**", "Soulever, ne pas tirer"], ["**Peau propre et sèche**", "Sécher les plis, changer vite la protection"], ["**Boire et manger**", "Proposer à boire souvent ; assez de protéines"], ["**Lit net**", "Draps sans plis ni miettes"]]},
+          {"att": "On **ne masse jamais** une zone rougie : le massage aggrave les lésions en profondeur."},
+          {"ret": "Rougeur = **supprimer l'appui** + **transmettre**."}
+        ]},
+        {"t": "La toilette", "b": [
+          {"ol": ["**Savon doux**.", "**Rincer** bien : le savon restant irrite.", "**Sécher en tamponnant**, sans frotter, surtout les **plis**.", "**Hydrater** une peau sèche si l'équipe le prévoit."]},
+          "La toilette est aussi un moment de **relation** : expliquer chaque geste, ne découvrir que la partie lavée (**pudeur**), laisser la personne participer."
+        ]},
+        {"t": "Protéger ses propres mains", "b": [
+          {"l": ["**Ongles courts**, sans vernis, **sans bijoux**.", "**Friction hydroalcoolique** sur des mains propres et sèches.", "**Gants** s'il y a contact avec du sang, un liquide biologique ou une peau abîmée."]},
+          {"att": "Les gants **ne remplacent pas** l'hygiène des mains. Une main crevassée laisse entrer les microbes, surtout en cas d'**AES** (piqûre, coupure, projection de sang)."}
+        ]}
+      ],
+      "verif": [
+        {"q": "Qui soigne une escarre installée ?", "choix": ["L'ASSP", "L'infirmier", "La famille"], "bonne": 1},
+        {"q": "Comment sécher la peau après la toilette ?", "choix": ["En frottant fort", "En tamponnant", "On ne sèche pas"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Rougeur au sacrum de Mme L. : l'agent ne masse pas, supprime l'appui, prévient l'infirmier, note dans les transmissions, propose à boire et respecte les changements de position."},
+        {"lieu": "Accueil de loisirs", "txt": "Sortie en été : pas de soleil entre 12 h et 16 h, chapeau, tee-shirt, crème à renouveler après la baignade, et de l'eau souvent."}
+      ],
+      "bonus": {"t": "20 à 30 secondes", "txt": "Une friction hydroalcoolique bien faite dure 20 à 30 secondes, jusqu'à ce que les mains soient sèches. Si tes mains sèchent en 5 secondes, tu n'as pas mis assez de produit.", "verifier": true},
+      "mots": [
+        ["Plan de soins", "Document qui dit quels soins faire et à quel rythme."],
+        ["Transmission", "Information donnée à l'équipe, à l'oral puis à l'écrit."],
+        ["Point d'appui", "Zone qui supporte le poids du corps."],
+        ["Friction hydroalcoolique", "Désinfection des mains avec un gel ou une solution alcoolique."],
+        ["AES", "Accident d'exposition au sang : piqûre, coupure, projection."],
+        ["Dermite irritative", "Mains rouges, sèches, crevassées à force de lavages."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets les étapes de la toilette dans l'ordre.", "items": ["Laver au savon doux", "Bien rincer", "Sécher en tamponnant", "Hydrater si c'est prévu"]},
+        {"type": "qcm", "items": [
+          {"q": "À la toilette, tu vois une rougeur au talon qui ne blanchit pas. Que fais-tu ?", "choix": ["Je masse la zone", "Je supprime l'appui et je préviens l'infirmier", "J'attends demain"], "bonne": 1}
+        ]},
+        {"type": "vf", "items": [
+          ["Les gants remplacent le lavage des mains.", false, "Non : ils ne le remplacent pas."],
+          ["On peut porter une bague pendant les soins.", false, "Non : pas de bijoux."],
+          ["Une transmission précise dit où, quel aspect, quelle taille, quand.", true, "Oui."]
+        ]},
+        {"type": "relier", "paires": [["Rougeur", "Supprimer l'appui"], ["Peau sèche", "Hydrater si prévu"], ["Plis humides", "Sécher en tamponnant"], ["Piqûre avec une aiguille", "Protocole AES"]]}
+      ]
+    }
+  ]
+}

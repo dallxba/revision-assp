@@ -1,3 +1,4 @@
+import { schemas2 } from './schemas2'
 // Schémas dessinés, insérés dans un cours avec une ligne « ::schema[nom] ».
 // Couleurs d'illustration fixes (lisibles en clair et en sombre), textes en couleur d'encre.
 
@@ -100,4 +101,38 @@ export const schemas: Record<string, () => React.ReactElement> = {
 export function Schema({ nom }: { nom: string }) {
   const S = schemas[nom]
   return <figure className="schema">{S ? <S /> : <figcaption>Schéma « {nom} » à venir</figcaption>}</figure>
+}
+
+/** Schémas des cours courts (champ « svg » du JSON). D'après la maquette validée. */
+function Couches() {
+  const t = { fill: 'var(--encre)', fontFamily: 'var(--sans)', fontSize: 13 } as const
+  const petit = { fill: 'var(--encre-3)', fontFamily: 'var(--sans)', fontSize: 11 } as const
+  return (
+    <svg viewBox="0 0 340 170" role="img" aria-label="Coupe de peau : épiderme en haut, derme au milieu, hypoderme en bas">
+      <rect x="10" y="20" width="200" height="22" rx="4" fill="var(--l1)" />
+      <rect x="10" y="42" width="200" height="60" fill="var(--l2)" />
+      <rect x="10" y="102" width="200" height="50" rx="4" fill="var(--l3)" />
+      <path d="M60 42 q6 30 0 60 M150 42 q-6 30 0 60" stroke="var(--rouge)" strokeWidth="2.5" fill="none" />
+      {[[45, 127], [72, 122], [100, 130], [160, 125]].map(([x, y]) => (
+        <circle key={x} cx={x} cy={y} r="10" fill="none" stroke="var(--encre-3)" />
+      ))}
+      <line x1="210" y1="31" x2="226" y2="31" stroke="var(--encre-3)" />
+      <text x="230" y="35" {...t}>Épiderme</text>
+      <line x1="210" y1="72" x2="226" y2="72" stroke="var(--encre-3)" />
+      <text x="230" y="70" {...t}>Derme</text>
+      <text x="230" y="86" {...petit}>vaisseaux en rouge</text>
+      <line x1="210" y1="127" x2="226" y2="127" stroke="var(--encre-3)" />
+      <text x="230" y="125" {...t}>Hypoderme</text>
+      <text x="230" y="141" {...petit}>graisse</text>
+      <text x="10" y="13" {...petit}>surface ↑</text>
+      <text x="10" y="166" {...petit}>profondeur ↓</text>
+    </svg>
+  )
+}
+
+const schemasLecon: Record<string, () => React.ReactElement> = { couches: Couches, ...schemas, ...schemas2 }
+
+export function SchemaLecon({ nom }: { nom: string }) {
+  const S = schemasLecon[nom]
+  return S ? <figure className="l-schema">{<S />}</figure> : null
 }

@@ -6,6 +6,7 @@ import { aller } from '../lib/route'
 import { maitrise, melanger } from '../lib/srs'
 import { majEtat, marquerJour, useEtat } from '../lib/store'
 import { Entete, Icone, Markdown } from './ui'
+import { LeconLecteur } from './Lecon'
 
 const marquerLue = (id: string) =>
   majEtat((e) => (e.fichesLues[id] ? e : { ...e, fichesLues: { ...e.fichesLues, [id]: new Date().toISOString() } }))
@@ -13,6 +14,7 @@ const marquerLue = (id: string) =>
 export function FicheEcran({ id }: { id?: string }) {
   const ref = id ? ficheParId.get(id) : undefined
   if (!ref) return <Entete titre="Fiche introuvable" retour={() => aller('/parcours')} />
+  if (ref.fiche.lecon) return <LeconLecteur r={ref} />
   return lectureParEcrans(ref.fiche) ? <Lecteur r={ref} /> : <FicheDefilante r={ref} />
 }
 
@@ -238,7 +240,7 @@ function FicheDefilante({ r }: { r: FicheRef }) {
   )
 }
 
-function Signalement({ titre, id, fermer }: { titre: string; id: string; fermer: () => void }) {
+export function Signalement({ titre, id, fermer }: { titre: string; id: string; fermer: () => void }) {
   const [texte, setTexte] = useState('')
   const [etatEnvoi, setEtatEnvoi] = useState<'' | 'copie' | 'erreur'>('')
   const message = `Erreur dans la fiche « ${titre} » (${id}) :\n${texte}`

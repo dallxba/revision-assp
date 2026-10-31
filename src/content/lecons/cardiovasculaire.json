@@ -1,0 +1,292 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "cardiovasculaire",
+  "titre": "Le système cardiovasculaire",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; valeurs normales et seuil d'hypertension à confirmer avec le cours de techniques professionnelles)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Le sang",
+      "notion": [
+        {
+          "t": "De quoi est fait le sang ?",
+          "b": [
+            "Un adulte a environ **5 litres** de sang.",
+            {"svg": "sang-composition"},
+            {"tab": [["Élément", "Son rôle"], ["**Plasma**", "Liquide qui transporte nutriments, déchets, hormones"], ["**Globules rouges**", "Transportent le **dioxygène**"], ["**Globules blancs**", "**Défendent** contre les microbes"], ["**Plaquettes**", "**Arrêtent** les saignements"]]}
+          ]
+        },
+        {
+          "t": "L'hémoglobine",
+          "b": [
+            {"l": ["Les globules rouges contiennent l'**hémoglobine**, qui fixe le dioxygène.", "Elle contient du **fer**.", "Pas assez d'hémoglobine : c'est l'**anémie** (pâleur, fatigue, essoufflement)."]},
+            {"ret": "Les cellules du sang sont fabriquées dans la **moelle osseuse rouge**."}
+          ]
+        },
+        {
+          "t": "Les groupes sanguins",
+          "b": [
+            {"l": ["Quatre groupes : **A, B, AB, O**.", "Plus le **Rhésus** : positif ou négatif.", "Une transfusion doit être **compatible**."]},
+            {"ex": "**O négatif** est appelé « donneur universel » pour les globules rouges."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quelles cellules transportent le dioxygène ?", "choix": ["Les globules rouges", "Les globules blancs", "Les plaquettes"], "bonne": 0},
+        {"q": "Où sont fabriquées les cellules du sang ?", "choix": ["Dans le cœur", "Dans la moelle osseuse rouge", "Dans le foie"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme J. est pâle, très fatiguée et s'essouffle en marchant. Ce peut être une anémie. On ne pose pas de diagnostic : on transmet."},
+        {"lieu": "Crèche", "txt": "Inès saigne du nez. Les plaquettes vont former un bouchon : on penche sa tête en avant et on comprime le nez, avec des gants."}
+      ],
+      "bonus": {"t": "Une usine qui ne s'arrête pas", "txt": "Un globule rouge vit environ 120 jours. La moelle osseuse en fabrique donc sans cesse, des millions chaque seconde.", "verifier": true},
+      "mots": [
+        ["Plasma", "Partie liquide du sang."],
+        ["Globule rouge", "Cellule qui transporte le dioxygène."],
+        ["Globule blanc", "Cellule de défense."],
+        ["Plaquette", "Fragment de cellule qui arrête les saignements."],
+        ["Hémoglobine", "Protéine qui fixe le dioxygène."],
+        ["Anémie", "Manque d'hémoglobine."],
+        ["Moelle osseuse rouge", "Tissu des os qui fabrique le sang."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Globule rouge", "Transport du dioxygène"], ["Globule blanc", "Défense"], ["Plaquette", "Coagulation"], ["Plasma", "Transport des nutriments"]]},
+        {"type": "vf", "items": [["L'hémoglobine contient du fer.", true, "Oui : un manque de fer peut donner une anémie."], ["Un adulte a environ 1 litre de sang.", false, "Non : environ 5 litres."], ["Le groupe O négatif est donneur universel de globules rouges.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Quel signe peut faire penser à une anémie ?", "choix": ["Une pâleur", "Une fièvre", "Une toux"], "bonne": 0}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet du dioxygène.", "items": ["Poumons", "Globule rouge", "Cellule"]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Le cœur, une double pompe",
+      "notion": [
+        {
+          "t": "Quatre cavités",
+          "b": [
+            {"svg": "coeur"},
+            {"l": ["**Oreillette droite** : reçoit le sang du corps.", "**Ventricule droit** : l'envoie aux poumons.", "**Oreillette gauche** : reçoit le sang des poumons.", "**Ventricule gauche** : l'envoie à tout le corps."]}
+          ]
+        },
+        {
+          "t": "Un muscle qui bat",
+          "b": [
+            {"l": ["Le muscle du cœur : le **myocarde**.", "Il est nourri par les **artères coronaires**.", "**Systole** : le cœur se contracte.", "**Diastole** : il se relâche et se remplit."]},
+            {"ex": "Le ventricule gauche a la paroi **la plus épaisse** : il pousse le sang le plus loin."}
+          ]
+        },
+        {
+          "t": "Les valvules",
+          "b": [
+            "Des **valvules** se ferment derrière le sang, comme des portes qui ne s'ouvrent que dans un sens.",
+            {"ret": "Le sang circule dans **un seul sens**."},
+            {"att": "Le cœur droit et le cœur gauche **ne communiquent pas**."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quelle cavité envoie le sang à tout le corps ?", "choix": ["Le ventricule droit", "Le ventricule gauche", "L'oreillette gauche"], "bonne": 1},
+        {"q": "Que nourrissent les artères coronaires ?", "choix": ["Le cerveau", "Le cœur", "Les poumons"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Lycée", "txt": "Après une course, tu sens ton cœur battre fort : les systoles s'accélèrent pour apporter plus d'oxygène aux muscles."},
+        {"lieu": "Hôpital", "txt": "M. K. a une valvule abîmée : le sang reflue un peu. Il s'essouffle vite. Une opération peut remplacer la valvule."}
+      ],
+      "bonus": {"t": "Le « boum-boum »", "txt": "Les deux bruits du cœur que l'on entend au stéthoscope sont surtout dus à la fermeture des valvules.", "verifier": false},
+      "mots": [
+        ["Oreillette", "Cavité du haut du cœur qui reçoit le sang."],
+        ["Ventricule", "Cavité du bas du cœur qui éjecte le sang."],
+        ["Myocarde", "Muscle du cœur."],
+        ["Coronaires", "Artères qui nourrissent le cœur."],
+        ["Systole", "Contraction du cœur."],
+        ["Diastole", "Relâchement du cœur."],
+        ["Valvule", "Clapet qui empêche le sang de refluer."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Oreillette droite", "Reçoit le sang du corps"], ["Ventricule droit", "Envoie aux poumons"], ["Oreillette gauche", "Reçoit le sang des poumons"], ["Ventricule gauche", "Envoie au corps"]]},
+        {"type": "vf", "items": [["La systole est le relâchement du cœur.", false, "Non : c'est la contraction."], ["Les valvules font circuler le sang dans un seul sens.", true, "Oui."], ["Le cœur droit communique avec le cœur gauche.", false, "Non : une cloison les sépare."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre un battement.", "items": ["Le cœur se remplit (diastole)", "Les oreillettes se contractent", "Les ventricules se contractent (systole)"]},
+        {"type": "qcm", "items": [{"q": "Pourquoi le ventricule gauche est-il plus épais ?", "choix": ["Il reçoit plus de sang", "Il pousse le sang dans tout le corps", "Il contient de la graisse"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "La circulation du sang",
+      "notion": [
+        {
+          "t": "Artères, veines, capillaires",
+          "b": [
+            {"tab": [["Vaisseau", "Sens", "À retenir"], ["**Artère**", "Part du cœur", "Paroi épaisse, on y prend le pouls"], ["**Veine**", "Revient au cœur", "Paroi fine"], ["**Capillaire**", "Relie les deux", "Lieu des **échanges**"]]},
+            {"att": "L'artère **pulmonaire** transporte du sang pauvre en O₂. C'est le **sens** qui fait l'artère."}
+          ]
+        },
+        {
+          "t": "Deux circulations",
+          "b": [
+            {"svg": "double-circulation"},
+            {"l": ["**Petite circulation** : cœur droit → poumons → cœur gauche. Le sang se charge en O₂.", "**Grande circulation** : cœur gauche → organes → cœur droit. Le sang donne l'O₂ et récupère les déchets."]}
+          ]
+        },
+        {
+          "t": "Le retour veineux",
+          "b": [
+            "Dans les jambes, le sang doit **remonter**. Il est aidé par :",
+            {"l": ["les **valvules** des veines ;", "les **muscles du mollet** qui écrasent les veines ;", "la **plante du pied** écrasée à la marche."]},
+            {"ret": "Bouger les jambes aide le sang à remonter."}
+          ]
+        },
+        {
+          "t": "Pouls et tension",
+          "b": [
+            {"l": ["**Pouls** : on sent l'artère battre (poignet, cou). Adulte au repos : environ **60 à 100** par minute.", "**Pression artérielle** (tension) : force du sang sur les artères. Deux chiffres, ex. **120/80 mmHg** (ou 12/8)."]},
+            {"ex": "Le 1er chiffre (systolique) : cœur contracté. Le 2e (diastolique) : cœur relâché."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Une artère...", "choix": ["part du cœur", "revient au cœur", "relie deux veines"], "bonne": 0},
+        {"q": "Où se font les échanges avec les cellules ?", "choix": ["Dans les artères", "Dans les capillaires", "Dans le cœur"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Faire marcher M. L. jusqu'à la salle à manger, même lentement, active la pompe du mollet et aide son sang à remonter."},
+        {"lieu": "Hôpital", "txt": "Une aide-soignante mesure la tension de Mme N. : 13/8. Elle la note dans le dossier pour l'infirmière."}
+      ],
+      "bonus": {"t": "Le cœur ne se repose jamais", "txt": "Au repos, à environ 70 battements par minute, le cœur bat autour de 100 000 fois par jour.", "verifier": false},
+      "mots": [
+        ["Artère", "Vaisseau qui part du cœur."],
+        ["Veine", "Vaisseau qui revient au cœur."],
+        ["Capillaire", "Vaisseau très fin où se font les échanges."],
+        ["Aorte", "Grosse artère qui sort du ventricule gauche."],
+        ["Retour veineux", "Remontée du sang vers le cœur."],
+        ["Pouls", "Battement perçu sur une artère."],
+        ["Pression artérielle", "Force du sang sur la paroi des artères."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre la grande circulation.", "items": ["Ventricule gauche", "Aorte", "Capillaires des organes", "Veines caves", "Oreillette droite"]},
+        {"type": "vf", "items": [["L'artère pulmonaire transporte du sang riche en O₂.", false, "Non : pauvre en O₂, vers les poumons."], ["Les muscles du mollet aident le retour veineux.", true, "Oui : c'est la pompe musculaire."], ["Dans 120/80, 120 est la pression systolique.", true, "Oui."]]},
+        {"type": "relier", "paires": [["Artère", "Part du cœur"], ["Veine", "Revient au cœur"], ["Capillaire", "Échanges"]]},
+        {"type": "qcm", "items": [{"q": "Pourquoi faire bouger les jambes d'une personne alitée ?", "choix": ["Pour la fatiguer", "Pour aider le retour veineux", "Pour baisser la température"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Les maladies du cœur et des artères",
+      "notion": [
+        {
+          "t": "L'hypertension",
+          "b": [
+            {"l": ["Tension trop haute **de façon durable** (repère souvent cité : **140/90** ou plus).", "Souvent **silencieuse** : pas de symptôme.", "Elle abîme cœur, cerveau, reins, yeux."]},
+            {"ret": "Moins de **sel**, du **sport**, pas de **tabac**, et un traitement si besoin."}
+          ]
+        },
+        {
+          "t": "L'athérosclérose",
+          "b": [
+            {"svg": "atherosclerose"},
+            "Des **plaques de graisse** se collent dans les artères. L'artère rétrécit, puis un **caillot** peut la boucher.",
+            {"tab": [["Artère bouchée", "Conséquence"], ["Coronaire", "**Infarctus**"], ["Artère du cerveau", "**AVC**"], ["Artère de la jambe", "**Artérite**"]]}
+          ]
+        },
+        {
+          "t": "L'infarctus",
+          "b": [
+            "Une coronaire est bouchée : une partie du cœur **meurt**.",
+            {"l": ["Douleur dans la poitrine **en étau**.", "Elle va dans le bras gauche, la mâchoire, le dos.", "Elle **ne passe pas au repos**.", "Sueurs, pâleur, nausées."]},
+            {"att": "Urgence : appeler le **15**. Signes parfois discrets chez la femme, la personne âgée, la personne diabétique."}
+          ]
+        },
+        {
+          "t": "L'insuffisance cardiaque",
+          "b": [
+            "Le cœur **pompe mal**. C'est fréquent chez la personne âgée.",
+            {"l": ["**Essoufflement**, surtout allongé.", "**Chevilles gonflées** (œdèmes).", "**Prise de poids** rapide : de l'eau retenue.", "Fatigue."]},
+            {"ret": "On surveille : **poids**, **œdèmes**, **essoufflement**."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Pourquoi l'hypertension est-elle dangereuse ?", "choix": ["Elle fait mal tout le temps", "Elle est souvent silencieuse", "Elle est contagieuse"], "bonne": 1},
+        {"q": "Une douleur en étau qui ne passe pas au repos fait penser à...", "choix": ["un infarctus", "une anémie", "une varice"], "bonne": 0},
+        {"q": "Quel signe surveille-t-on dans l'insuffisance cardiaque ?", "choix": ["La couleur des cheveux", "Le poids", "La vue"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Domicile", "txt": "Mme R., 82 ans, a les chevilles très gonflées et a pris 2 kg en 3 jours. Elle a dormi assise car elle étouffait. L'aide-soignante transmet tout de suite et l'installe demi-assise."},
+        {"lieu": "EHPAD", "txt": "M. H. se plaint d'une forte douleur dans la poitrine, il transpire et il est pâle. L'agent reste avec lui, le met au repos et fait appeler le 15."},
+        {"lieu": "Cuisine collective", "txt": "Pour les résidents sous régime sans sel, le plat est préparé à part. On ne rajoute pas de sel à table."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Hypertension", "Tension trop élevée de façon durable."],
+        ["Athérome", "Plaque de graisse dans une artère."],
+        ["Infarctus", "Mort d'une partie d'un organe privé de sang."],
+        ["Angine de poitrine", "Douleur à l'effort par artère du cœur rétrécie."],
+        ["Insuffisance cardiaque", "Cœur qui ne pompe plus assez."],
+        ["Œdème", "Gonflement par excès d'eau dans les tissus."],
+        ["Artérite", "Artère de la jambe rétrécie : douleur à la marche."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Coronaire bouchée", "Infarctus"], ["Artère du cerveau bouchée", "AVC"], ["Artère de la jambe rétrécie", "Artérite"]]},
+        {"type": "vf", "items": [["L'hypertension donne toujours des maux de tête.", false, "Non : elle est souvent silencieuse."], ["Devant un infarctus, on appelle le 15.", true, "Oui, c'est une urgence vitale."], ["Une prise de poids rapide peut signaler une insuffisance cardiaque qui s'aggrave.", true, "Oui : c'est de l'eau retenue."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'athérosclérose.", "items": ["Dépôt de graisse", "L'artère rétrécit", "Un caillot se forme", "L'artère est bouchée"]},
+        {"type": "qcm", "items": [{"q": "Une résidente insuffisante cardiaque étouffe allongée. Comment l'installer ?", "choix": ["À plat", "Demi-assise", "Sur le ventre"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 5,
+      "t": "Les veines et le rôle de l'ASSP",
+      "notion": [
+        {
+          "t": "Phlébite et embolie",
+          "b": [
+            {"l": ["**Phlébite** : un **caillot** dans une veine, souvent du **mollet**. Mollet douloureux, chaud, gonflé.", "**Embolie pulmonaire** : le caillot part vers les poumons. Essoufflement brutal, douleur. **Urgence.**"]},
+            {"att": "Ne jamais **masser** un mollet douloureux et gonflé."}
+          ]
+        },
+        {
+          "t": "Prévenir la phlébite",
+          "b": [
+            {"l": ["**Lever** et **marche** le plus tôt possible.", "Bouger pieds et jambes au lit.", "**Bas de contention** prescrits.", "**Boire** assez.", "Traitement anticoagulant si prescrit."]},
+            {"ex": "Les bas de contention se mettent **le matin, avant le lever**, sur des jambes non gonflées."}
+          ]
+        },
+        {
+          "t": "Prendre le pouls",
+          "b": [
+            {"svg": "prise-pouls"},
+            {"l": ["Avec la **pulpe de 2 ou 3 doigts**, au poignet.", "Pendant **1 minute**.", "Noter : **fréquence**, **régularité**, **force**."]},
+            {"att": "Jamais avec le **pouce** : il a son propre pouls."}
+          ]
+        },
+        {
+          "t": "Les signes d'alerte",
+          "b": [
+            {"l": ["Douleur dans la poitrine.", "Essoufflement brutal.", "Malaise.", "**Cyanose** : lèvres et ongles bleutés.", "Mollet gonflé et douloureux."]},
+            {"ret": "Selon la gravité : prévenir l'infirmière ou appeler le **15**. On ne touche jamais au traitement."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Où se forme souvent le caillot d'une phlébite ?", "choix": ["Dans le mollet", "Dans le bras", "Dans le cœur"], "bonne": 0},
+        {"q": "Avec quoi prend-on le pouls ?", "choix": ["Le pouce", "2 ou 3 doigts", "La paume"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "Après une opération de la hanche, Mme T. est levée dès le lendemain avec le kiné. Elle porte des bas de contention. Tout cela réduit le risque de phlébite."},
+        {"lieu": "EHPAD", "txt": "M. B. a le mollet droit rouge, chaud et gonflé. L'agent ne le masse pas, le laisse au repos et prévient l'infirmière tout de suite."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Phlébite", "Caillot dans une veine profonde."],
+        ["Thrombose", "Formation d'un caillot dans un vaisseau."],
+        ["Embolie", "Caillot qui part et bouche un vaisseau plus loin."],
+        ["Contention", "Bas ou bandes qui serrent la jambe pour aider le retour veineux."],
+        ["Anticoagulant", "Médicament qui empêche les caillots."],
+        ["Cyanose", "Coloration bleutée des lèvres et des ongles."]
+      ],
+      "ex": [
+        {"type": "vf", "items": [["On masse un mollet suspect de phlébite.", false, "Non : le caillot pourrait partir."], ["On met les bas de contention le soir.", false, "Non : le matin, avant le lever."], ["La marche aide à prévenir la phlébite.", true, "Oui."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre la prise du pouls.", "items": ["Poser 2 ou 3 doigts sur le poignet", "Compter pendant 1 minute", "Noter fréquence, régularité, force", "Transmettre"]},
+        {"type": "relier", "paires": [["Mollet chaud et gonflé", "Phlébite"], ["Essoufflement brutal", "Embolie pulmonaire"], ["Lèvres bleutées", "Cyanose"]]},
+        {"type": "qcm", "items": [{"q": "Que fait l'ASSP devant un mollet rouge, chaud et gonflé ?", "choix": ["Il le masse", "Il prévient l'infirmière", "Il fait marcher la personne longtemps"], "bonne": 1}]}
+      ]
+    }
+  ]
+}

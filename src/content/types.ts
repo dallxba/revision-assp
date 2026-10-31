@@ -32,6 +32,8 @@ export interface Fiche {
   cours: string
   cartes: Carte[]
   quiz: QuestionQuiz[]
+  /** Présent pour un cours court : le lecteur « notion → pratique » est utilisé. */
+  lecon?: { cours: CoursCourt; total: number; chapitreTitre: string }
 }
 
 export interface Chapitre {
@@ -56,4 +58,51 @@ export interface Matiere {
   court: string
   couleur: string
   blocs: Bloc[]
+}
+
+/* ---------- Cours courts (trame « façon appli du Coran », validée le 2026-10-31) ---------- */
+
+export type BlocLecon =
+  | string
+  | { l: string[] }
+  | { ol: string[] }
+  | { ret: string }
+  | { att: string }
+  | { ex: string }
+  | { tab: string[][] }
+  | { svg: string }
+
+export interface QcmSimple {
+  q: string
+  choix: string[]
+  bonne: number
+}
+
+export type Exercice =
+  | { type: 'qcm'; items: QcmSimple[] }
+  | { type: 'vf'; items: [string, boolean, string][] }
+  | { type: 'relier'; paires: [string, string][] }
+  | { type: 'ordre'; consigne: string; items: string[] }
+
+export interface CoursCourt {
+  n: number
+  t: string
+  notion: { t: string; b: BlocLecon[] }[]
+  verif: QcmSimple[]
+  terrain: { lieu: string; txt: string }[]
+  bonus: { t: string; txt: string; verifier?: boolean } | null
+  mots: [string, string][]
+  ex: Exercice[]
+}
+
+export interface Lecon {
+  id: string
+  titre: string
+  statut?: string
+  bloc?: string
+  annees?: Annee[]
+  domaine?: string
+  epreuves?: string[]
+  sources?: string[]
+  cours: CoursCourt[]
 }

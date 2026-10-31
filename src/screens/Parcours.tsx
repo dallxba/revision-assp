@@ -94,6 +94,32 @@ export function BlocEcran({ matiereId, blocId }: { matiereId?: string; blocId?: 
       {b.chapitres.map((c) => {
         const fiches = c.fiches.filter((f) => ficheVisible(f, etat.classe, etat.toutVoir))
         if (fiches.length === 0) return null
+        if (fiches[0].lecon)
+          return (
+            <section key={c.id}>
+              <h2 className="titre-section">{c.titre}</h2>
+              <p className="petit-texte">
+                {fiches.length} cours courts : la notion, je vérifie, sur le terrain, le savais-tu, puis le vocabulaire et les exercices.
+              </p>
+              <div className="liste">
+                {fiches.map((f) => {
+                  const fait = !!etat.fichesLues[f.id]
+                  return (
+                    <a key={f.id} className={`l-cc ${fait ? 'done' : ''}`} href={`#/fiche/${f.id}`}>
+                      <span className="n">{f.lecon!.cours.n}</span>
+                      <span>
+                        <span className="t">{f.titre}</span>
+                        <br />
+                        <span className="m">
+                          {f.lecon!.cours.mots.length} mots · {f.lecon!.cours.ex.length} exercices{fait ? ' · terminé' : ''}
+                        </span>
+                      </span>
+                    </a>
+                  )
+                })}
+              </div>
+            </section>
+          )
         return (
           <section key={c.id}>
             <h2 className="titre-section">
