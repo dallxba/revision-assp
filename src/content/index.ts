@@ -54,7 +54,7 @@ const slug = (t: string) =>
 // Rattachement provisoire (plan des chapitres, non vérifié dans le référentiel) tant que le JSON n'a pas de champ « bloc ».
 const BLOC_PAR_DEFAUT: Record<string, string> = { 'cellule-cancers': 'b4' }
 
-const ORDRE = ['organisation-corps', 'peau', 'cardiovasculaire', 'cellule-cancers']
+const ORDRE = ['organisation-corps', 'cellule-cancers', 'peau', 'cardiovasculaire', 'respiratoire', 'digestif', 'urinaire', 'glycemie-diabete', 'locomoteur', 'nerveux', 'sens', 'reproduction', 'immunite', 'explorations']
 const lecons = Object.values(import.meta.glob<Lecon>('./lecons/*.json', { eager: true, import: 'default' })).sort(
   (a, b) => (ORDRE.indexOf(b.id) >>> 0) - (ORDRE.indexOf(a.id) >>> 0),
 )

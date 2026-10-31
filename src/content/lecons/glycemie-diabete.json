@@ -1,0 +1,217 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "glycemie-diabete",
+  "titre": "La glycémie et le diabète",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; seuils de glycémie et conduite à tenir en cas d'hypoglycémie à vérifier avec les recommandations et les protocoles en vigueur)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "La glycémie et sa régulation",
+      "notion": [
+        {
+          "t": "Qu'est-ce que la glycémie ?",
+          "b": [
+            "La **glycémie** est la quantité de **glucose** (sucre) dans le sang.",
+            {"l": ["Le glucose est le **carburant** des cellules.", "Le cerveau en a besoin en permanence."]},
+            {"ret": "À jeun, la glycémie normale est d'environ **0,70 à 1,10 g/L** (repère à vérifier)."}
+          ]
+        },
+        {
+          "t": "Deux hormones du pancréas",
+          "b": [
+            {"svg": "regulation-glycemie"},
+            {"tab": [["Hormone", "Quand ?", "Effet"], ["**Insuline**", "Après un repas, glycémie haute", "Fait **entrer** le glucose dans les cellules et le **stocke** : la glycémie **baisse**"], ["**Glucagon**", "À jeun, glycémie basse", "Fait **libérer** le glucose stocké dans le foie : la glycémie **monte**"]]}
+          ]
+        },
+        {
+          "t": "Où est stocké le glucose ?",
+          "b": [
+            {"l": ["Dans le **foie** et les **muscles**, sous forme de **glycogène**.", "En excès, il est transformé en **graisse**."]},
+            {"ex": "Pense à une clé : l'**insuline** « ouvre la porte » des cellules au glucose."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quelle hormone fait baisser la glycémie ?", "choix": ["Le glucagon", "L'insuline", "L'adrénaline"], "bonne": 1},
+        {"q": "Quel organe fabrique l'insuline ?", "choix": ["Le foie", "Le pancréas", "Le rein"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Lycée", "txt": "Après le déjeuner, ta glycémie monte. Ton pancréas libère de l'insuline et elle redescend en quelques heures, sans que tu t'en rendes compte."},
+        {"lieu": "Crèche", "txt": "Un enfant qui n'a pas pris son goûter peut être grognon et fatigué en fin d'après-midi : son cerveau manque de carburant."}
+      ],
+      "bonus": {"t": "Un cerveau gourmand", "txt": "Le cerveau ne pèse qu'environ 2 % du poids du corps, mais il utilise une grande partie du glucose consommé au repos.", "verifier": true},
+      "mots": [
+        ["Glycémie", "Quantité de glucose dans le sang."],
+        ["Glucose", "Sucre qui sert de carburant aux cellules."],
+        ["Insuline", "Hormone qui fait baisser la glycémie."],
+        ["Glucagon", "Hormone qui fait monter la glycémie."],
+        ["Glycogène", "Forme de stockage du glucose dans le foie et les muscles."],
+        ["Pancréas", "Glande qui fabrique insuline et glucagon."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Insuline", "Fait baisser la glycémie"], ["Glucagon", "Fait monter la glycémie"], ["Glycogène", "Stock de glucose"], ["Pancréas", "Fabrique les deux hormones"]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre ce qui se passe après un repas.", "items": ["La glycémie monte", "Le pancréas libère de l'insuline", "Le glucose entre dans les cellules", "La glycémie redescend"]},
+        {"type": "vf", "items": [["Le glucose est stocké dans le foie.", true, "Oui, sous forme de glycogène."], ["Le glucagon est libéré après un gros repas.", false, "Non : à jeun, quand la glycémie baisse."], ["Le cerveau a besoin de glucose en permanence.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "La glycémie, c'est...", "choix": ["le sucre dans le sang", "le sucre dans l'urine", "le sel dans le sang"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Les diabètes",
+      "notion": [
+        {
+          "t": "Qu'est-ce que le diabète ?",
+          "b": [
+            "Le diabète est une **glycémie trop haute de façon durable**.",
+            {"ret": "On parle de diabète si la glycémie à jeun est **≥ 1,26 g/L** à deux reprises (repère à vérifier)."},
+            {"l": ["Signes possibles : **soif** intense, urines **abondantes**, fatigue, amaigrissement.", "Souvent **aucun signe** au début, surtout dans le type 2."]}
+          ]
+        },
+        {
+          "t": "Type 1 et type 2",
+          "b": [
+            {"tab": [["", "Type 1", "Type 2"], ["Cause", "Le pancréas **ne fait plus** d'insuline", "L'insuline **agit mal** (et manque peu à peu)"], ["Qui ?", "Souvent enfant ou jeune", "Souvent adulte, surpoids, sédentarité"], ["Traitement", "**Insuline** à vie", "Hygiène de vie, comprimés, parfois insuline"]]}
+          ]
+        },
+        {
+          "t": "Le diabète de la grossesse",
+          "b": [
+            {"l": ["Le **diabète gestationnel** apparaît pendant la grossesse.", "Il disparaît souvent après l'accouchement.", "Il augmente le risque de diabète de type 2 plus tard."]},
+            {"att": "Le type 2 se **prévient** : alimentation équilibrée, activité physique, poids stable."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Dans le diabète de type 1, le pancréas...", "choix": ["fait trop d'insuline", "ne fait plus d'insuline", "fait du glucagon en trop"], "bonne": 1},
+        {"q": "Quel diabète est favorisé par le surpoids et la sédentarité ?", "choix": ["Le type 1", "Le type 2", "Aucun"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "École", "txt": "Nina, 8 ans, a un diabète de type 1. Son PAI précise ses injections d'insuline, ses collations et quoi faire en cas de malaise."},
+        {"lieu": "Domicile", "txt": "M. J., 65 ans, en surpoids, a un diabète de type 2. Il marche 30 minutes par jour et suit son régime : cela fait partie de son traitement."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Diabète", "Glycémie trop haute de façon durable."],
+        ["Type 1", "Diabète où le pancréas ne fait plus d'insuline."],
+        ["Type 2", "Diabète où l'insuline agit mal."],
+        ["Diabète gestationnel", "Diabète qui apparaît pendant la grossesse."],
+        ["Polyurie", "Urines très abondantes."],
+        ["Polydipsie", "Soif intense."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Type 1", "Insuline à vie"], ["Type 2", "Surpoids et sédentarité"], ["Gestationnel", "Pendant la grossesse"]]},
+        {"type": "vf", "items": [["Le diabète de type 2 peut ne donner aucun signe au début.", true, "Oui : d'où l'intérêt du dépistage."], ["Le diabète de type 1 se soigne par le régime seul.", false, "Non : il faut de l'insuline."], ["L'activité physique aide à prévenir le type 2.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Quels signes peuvent faire penser à un diabète ?", "choix": ["Soif intense et urines abondantes", "Toux et fièvre", "Mollet gonflé"], "bonne": 0}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'évolution du type 2.", "items": ["Surpoids et sédentarité", "L'insuline agit moins bien", "La glycémie reste haute", "Diabète de type 2"]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Les complications",
+      "notion": [
+        {
+          "t": "L'hypoglycémie",
+          "b": [
+            "La glycémie est **trop basse** (repère souvent cité : moins de **0,70 g/L**).",
+            {"l": ["Sueurs, **tremblements**, pâleur, faim.", "Palpitations, troubles du comportement, confusion.", "Au pire : **perte de connaissance**."]},
+            {"att": "Causes : trop d'insuline, **repas sauté**, effort, alcool. Elle arrive **vite**."}
+          ]
+        },
+        {
+          "t": "L'hyperglycémie",
+          "b": [
+            "La glycémie est **trop haute**.",
+            {"l": ["**Soif**, urines abondantes, fatigue.", "Elle s'installe plus **lentement**.", "Causes : oubli de traitement, infection, écart alimentaire."]},
+            {"ret": "Hypo = **vite**, sueurs. Hyper = **lent**, soif."}
+          ]
+        },
+        {
+          "t": "Les complications à long terme",
+          "b": [
+            "Un sucre trop haut pendant des années abîme les **vaisseaux** et les **nerfs**.",
+            {"tab": [["Organe", "Conséquence"], ["Yeux", "Baisse de la vue"], ["Reins", "Insuffisance rénale"], ["Cœur, cerveau", "Infarctus, AVC"], ["Nerfs des pieds", "Pieds **insensibles**"]]}
+          ]
+        },
+        {
+          "t": "Le pied diabétique",
+          "b": [
+            {"l": ["Le pied sent **moins la douleur** : une blessure passe inaperçue.", "Il cicatrise **mal**.", "Une plaie peut s'infecter et aller jusqu'à l'**amputation**."]},
+            {"ret": "Regarder les pieds **chaque jour**. Chaussures adaptées. Pas de marche pieds nus."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Sueurs, tremblements et faim chez un diabétique font penser à...", "choix": ["une hypoglycémie", "une hyperglycémie", "une otite"], "bonne": 0},
+        {"q": "Pourquoi surveiller les pieds d'une personne diabétique ?", "choix": ["Ils sentent moins la douleur", "Ils grandissent", "Ils sont froids"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme V., diabétique sous insuline, n'a presque rien mangé à midi. À 15 h, elle transpire et tremble. L'agent alerte l'infirmière tout de suite."},
+        {"lieu": "Domicile", "txt": "En aidant M. J. à mettre ses chaussettes, l'aide à domicile voit une petite plaie sous le pied. M. J. ne l'avait pas sentie. Elle la signale à l'infirmière."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Hypoglycémie", "Glycémie trop basse."],
+        ["Hyperglycémie", "Glycémie trop haute."],
+        ["Resucrage", "Apport rapide de sucre en cas d'hypoglycémie."],
+        ["Rétinopathie", "Atteinte de la rétine, qui baisse la vue."],
+        ["Neuropathie", "Atteinte des nerfs, qui diminue la sensibilité."],
+        ["Amputation", "Ablation d'un membre ou d'une partie de membre."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Sueurs, tremblements", "Hypoglycémie"], ["Soif, urines abondantes", "Hyperglycémie"], ["Pied insensible", "Neuropathie"], ["Baisse de la vue", "Rétinopathie"]]},
+        {"type": "vf", "items": [["Sauter un repas sous insuline peut provoquer une hypoglycémie.", true, "Oui."], ["L'hypoglycémie s'installe en plusieurs jours.", false, "Non : elle arrive vite."], ["Une plaie du pied diabétique cicatrise vite.", false, "Non : elle cicatrise mal."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'histoire d'un pied diabétique.", "items": ["Nerfs abîmés par le sucre", "Petite blessure non sentie", "Plaie qui s'infecte", "Risque d'amputation"]},
+        {"type": "qcm", "items": [{"q": "Une résidente diabétique transpire et tremble après avoir peu mangé. Que faire en premier ?", "choix": ["Attendre le repas du soir", "Alerter l'infirmière tout de suite", "La coucher et partir"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Le rôle de l'ASSP",
+      "notion": [
+        {
+          "t": "Les repas",
+          "b": [
+            {"l": ["Servir le repas **prévu** et à **heures régulières**.", "Repérer et **noter** ce qui n'est pas mangé.", "Proposer les **collations** prévues.", "Encourager une alimentation **équilibrée**, sans interdits inutiles."]},
+            {"att": "Un repas **non mangé** chez une personne sous insuline ou certains comprimés se **transmet** : risque d'hypoglycémie."}
+          ]
+        },
+        {
+          "t": "Face à une hypoglycémie",
+          "b": [
+            {"ol": ["**Reconnaître** les signes : sueurs, tremblements, confusion.", "**Alerter** l'infirmière (ou le 15 si malaise grave).", "Si la personne est **consciente** et que le protocole le prévoit : donner du **sucre rapide** (morceaux de sucre, jus de fruit).", "**Surveiller** et transmettre."]},
+            {"att": "Personne **inconsciente** : **rien par la bouche**, position latérale de sécurité, appel du **15**."}
+          ]
+        },
+        {
+          "t": "Prévenir au quotidien",
+          "b": [
+            {"l": ["Soins des **pieds** : laver, bien sécher entre les orteils, regarder.", "Chaussures **fermées** et adaptées.", "Encourager l'**activité physique** adaptée.", "Ne jamais toucher aux **doses** d'insuline."]}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Une personne diabétique inconsciente : on lui donne du sucre par la bouche ?", "choix": ["Oui, vite", "Non, jamais", "Seulement de l'eau"], "bonne": 1},
+        {"q": "Que fait l'ASSP si un résident sous insuline ne mange pas ?", "choix": ["Rien", "Il le transmet", "Il réduit l'insuline"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "École", "txt": "Pendant la sortie, Nina dit qu'elle a la tête qui tourne et transpire. L'accompagnatrice suit le PAI : elle lui donne son sucre et prévient les secours si ça ne passe pas."},
+        {"lieu": "EHPAD", "txt": "À la toilette, l'agent sèche bien entre les orteils de M. L. et regarde ses pieds. Il note une rougeur au talon et la transmet."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Collation", "Petit en-cas prévu entre les repas."],
+        ["Sucre rapide", "Sucre qui passe vite dans le sang (morceau de sucre, jus)."],
+        ["PLS", "Position latérale de sécurité."],
+        ["Protocole", "Conduite à tenir écrite par l'établissement."],
+        ["Équilibre alimentaire", "Repas variés qui couvrent les besoins."],
+        ["Soins des pieds", "Lavage, séchage et observation quotidienne des pieds."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre la conduite face à une hypoglycémie (personne consciente).", "items": ["Reconnaître les signes", "Alerter", "Donner du sucre rapide selon le protocole", "Surveiller et transmettre"]},
+        {"type": "vf", "items": [["On donne du sucre à une personne inconsciente.", false, "Non : risque de fausse route ; PLS et 15."], ["Il faut bien sécher entre les orteils.", true, "Oui : l'humidité favorise les plaies et mycoses."], ["L'ASSP peut ajuster la dose d'insuline.", false, "Non, jamais."]]},
+        {"type": "relier", "paires": [["Repas non mangé", "Transmettre"], ["Pieds", "Regarder chaque jour"], ["Personne inconsciente", "PLS et 15"]]},
+        {"type": "qcm", "items": [{"q": "Quelles chaussures conseiller à une personne diabétique ?", "choix": ["Des tongs", "Des chaussures fermées et adaptées", "Pieds nus à la maison"], "bonne": 1}]}
+      ]
+    }
+  ]
+}

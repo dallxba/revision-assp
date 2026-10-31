@@ -1,0 +1,214 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "urinaire",
+  "titre": "L'appareil urinaire",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; volumes d'urine cités comme repères)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Les organes urinaires",
+      "notion": [
+        {
+          "t": "Du rein à l'urètre",
+          "b": [
+            {"svg": "appareil-urinaire"},
+            {"ol": ["Deux **reins** : ils filtrent le sang et font l'urine.", "Deux **uretères** : ils conduisent l'urine à la vessie.", "La **vessie** : elle stocke l'urine.", "L'**urètre** : il conduit l'urine dehors."]}
+          ]
+        },
+        {
+          "t": "Les reins",
+          "b": [
+            {"l": ["En forme de **haricot**, dans le bas du dos, de chaque côté de la colonne.", "Chaque rein contient environ **1 million de néphrons** : les petits filtres.", "Ils reçoivent beaucoup de sang en permanence."]}
+          ]
+        },
+        {
+          "t": "La vessie et l'urètre",
+          "b": [
+            {"l": ["La vessie est un **muscle creux** qui se remplit et se vide.", "Des **sphincters** (anneaux musculaires) la gardent fermée.", "L'urètre est **court chez la femme**, long chez l'homme."]},
+            {"att": "Urètre court = les microbes remontent plus facilement. Les **infections urinaires** sont plus fréquentes chez la **femme**."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel organe stocke l'urine ?", "choix": ["Le rein", "La vessie", "L'uretère"], "bonne": 1},
+        {"q": "Que conduisent les uretères ?", "choix": ["L'urine du rein à la vessie", "Le sang au rein", "L'urine dehors"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme Z. a souvent des infections urinaires. Pour la toilette intime, on lave toujours de l'avant vers l'arrière, pour ne pas ramener les microbes de l'anus vers l'urètre."},
+        {"lieu": "Hôpital", "txt": "M. W. a une sonde urinaire : un tuyau passe par l'urètre jusqu'à la vessie. Le sac doit rester plus bas que la vessie."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Rein", "Organe qui filtre le sang et fait l'urine."],
+        ["Néphron", "Petit filtre du rein."],
+        ["Uretère", "Conduit du rein à la vessie."],
+        ["Vessie", "Poche qui stocke l'urine."],
+        ["Urètre", "Conduit de la vessie vers l'extérieur."],
+        ["Sphincter", "Anneau musculaire qui ferme un conduit."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet de l'urine.", "items": ["Rein", "Uretère", "Vessie", "Urètre"]},
+        {"type": "relier", "paires": [["Rein", "Fait l'urine"], ["Vessie", "Stocke"], ["Urètre", "Évacue"], ["Sphincter", "Ferme"]]},
+        {"type": "vf", "items": [["On a deux reins.", true, "Oui, de chaque côté de la colonne."], ["L'urètre est plus long chez la femme.", false, "Non : plus court, d'où plus d'infections."], ["Il y a une seule vessie.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Pour la toilette intime d'une femme, on lave...", "choix": ["de l'arrière vers l'avant", "de l'avant vers l'arrière", "en cercles"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Le rein, un filtre",
+      "notion": [
+        {
+          "t": "Comment se forme l'urine",
+          "b": [
+            {"ol": ["**Filtration** : le sang passe dans le néphron, l'eau et les petites molécules sortent.", "**Réabsorption** : ce qui est utile (eau, glucose, sels) retourne dans le sang.", "Ce qui reste devient l'**urine**."]},
+            {"ret": "Le rein **garde l'utile** et **jette les déchets**."}
+          ]
+        },
+        {
+          "t": "Ce qu'il y a dans l'urine",
+          "b": [
+            {"l": ["Surtout de l'**eau**.", "Des **déchets** : l'**urée**, la créatinine.", "Des **sels minéraux** en excès."]},
+            {"att": "Normalement **pas** de sang, **pas** de glucose, très peu de protéines. Sinon, c'est un signe à signaler."}
+          ]
+        },
+        {
+          "t": "Les rôles du rein",
+          "b": [
+            {"l": ["**Éliminer** les déchets.", "**Équilibrer** l'eau et les sels du corps.", "Aider à régler la **tension**.", "Fabriquer une hormone qui stimule les **globules rouges**."]},
+            {"ex": "Si tu bois beaucoup, l'urine est claire et abondante. Si tu bois peu, elle est foncée et rare : le rein économise l'eau."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel déchet principal trouve-t-on dans l'urine ?", "choix": ["Le glucose", "L'urée", "Les globules rouges"], "bonne": 1},
+        {"q": "Des urines foncées et rares peuvent signaler...", "choix": ["un manque d'eau", "trop d'eau", "rien du tout"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "En pleine canicule, les urines de Mme L. deviennent foncées. L'agent lui propose à boire plus souvent et transmet."},
+        {"lieu": "Hôpital", "txt": "Une bandelette urinaire montre du glucose dans les urines de M. K. L'infirmière en informe le médecin : il faut chercher un diabète."}
+      ],
+      "bonus": {"t": "Un grand filtre", "txt": "Les reins filtrent environ 180 litres de sang par jour, mais on n'urine qu'environ 1,5 litre : presque toute l'eau filtrée retourne dans le sang.", "verifier": true},
+      "mots": [
+        ["Filtration", "Passage de l'eau et des petites molécules du sang vers le néphron."],
+        ["Réabsorption", "Retour dans le sang de ce qui est utile."],
+        ["Urée", "Déchet principal de l'urine."],
+        ["Créatinine", "Déchet des muscles éliminé par le rein."],
+        ["Diurèse", "Quantité d'urine émise."],
+        ["Bandelette urinaire", "Petit test qui change de couleur au contact de l'urine."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre la formation de l'urine.", "items": ["Le sang arrive au néphron", "Filtration", "Réabsorption de l'utile", "Urine"]},
+        {"type": "vf", "items": [["L'urine normale contient du glucose.", false, "Non : du glucose dans l'urine doit être signalé."], ["Le rein aide à régler la tension.", true, "Oui."], ["Boire beaucoup rend l'urine plus claire.", true, "Oui."]]},
+        {"type": "relier", "paires": [["Urée", "Déchet"], ["Réabsorption", "Récupérer l'utile"], ["Urine foncée", "Manque d'eau"]]},
+        {"type": "qcm", "items": [{"q": "Que fait le rein quand on boit peu ?", "choix": ["Il élimine plus d'eau", "Il économise l'eau", "Il s'arrête"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Les maladies urinaires",
+      "notion": [
+        {
+          "t": "L'infection urinaire",
+          "b": [
+            {"l": ["Des **bactéries** remontent par l'urètre, souvent des bactéries de l'intestin.", "**Brûlures** en urinant, envies **fréquentes**, urines troubles ou qui sentent fort.", "Fièvre et douleur du dos : l'infection a pu atteindre le **rein**."]},
+            {"att": "Chez la personne âgée, elle peut se montrer par une **confusion** ou une chute."}
+          ]
+        },
+        {
+          "t": "Incontinence et rétention",
+          "b": [
+            {"tab": [["Trouble", "Ce qui se passe"], ["**Incontinence**", "Fuites d'urine qu'on ne retient pas"], ["**Rétention**", "La vessie est pleine mais **ne se vide pas**"]]},
+            {"ex": "Chez l'homme âgé, une **prostate** grossie peut gêner l'écoulement et provoquer une rétention."}
+          ]
+        },
+        {
+          "t": "L'insuffisance rénale",
+          "b": [
+            {"l": ["Les reins **filtrent mal** : les déchets s'accumulent dans le sang.", "Causes fréquentes : **diabète**, **hypertension**.", "Au stade grave : **dialyse** (une machine filtre le sang) ou **greffe** de rein."]}
+          ]
+        },
+        {
+          "t": "Les calculs",
+          "b": [
+            "Un **calcul** est un petit caillou qui se forme dans l'appareil urinaire.",
+            {"l": ["S'il bloque un uretère : **colique néphrétique**, douleur très forte du dos vers le bas du ventre.", "Prévention : **bien boire**."]}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel signe évoque une infection urinaire ?", "choix": ["Des brûlures en urinant", "Une toux", "Un mollet gonflé"], "bonne": 0},
+        {"q": "Qu'est-ce que la rétention urinaire ?", "choix": ["Des fuites d'urine", "Une vessie pleine qui ne se vide pas", "Une urine trop claire"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme N. est soudain confuse et a chuté. Ses urines sentent fort. L'agent le transmet : une infection urinaire est possible."},
+        {"lieu": "Hôpital", "txt": "M. G. est dialysé trois fois par semaine. Il doit limiter ce qu'il boit : on respecte la quantité prescrite."},
+        {"lieu": "Domicile", "txt": "M. P., 79 ans, a le bas du ventre gonflé et douloureux et n'urine plus depuis le matin. L'aide à domicile appelle l'infirmière : c'est peut-être une rétention."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Infection urinaire", "Infection de la vessie ou du rein par des bactéries."],
+        ["Incontinence", "Fuites d'urine involontaires."],
+        ["Rétention", "Vessie pleine qui ne se vide pas."],
+        ["Prostate", "Glande de l'homme autour de l'urètre."],
+        ["Insuffisance rénale", "Reins qui filtrent mal."],
+        ["Dialyse", "Filtration du sang par une machine."],
+        ["Calcul", "Petit caillou dans l'appareil urinaire."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Brûlures en urinant", "Infection urinaire"], ["Fuites", "Incontinence"], ["Douleur très forte du dos", "Colique néphrétique"], ["Machine qui filtre le sang", "Dialyse"]]},
+        {"type": "vf", "items": [["Le diabète peut abîmer les reins.", true, "Oui, comme l'hypertension."], ["Une infection urinaire donne toujours de la fièvre.", false, "Non : souvent brûlures et envies fréquentes sans fièvre."], ["Bien boire aide à prévenir les calculs.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Une résidente devient confuse et ses urines sentent fort. On pense à...", "choix": ["une infection urinaire", "une rétention de selles", "une otite"], "bonne": 0}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre une infection urinaire qui s'aggrave.", "items": ["Bactéries dans l'urètre", "Infection de la vessie", "Remontée vers le rein", "Fièvre et douleur du dos"]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Le rôle de l'ASSP",
+      "notion": [
+        {
+          "t": "Observer les urines",
+          "b": [
+            {"tab": [["Quoi", "Ce qu'on regarde"], ["**Quantité**", "Beaucoup, peu, pas du tout"], ["**Couleur**", "Jaune clair, foncé, rouge"], ["**Aspect**", "Clair ou trouble"], ["**Odeur**", "Normale ou forte"], ["**Gêne**", "Brûlures, douleur, fuites"]]},
+            {"ret": "Repère : un adulte urine environ **1 à 1,5 litre** par jour."}
+          ]
+        },
+        {
+          "t": "Prévenir les infections",
+          "b": [
+            {"l": ["Faire **boire** régulièrement.", "Toilette intime de l'**avant vers l'arrière**.", "Changer les protections **dès qu'elles sont souillées**.", "Proposer les toilettes **souvent**.", "Sonde : sac **plus bas** que la vessie, jamais posé au sol."]}
+          ]
+        },
+        {
+          "t": "Accompagner l'incontinence",
+          "b": [
+            {"l": ["Proposer les toilettes à **heures régulières**.", "Protection **adaptée**, changée à temps.", "Peau **propre et sèche** : risque d'escarre et d'irritation."]},
+            {"att": "L'incontinence touche à la **dignité** : discrétion, pas de remarque, pas de mot comme « couche » pour un adulte."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Combien d'urine un adulte émet-il environ par jour ?", "choix": ["0,2 L", "1 à 1,5 L", "5 L"], "bonne": 1},
+        {"q": "Où place-t-on le sac d'une sonde urinaire ?", "choix": ["Plus haut que la vessie", "Plus bas que la vessie", "Par terre"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "M. R. a eu une fuite pendant l'animation. L'agent l'accompagne discrètement, l'aide à se changer et ne dit rien devant les autres."},
+        {"lieu": "Hôpital", "txt": "L'aide-soignante remarque que les urines de la poche de Mme F. sont rouges. Elle prévient l'infirmière sans attendre."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Protection", "Change pour adulte qui absorbe les fuites."],
+        ["Sonde urinaire", "Tuyau qui vide la vessie dans un sac."],
+        ["Hématurie", "Sang dans les urines."],
+        ["Oligurie", "Urines très peu abondantes."],
+        ["Toilette intime", "Lavage des organes génitaux et de l'anus."],
+        ["Dignité", "Respect dû à chaque personne."]
+      ],
+      "ex": [
+        {"type": "vf", "items": [["On peut poser le sac de la sonde au sol.", false, "Non : risque d'infection."], ["Une urine rouge doit être signalée.", true, "Oui : sang possible."], ["On parle de « couche » à un adulte.", false, "Non : on dit « protection », par respect."]]},
+        {"type": "relier", "paires": [["Urine rouge", "Hématurie"], ["Urine trouble et odorante", "Infection possible"], ["Urine foncée et rare", "Manque d'eau"]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'aide après une fuite.", "items": ["Accompagner discrètement", "Retirer la protection souillée", "Faire la toilette intime", "Mettre une protection propre"]},
+        {"type": "qcm", "items": [{"q": "Pourquoi garder la peau propre et sèche en cas d'incontinence ?", "choix": ["Pour éviter irritations et escarres", "Pour faire baisser la fièvre", "Pour que la personne boive moins"], "bonne": 0}]}
+      ]
+    }
+  ]
+}

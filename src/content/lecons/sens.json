@@ -1,0 +1,205 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "sens",
+  "titre": "La vision et l'audition",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "L'œil et la vision",
+      "notion": [
+        {
+          "t": "Les parties de l'œil",
+          "b": [
+            {"svg": "oeil"},
+            {"tab": [["Partie", "Rôle"], ["**Cornée**", "Fenêtre transparente à l'avant"], ["**Iris** et **pupille**", "Règlent la lumière qui entre"], ["**Cristallin**", "Lentille qui fait la mise au point"], ["**Rétine**", "Écran au fond, capte la lumière"], ["**Nerf optique**", "Envoie l'image au cerveau"]]}
+          ]
+        },
+        {
+          "t": "Comment on voit",
+          "b": [
+            {"ol": ["La lumière traverse cornée, pupille et cristallin.", "Une image se forme sur la **rétine**.", "Le **nerf optique** envoie le message.", "Le **cerveau** comprend l'image."]},
+            {"ret": "On voit avec les yeux **et** avec le cerveau."}
+          ]
+        },
+        {
+          "t": "La pupille s'adapte",
+          "b": [
+            {"l": ["Beaucoup de lumière : la pupille **rétrécit**.", "Peu de lumière : elle **s'agrandit**."]},
+            {"ex": "Les personnes âgées s'adaptent plus lentement au changement de lumière : un couloir sombre après une pièce claire peut faire chuter."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quelle partie de l'œil capte la lumière ?", "choix": ["La cornée", "La rétine", "L'iris"], "bonne": 1},
+        {"q": "Que fait la pupille dans le noir ?", "choix": ["Elle rétrécit", "Elle s'agrandit", "Rien"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Le soir, l'équipe laisse une veilleuse dans le couloir : les yeux des résidents s'adaptent mal au noir et le risque de chute baisse."},
+        {"lieu": "Crèche", "txt": "On ne laisse pas les bébés regarder le soleil ou une lumière très forte : leur œil est fragile."}
+      ],
+      "bonus": {"t": "Une image à l'envers", "txt": "L'image qui se forme sur la rétine est à l'envers. C'est le cerveau qui la remet à l'endroit.", "verifier": false},
+      "mots": [
+        ["Cornée", "Partie transparente à l'avant de l'œil."],
+        ["Iris", "Partie colorée de l'œil."],
+        ["Pupille", "Trou noir au centre de l'iris."],
+        ["Cristallin", "Lentille de l'œil qui fait la mise au point."],
+        ["Rétine", "Écran sensible à la lumière au fond de l'œil."],
+        ["Nerf optique", "Nerf qui relie l'œil au cerveau."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet de la lumière.", "items": ["Cornée", "Pupille", "Cristallin", "Rétine", "Nerf optique", "Cerveau"]},
+        {"type": "relier", "paires": [["Iris", "Couleur des yeux"], ["Cristallin", "Mise au point"], ["Rétine", "Capte la lumière"], ["Nerf optique", "Vers le cerveau"]]},
+        {"type": "vf", "items": [["La pupille rétrécit au soleil.", true, "Oui, pour laisser entrer moins de lumière."], ["On voit uniquement avec les yeux.", false, "Non : le cerveau comprend l'image."], ["La cornée est opaque.", false, "Non : elle est transparente."]]},
+        {"type": "qcm", "items": [{"q": "Pourquoi laisser une veilleuse la nuit en EHPAD ?", "choix": ["Pour décorer", "Pour éviter les chutes", "Pour réveiller les résidents"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Les troubles de la vision",
+      "notion": [
+        {
+          "t": "Voir flou",
+          "b": [
+            {"tab": [["Trouble", "Ce qu'on voit mal"], ["**Myopie**", "**De loin**"], ["**Hypermétropie**", "**De près** (et fatigue)"], ["**Presbytie**", "**De près**, à partir d'environ 45 ans"]]},
+            {"ret": "On les corrige par des **lunettes** ou des lentilles."}
+          ]
+        },
+        {
+          "t": "Les maladies de l'œil âgé",
+          "b": [
+            {"l": ["**Cataracte** : le cristallin devient **opaque**. Vue voilée. Se corrige par une opération.", "**DMLA** : le **centre** de la rétine s'abîme. On ne voit plus le centre de l'image.", "**Glaucome** : la pression de l'œil abîme le nerf optique. On perd la vue **sur les côtés**."]}
+          ]
+        },
+        {
+          "t": "Le diabète et l'œil",
+          "b": [
+            "Le diabète abîme les petits vaisseaux de la **rétine**.",
+            {"att": "Une personne diabétique doit voir l'ophtalmologue **régulièrement**, même si elle voit bien."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "La presbytie gêne la vision...", "choix": ["de loin", "de près", "des couleurs"], "bonne": 1},
+        {"q": "Dans la cataracte, quelle partie devient opaque ?", "choix": ["La rétine", "Le cristallin", "La cornée"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme R. a une DMLA. Elle reconnaît les gens à leur voix. L'agent se présente toujours en entrant : « Bonjour, c'est Lina, l'aide-soignante. »"},
+        {"lieu": "École", "txt": "Tom plisse les yeux pour lire le tableau. L'enseignante prévient les parents : il est peut-être myope."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Myopie", "Mauvaise vision de loin."],
+        ["Presbytie", "Mauvaise vision de près avec l'âge."],
+        ["Cataracte", "Cristallin devenu opaque."],
+        ["DMLA", "Maladie du centre de la rétine liée à l'âge."],
+        ["Glaucome", "Maladie du nerf optique liée à la pression de l'œil."],
+        ["Ophtalmologue", "Médecin des yeux."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Myopie", "Flou de loin"], ["Cataracte", "Cristallin opaque"], ["DMLA", "Centre de l'image perdu"], ["Glaucome", "Côtés de l'image perdus"]]},
+        {"type": "vf", "items": [["La cataracte se corrige par une opération.", true, "Oui."], ["La presbytie touche surtout les enfants.", false, "Non : à partir de 45 ans environ."], ["Le diabète peut abîmer la rétine.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Un élève plisse les yeux pour lire le tableau. On pense à...", "choix": ["une myopie", "une presbytie", "une cataracte"], "bonne": 0}]},
+        {"type": "ordre", "consigne": "Range du plus jeune au plus âgé l'âge où ces troubles apparaissent le plus souvent.", "items": ["Myopie de l'écolier", "Presbytie vers 45 ans", "Cataracte de la personne âgée"]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "L'oreille et l'audition",
+      "notion": [
+        {
+          "t": "Les trois parties de l'oreille",
+          "b": [
+            {"svg": "oreille"},
+            {"tab": [["Partie", "Contenu", "Rôle"], ["**Externe**", "Pavillon, conduit", "Capte le son"], ["**Moyenne**", "**Tympan**, osselets", "Transmet les vibrations"], ["**Interne**", "**Cochlée**, organe de l'équilibre", "Transforme en message nerveux"]]}
+          ]
+        },
+        {
+          "t": "Comment on entend",
+          "b": [
+            {"ol": ["Le son entre dans le conduit.", "Il fait vibrer le **tympan**.", "Les **osselets** transmettent la vibration.", "La **cochlée** la transforme en message.", "Le **nerf auditif** l'envoie au cerveau."]}
+          ]
+        },
+        {
+          "t": "L'oreille et l'équilibre",
+          "b": [
+            "L'oreille **interne** contient aussi l'organe de l'**équilibre**.",
+            {"ex": "Une maladie de l'oreille interne peut donner des **vertiges** et faire tomber."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Où est le tympan ?", "choix": ["Oreille externe", "Oreille moyenne", "Oreille interne"], "bonne": 1},
+        {"q": "Quelle partie transforme le son en message nerveux ?", "choix": ["Le pavillon", "Les osselets", "La cochlée"], "bonne": 2}
+      ],
+      "terrain": [
+        {"lieu": "Domicile", "txt": "Mme P. a des vertiges en se levant et a peur de tomber. L'aide à domicile l'aide à se lever lentement et transmet."},
+        {"lieu": "Crèche", "txt": "Lors des activités musique, on évite les sons trop forts près des oreilles des enfants."}
+      ],
+      "bonus": {"t": "Les plus petits os", "txt": "Les osselets de l'oreille moyenne (marteau, enclume, étrier) sont les plus petits os du corps. L'étrier mesure quelques millimètres.", "verifier": false},
+      "mots": [
+        ["Pavillon", "Partie visible de l'oreille."],
+        ["Tympan", "Membrane qui vibre avec le son."],
+        ["Osselets", "Trois petits os de l'oreille moyenne."],
+        ["Cochlée", "Organe en escargot qui transforme le son en message."],
+        ["Nerf auditif", "Nerf qui relie l'oreille au cerveau."],
+        ["Vertige", "Impression que tout tourne."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet du son.", "items": ["Conduit auditif", "Tympan", "Osselets", "Cochlée", "Nerf auditif"]},
+        {"type": "relier", "paires": [["Oreille externe", "Capte le son"], ["Oreille moyenne", "Transmet"], ["Oreille interne", "Transforme et équilibre"]]},
+        {"type": "vf", "items": [["L'oreille interne gère aussi l'équilibre.", true, "Oui."], ["Le tympan est dans l'oreille interne.", false, "Non : dans l'oreille moyenne."], ["Les osselets sont des os.", true, "Oui, les plus petits du corps."]]},
+        {"type": "qcm", "items": [{"q": "Une maladie de l'oreille interne peut donner...", "choix": ["des vertiges", "une myopie", "une toux"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Les troubles de l'audition et le rôle de l'ASSP",
+      "notion": [
+        {
+          "t": "Entendre moins bien",
+          "b": [
+            {"l": ["**Presbyacousie** : baisse de l'audition avec l'**âge**, surtout des sons aigus.", "**Bouchon** de cérumen : baisse brutale d'un côté.", "**Bruit** trop fort : peut abîmer l'oreille interne pour toujours."]}
+          ]
+        },
+        {
+          "t": "L'otite",
+          "b": [
+            {"l": ["**Infection de l'oreille moyenne**, très fréquente chez le **jeune enfant**.", "Douleur, fièvre, pleurs, l'enfant se touche l'oreille.", "Souvent après un rhume."]},
+            {"att": "Ne jamais enfoncer de **coton-tige** dans le conduit : il pousse le cérumen et peut blesser le tympan."}
+          ]
+        },
+        {
+          "t": "Aider à voir et à entendre",
+          "b": [
+            {"l": ["Vérifier que **lunettes** et **appareils auditifs** sont propres, portés, avec piles chargées.", "Bonne **lumière**, pas de contre-jour sur son visage.", "Parler **face** à la personne, lentement, sans crier.", "Réduire le **bruit** de fond (télé, radio)."]},
+            {"ret": "Mal voir ou mal entendre isole : la personne peut sembler confuse alors qu'elle n'a pas compris."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Qu'est-ce que la presbyacousie ?", "choix": ["Une infection de l'oreille", "Une baisse de l'audition avec l'âge", "Un vertige"], "bonne": 1},
+        {"q": "Pour parler à une personne malentendante, on...", "choix": ["crie", "se met face à elle et parle lentement", "parle de dos"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "M. L. ne répond plus aux questions et semble perdu. L'agent vérifie : la pile de son appareil auditif était vide. Une fois changée, il répond normalement."},
+        {"lieu": "Crèche", "txt": "Hugo, 18 mois, pleure, a de la fièvre et se tire l'oreille après un rhume. On prévient les parents : c'est peut-être une otite."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Presbyacousie", "Baisse de l'audition liée à l'âge."],
+        ["Otite", "Infection de l'oreille."],
+        ["Cérumen", "Cire produite dans le conduit de l'oreille."],
+        ["Appareil auditif", "Petit appareil qui amplifie les sons."],
+        ["Malentendant", "Personne qui entend mal."],
+        ["Contre-jour", "Lumière derrière la personne qui cache son visage."]
+      ],
+      "ex": [
+        {"type": "vf", "items": [["On nettoie le conduit avec un coton-tige enfoncé.", false, "Non : on pousse le cérumen et on risque le tympan."], ["L'otite est fréquente chez le jeune enfant.", true, "Oui."], ["Crier aide toujours une personne malentendante.", false, "Non : on parle face à elle, lentement."]]},
+        {"type": "relier", "paires": [["Presbyacousie", "Âge"], ["Otite", "Infection"], ["Bouchon", "Cérumen"]]},
+        {"type": "qcm", "items": [{"q": "Un résident semble soudain perdu et ne répond plus. On vérifie d'abord...", "choix": ["son appareil auditif et ses lunettes", "sa coiffure", "son repas"], "bonne": 0}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre pour parler à une personne malentendante.", "items": ["Baisser le bruit de fond", "Se placer face à elle, en lumière", "Attirer son attention", "Parler lentement, sans crier"]}
+      ]
+    }
+  ]
+}

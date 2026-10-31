@@ -1,0 +1,155 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "explorations",
+  "titre": "Les examens médicaux",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; ce que l'ASSP peut faire lui-même dépend du diplôme, du poste et des protocoles : à vérifier)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Les examens biologiques",
+      "notion": [
+        {
+          "t": "La prise de sang",
+          "b": [
+            {"l": ["Faite par un infirmier ou un biologiste, souvent au **pli du coude**.", "Elle mesure par exemple : globules (**NFS**), **glycémie**, cholestérol, fonction des reins et du foie.", "Certaines analyses demandent d'être **à jeun**."]},
+            {"ret": "**À jeun** : rien à manger depuis environ 8 à 12 h ; un peu d'eau est en général autorisée (selon la consigne)."}
+          ]
+        },
+        {
+          "t": "Les examens d'urine",
+          "b": [
+            {"tab": [["Examen", "À quoi il sert"], ["**Bandelette urinaire**", "Résultat immédiat : sucre, sang, signes d'infection"], ["**ECBU**", "Au laboratoire : cherche et identifie les bactéries"]]},
+            {"att": "Pour un ECBU : toilette intime avant, flacon **stérile**, on garde le **milieu du jet**."}
+          ]
+        },
+        {
+          "t": "D'autres prélèvements",
+          "b": [
+            {"l": ["**Glycémie capillaire** : une goutte de sang au bout du doigt.", "**Coproculture** : recherche de microbes dans les selles.", "**Prélèvement de gorge** ou de **nez** : recherche d'un virus ou d'une bactérie."]}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que veut dire « être à jeun » ?", "choix": ["Ne rien avoir mangé depuis plusieurs heures", "Avoir bu un café sucré", "Avoir dormi"], "bonne": 0},
+        {"q": "Quel examen cherche les bactéries dans l'urine au laboratoire ?", "choix": ["L'ECBU", "La NFS", "L'ECG"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Une prise de sang à jeun est prévue demain à 7 h pour Mme D. L'équipe du soir note la consigne et ne lui sert pas de collation de nuit."},
+        {"lieu": "Hôpital", "txt": "L'aide-soignante explique à M. P. comment recueillir son urine pour l'ECBU : toilette, premier jet dans les toilettes, milieu du jet dans le flacon."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["À jeun", "Sans avoir mangé depuis plusieurs heures."],
+        ["NFS", "Numération formule sanguine : compte les cellules du sang."],
+        ["ECBU", "Examen cytobactériologique des urines."],
+        ["Bandelette urinaire", "Test rapide sur l'urine."],
+        ["Glycémie capillaire", "Mesure du sucre sur une goutte de sang au doigt."],
+        ["Stérile", "Sans aucun microbe."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le recueil pour un ECBU.", "items": ["Toilette intime", "Premier jet dans les toilettes", "Milieu du jet dans le flacon stérile", "Fermer et étiqueter"]},
+        {"type": "relier", "paires": [["NFS", "Cellules du sang"], ["ECBU", "Bactéries dans l'urine"], ["Coproculture", "Microbes dans les selles"], ["Glycémie capillaire", "Bout du doigt"]]},
+        {"type": "vf", "items": [["Pour un ECBU, le flacon doit être stérile.", true, "Oui."], ["On peut prendre un petit-déjeuner avant une prise de sang à jeun.", false, "Non."], ["La bandelette urinaire donne un résultat immédiat.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Pour un ECBU, quelle partie du jet garde-t-on ?", "choix": ["Le début", "Le milieu", "La fin"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "L'imagerie et les autres examens",
+      "notion": [
+        {
+          "t": "Voir à l'intérieur",
+          "b": [
+            {"tab": [["Examen", "Comment", "Pour quoi"], ["**Radiographie**", "Rayons X", "Os, poumons"], ["**Échographie**", "Ultrasons, **sans danger**", "Grossesse, ventre, cœur"], ["**Scanner**", "Rayons X en coupes", "Organes en détail"], ["**IRM**", "Aimant très puissant", "Cerveau, moelle, articulations"]]}
+          ]
+        },
+        {
+          "t": "Les précautions",
+          "b": [
+            {"l": ["**Rayons X** : on évite d'en faire chez la **femme enceinte** sauf nécessité.", "**IRM** : **aucun métal** (bijoux, pacemaker à signaler, appareil auditif).", "Certains examens demandent un **produit de contraste** : on signale les **allergies**."]}
+          ]
+        },
+        {
+          "t": "D'autres explorations",
+          "b": [
+            {"l": ["**ECG** (électrocardiogramme) : enregistre l'activité électrique du **cœur**.", "**EEG** : enregistre l'activité du **cerveau**.", "**Endoscopie** : une caméra entre dans un organe creux (estomac : **fibroscopie** ; côlon : **coloscopie**)."]},
+            {"ex": "Une coloscopie demande de **vider l'intestin** la veille avec une préparation spéciale."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel examen utilise des ultrasons sans danger ?", "choix": ["La radiographie", "L'échographie", "Le scanner"], "bonne": 1},
+        {"q": "Avant une IRM, on retire...", "choix": ["tout objet métallique", "ses chaussettes", "rien"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "Avant l'IRM de Mme L., l'aide-soignante l'aide à retirer ses bijoux, ses barrettes et son appareil auditif, et vérifie la feuille de questions sur le métal."},
+        {"lieu": "Maternité", "txt": "Les échographies de la grossesse suivent la croissance du fœtus sans aucun rayon."}
+      ],
+      "bonus": {"t": "Des rayons découverts par hasard", "txt": "Les rayons X ont été découverts en 1895 par Wilhelm Röntgen. Une des premières radiographies montrait la main de sa femme avec sa bague.", "verifier": false},
+      "mots": [
+        ["Radiographie", "Image par rayons X."],
+        ["Échographie", "Image par ultrasons."],
+        ["Scanner", "Images en coupes par rayons X."],
+        ["IRM", "Image par un aimant puissant."],
+        ["ECG", "Enregistrement de l'activité du cœur."],
+        ["Endoscopie", "Exploration avec une caméra dans un organe."],
+        ["Produit de contraste", "Produit qui rend un organe plus visible."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Échographie", "Ultrasons"], ["IRM", "Aimant"], ["Radiographie", "Rayons X"], ["ECG", "Cœur"]]},
+        {"type": "vf", "items": [["L'échographie est utilisée pendant la grossesse.", true, "Oui : sans rayons."], ["On garde ses bijoux pendant une IRM.", false, "Non : aucun métal."], ["Une coloscopie explore le côlon.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Avant un examen avec produit de contraste, on signale...", "choix": ["les allergies", "la couleur préférée", "le menu du jour"], "bonne": 0}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre la préparation à une IRM.", "items": ["Vérifier le questionnaire métal", "Retirer bijoux et appareils", "Accompagner à la salle", "Rassurer la personne"]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Le rôle de l'ASSP",
+      "notion": [
+        {
+          "t": "Avant l'examen",
+          "b": [
+            {"l": ["Connaître la **consigne** : à jeun, préparation, horaire.", "**Informer** et **rassurer** la personne avec des mots simples.", "Préparer : toilette, tenue, retrait des bijoux si demandé.", "Vérifier que le **dossier** suit."]}
+          ]
+        },
+        {
+          "t": "Recueillir un échantillon",
+          "b": [
+            {"l": ["Suivre le **protocole** de l'établissement.", "Mains lavées, **gants**.", "Flacon **adapté**, bien fermé.", "**Étiquette** : nom, prénom, date de naissance, date et heure.", "Acheminer **vite** au laboratoire."]},
+            {"att": "Une erreur d'**étiquette** peut faire soigner la mauvaise personne : on vérifie toujours l'**identité**."}
+          ]
+        },
+        {
+          "t": "Après l'examen",
+          "b": [
+            {"l": ["Surveiller selon la consigne : douleur, saignement au point de piqûre, malaise.", "Remettre à manger si la personne était à jeun, une fois autorisé.", "**Transmettre** ce qui a été fait et observé."]},
+            {"ret": "Les résultats sont **confidentiels** : c'est le médecin qui les annonce."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que doit-on écrire sur l'étiquette d'un flacon ?", "choix": ["Seulement le prénom", "Nom, prénom, date de naissance, date et heure", "Rien"], "bonne": 1},
+        {"q": "Qui annonce les résultats à la personne ?", "choix": ["L'agent", "Le médecin", "Un autre résident"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Deux résidentes s'appellent Mme Martin. Avant de coller l'étiquette, l'agent vérifie aussi la date de naissance."},
+        {"lieu": "Hôpital", "txt": "La fille de M. C. demande à l'aide-soignante le résultat de la prise de sang de son père. Elle répond poliment que c'est le médecin qui l'informera."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Protocole", "Conduite à tenir écrite par l'établissement."],
+        ["Identitovigilance", "Vérification de l'identité pour éviter les erreurs."],
+        ["Échantillon", "Petite quantité prélevée pour l'analyse."],
+        ["Acheminement", "Transport de l'échantillon au laboratoire."],
+        ["Secret professionnel", "Obligation de ne pas révéler les informations de santé."],
+        ["Point de ponction", "Endroit où l'aiguille est entrée."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le recueil d'un échantillon.", "items": ["Se laver les mains et mettre des gants", "Recueillir dans le flacon adapté", "Étiqueter après vérification de l'identité", "Acheminer vite au laboratoire"]},
+        {"type": "vf", "items": [["L'ASSP peut annoncer un résultat d'analyse à la famille.", false, "Non : secret professionnel, c'est le rôle du médecin."], ["On vérifie l'identité avant d'étiqueter.", true, "Oui : l'identitovigilance."], ["Un échantillon peut attendre la journée sur une étagère.", false, "Non : on l'achemine vite."]]},
+        {"type": "relier", "paires": [["Avant", "Informer et préparer"], ["Pendant", "Suivre le protocole"], ["Après", "Surveiller et transmettre"]]},
+        {"type": "qcm", "items": [{"q": "Deux résidents ont le même nom. Que vérifier en plus ?", "choix": ["La date de naissance", "La couleur de la chambre", "Le menu"], "bonne": 0}]}
+      ]
+    }
+  ]
+}

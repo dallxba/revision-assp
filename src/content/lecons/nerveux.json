@@ -1,0 +1,267 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "nerveux",
+  "titre": "Le système nerveux",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; signes d'alerte de l'AVC à vérifier avec la campagne de prévention en vigueur)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "L'organisation du système nerveux",
+      "notion": [
+        {
+          "t": "Central et périphérique",
+          "b": [
+            {"svg": "systeme-nerveux"},
+            {"l": ["**Système nerveux central** : l'**encéphale** (cerveau, cervelet, tronc cérébral) et la **moelle épinière**.", "**Système nerveux périphérique** : les **nerfs**, qui relient le centre à tout le corps."]}
+          ]
+        },
+        {
+          "t": "Qui fait quoi ?",
+          "b": [
+            {"tab": [["Partie", "Rôle"], ["**Cerveau**", "Pensée, mémoire, langage, mouvements volontaires, sensations"], ["**Cervelet**", "**Équilibre** et coordination"], ["**Tronc cérébral**", "Fonctions **vitales** : respiration, cœur"], ["**Moelle épinière**", "Fait passer les messages, réflexes"]]}
+          ]
+        },
+        {
+          "t": "Le croisement",
+          "b": [
+            "Le cerveau **gauche** commande le côté **droit** du corps, et inversement.",
+            {"ex": "Une lésion du cerveau gauche peut paralyser le bras et la jambe **droits**. Le langage est souvent aussi touché, car il dépend surtout du côté gauche."}
+          ]
+        },
+        {
+          "t": "Protégé de partout",
+          "b": [
+            {"l": ["Le **crâne** protège l'encéphale.", "La **colonne vertébrale** protège la moelle.", "Les **méninges**, des membranes, entourent le tout.", "Un **liquide** amortit les chocs."]},
+            {"att": "Inflammation des méninges = **méningite** : fièvre, raideur de la nuque, maux de tête. Urgence."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quelle partie gère l'équilibre ?", "choix": ["Le cervelet", "Le tronc cérébral", "La moelle"], "bonne": 0},
+        {"q": "Le cerveau droit commande...", "choix": ["le côté droit", "le côté gauche", "les deux côtés"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Pour les sorties à vélo ou en trottinette, les enfants portent un casque : il protège le crâne et l'encéphale."},
+        {"lieu": "Hôpital", "txt": "M. D. a eu un AVC dans le cerveau gauche. Son bras droit est paralysé et il a du mal à trouver ses mots."}
+      ],
+      "bonus": {"t": "Des milliards de neurones", "txt": "L'encéphale humain contient de l'ordre de 86 milliards de neurones.", "verifier": true},
+      "mots": [
+        ["Encéphale", "Cerveau, cervelet et tronc cérébral."],
+        ["Cerveau", "Partie qui pense, se souvient et commande les mouvements."],
+        ["Cervelet", "Partie qui gère l'équilibre."],
+        ["Tronc cérébral", "Partie qui gère les fonctions vitales."],
+        ["Moelle épinière", "Cordon nerveux dans la colonne."],
+        ["Nerf", "Câble qui transporte les messages."],
+        ["Méninges", "Membranes qui entourent le cerveau et la moelle."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Cervelet", "Équilibre"], ["Tronc cérébral", "Respiration"], ["Cerveau", "Mémoire"], ["Moelle épinière", "Réflexes"]]},
+        {"type": "vf", "items": [["Les nerfs font partie du système nerveux central.", false, "Non : du système périphérique."], ["Le crâne protège l'encéphale.", true, "Oui."], ["Fièvre et nuque raide peuvent signaler une méningite.", true, "Oui : c'est une urgence."]]},
+        {"type": "qcm", "items": [{"q": "Une lésion du cerveau gauche paralyse plutôt...", "choix": ["le côté gauche", "le côté droit", "les jambes seulement"], "bonne": 1}]},
+        {"type": "ordre", "consigne": "Range de l'extérieur vers l'intérieur.", "items": ["Crâne", "Méninges", "Cerveau"]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Le neurone et le message nerveux",
+      "notion": [
+        {
+          "t": "Le neurone",
+          "b": [
+            {"svg": "neurone"},
+            {"l": ["**Corps cellulaire** avec le noyau.", "**Dendrites** : reçoivent les messages.", "**Axone** : long prolongement qui envoie le message.", "**Synapse** : zone de passage vers le neurone suivant."]}
+          ]
+        },
+        {
+          "t": "Le message nerveux",
+          "b": [
+            {"l": ["Il circule comme un **courant électrique** le long de l'axone.", "À la synapse, il passe grâce à des **messagers chimiques**.", "Il va très **vite**."]},
+            {"ret": "**Sensitif** : du corps vers le cerveau. **Moteur** : du cerveau vers les muscles."}
+          ]
+        },
+        {
+          "t": "Le réflexe",
+          "b": [
+            "Un **réflexe** est une réponse **automatique** et rapide, sans réfléchir.",
+            {"ol": ["La main touche une plaque chaude.", "Le message sensitif part vers la **moelle**.", "La moelle renvoie un ordre moteur.", "Le bras se retire, **avant** que l'on sente la douleur."]}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quelle partie du neurone envoie le message ?", "choix": ["La dendrite", "L'axone", "Le noyau"], "bonne": 1},
+        {"q": "Un message moteur va...", "choix": ["du cerveau vers les muscles", "de la peau vers le cerveau", "du cœur vers le rein"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "Le médecin tape sous le genou de M. R. avec un petit marteau : la jambe se lève toute seule. Il teste un réflexe."},
+        {"lieu": "Domicile", "txt": "M. J. est diabétique et ses nerfs des pieds sont abîmés : les messages sensitifs passent mal, il ne sent plus ses blessures."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Neurone", "Cellule nerveuse."],
+        ["Axone", "Prolongement qui envoie le message."],
+        ["Dendrite", "Prolongement qui reçoit le message."],
+        ["Synapse", "Zone de passage entre deux neurones."],
+        ["Sensitif", "Qui va du corps vers le centre."],
+        ["Moteur", "Qui va du centre vers les muscles."],
+        ["Réflexe", "Réponse automatique et rapide."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet d'un réflexe.", "items": ["La peau touche le chaud", "Message sensitif vers la moelle", "Ordre moteur vers le muscle", "Le bras se retire"]},
+        {"type": "relier", "paires": [["Dendrite", "Reçoit"], ["Axone", "Envoie"], ["Synapse", "Passage"]]},
+        {"type": "vf", "items": [["Le réflexe passe par la moelle épinière.", true, "Oui."], ["Le message nerveux est très lent.", false, "Non : il est très rapide."], ["Un neurone est une cellule.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Le message « j'ai mal au pied » est...", "choix": ["sensitif", "moteur", "hormonal"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "L'accident vasculaire cérébral",
+      "notion": [
+        {
+          "t": "Qu'est-ce qu'un AVC ?",
+          "b": [
+            "Une partie du cerveau **ne reçoit plus de sang**. Les neurones meurent en quelques minutes.",
+            {"tab": [["AVC", "Cause"], ["**Ischémique** (le plus fréquent)", "Un **caillot** bouche une artère"], ["**Hémorragique**", "Une artère se **rompt**"]]}
+          ]
+        },
+        {
+          "t": "Reconnaître un AVC : VITE",
+          "b": [
+            {"l": ["**V**isage paralysé : la bouche tombe d'un côté.", "**I**nertie d'un membre : bras ou jambe qui ne répond plus.", "**T**rouble de la parole : mots mélangés, impossible de parler.", "**E**n urgence : appeler le **15**."]},
+            {"att": "Chaque minute compte. On **note l'heure** du début des signes."}
+          ]
+        },
+        {
+          "t": "Après l'AVC",
+          "b": [
+            {"l": ["**Hémiplégie** : paralysie d'un côté du corps.", "**Aphasie** : trouble du langage.", "Troubles de la **déglutition** : fausses routes.", "Fatigue, tristesse, troubles de la mémoire."]},
+            {"ret": "Facteurs de risque : **hypertension**, tabac, diabète, cholestérol, âge."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que veut dire le E de VITE ?", "choix": ["Écouter", "En urgence : appeler le 15", "Examiner les yeux"], "bonne": 1},
+        {"q": "La cause la plus fréquente d'AVC est...", "choix": ["un caillot", "une infection", "une fracture"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Au petit-déjeuner, la bouche de Mme T. tombe à droite et elle ne trouve plus ses mots. L'agent appelle le 15, note l'heure et ne lui donne rien à boire."},
+        {"lieu": "Domicile", "txt": "Depuis son AVC, M. D. a le côté droit paralysé. Pour l'habiller, on commence par le côté paralysé et on déshabille d'abord le côté valide."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["AVC", "Accident vasculaire cérébral : zone du cerveau privée de sang."],
+        ["Ischémique", "Dû à une artère bouchée."],
+        ["Hémorragique", "Dû à une artère rompue."],
+        ["Hémiplégie", "Paralysie d'un côté du corps."],
+        ["Aphasie", "Trouble du langage."],
+        ["Séquelle", "Trouble qui reste après la maladie."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre les lettres de l'alerte.", "items": ["Visage paralysé", "Inertie d'un membre", "Trouble de la parole", "En urgence, le 15"]},
+        {"type": "vf", "items": [["On donne à boire à une personne qui fait un AVC.", false, "Non : risque de fausse route."], ["Il faut noter l'heure du début des signes.", true, "Oui : cela guide le traitement."], ["L'hypertension est un facteur de risque d'AVC.", true, "Oui."]]},
+        {"type": "relier", "paires": [["Hémiplégie", "Paralysie d'un côté"], ["Aphasie", "Langage"], ["Caillot", "AVC ischémique"], ["Artère rompue", "AVC hémorragique"]]},
+        {"type": "qcm", "items": [{"q": "Pour habiller une personne hémiplégique, on commence par...", "choix": ["le côté valide", "le côté paralysé", "la tête"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Les démences et Alzheimer",
+      "notion": [
+        {
+          "t": "La maladie d'Alzheimer",
+          "b": [
+            "Des neurones **meurent** peu à peu, d'abord dans les zones de la **mémoire**.",
+            {"l": ["Au début : oublis des faits **récents**, répète les mêmes questions.", "Puis : se perd, ne reconnaît plus, difficultés pour s'habiller, se laver, parler.", "Changements d'**humeur** et de comportement."]},
+            {"ret": "C'est la cause la plus fréquente de **démence**."}
+          ]
+        },
+        {
+          "t": "Qu'est-ce qu'une démence ?",
+          "b": [
+            {"l": ["Perte **progressive** et **durable** des capacités intellectuelles.", "Elle gêne la **vie quotidienne**.", "Plusieurs causes : Alzheimer, AVC répétés, autres maladies."]},
+            {"att": "Une **confusion brutale** n'est pas une démence : c'est souvent un problème aigu (infection, déshydratation) à signaler vite."}
+          ]
+        },
+        {
+          "t": "Communiquer avec la personne",
+          "b": [
+            {"l": ["Se mettre **face** à elle, à sa hauteur.", "Phrases **courtes**, une consigne à la fois.", "**Ne pas contredire** ni gronder.", "S'appuyer sur ses **souvenirs anciens** et ses habitudes.", "Le **toucher** et le sourire rassurent."]}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Au début d'Alzheimer, on oublie surtout...", "choix": ["les faits récents", "son enfance", "son prénom"], "bonne": 0},
+        {"q": "Une confusion apparue brutalement fait penser à...", "choix": ["une démence", "un problème aigu à signaler", "rien d'important"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme B., atteinte d'Alzheimer, demande sa mère toutes les dix minutes. L'agent ne lui dit pas qu'elle est décédée : il parle de sa mère avec elle et l'aide à se calmer."},
+        {"lieu": "Accueil de jour", "txt": "On propose à M. G., ancien boulanger, de pétrir une pâte en atelier cuisine. Ses gestes anciens reviennent, il sourit."},
+        {"lieu": "Domicile", "txt": "Pour la toilette, l'aide à domicile donne une seule consigne à la fois : « Prenez le gant. » « Lavez votre visage. »"}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Démence", "Perte durable des capacités intellectuelles."],
+        ["Alzheimer", "Maladie qui détruit peu à peu les neurones de la mémoire."],
+        ["Mémoire récente", "Souvenir de ce qui vient de se passer."],
+        ["Désorientation", "Ne plus savoir où on est ni quand."],
+        ["Confusion", "Trouble brutal de l'attention et de la pensée."],
+        ["Accueil de jour", "Structure qui accueille la journée des personnes malades."]
+      ],
+      "ex": [
+        {"type": "vf", "items": [["Il faut corriger chaque erreur de la personne.", false, "Non : cela l'angoisse."], ["Les souvenirs anciens sont gardés plus longtemps.", true, "Oui."], ["Une démence apparaît en une nuit.", false, "Non : elle est progressive."]]},
+        {"type": "relier", "paires": [["Démence", "Progressive"], ["Confusion", "Brutale"], ["Désorientation", "Se perd"]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'évolution d'Alzheimer.", "items": ["Oublis récents", "Se perd dans un lieu connu", "Ne sait plus s'habiller seul", "Dépendance pour tous les gestes"]},
+        {"type": "qcm", "items": [{"q": "Comment donner une consigne à une personne désorientée ?", "choix": ["Plusieurs à la fois", "Une seule, courte", "En criant"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 5,
+      "t": "La maladie de Parkinson",
+      "notion": [
+        {
+          "t": "Ce qui se passe",
+          "b": [
+            "Les neurones qui fabriquent la **dopamine** disparaissent. Les mouvements deviennent difficiles.",
+            {"ret": "Trois signes clés : **tremblement** au repos, **lenteur**, **raideur**."}
+          ]
+        },
+        {
+          "t": "Les difficultés au quotidien",
+          "b": [
+            {"l": ["Petits **pas**, difficulté à démarrer ou à tourner : **risque de chute**.", "Visage peu expressif, voix faible.", "Écriture qui rapetisse.", "Troubles de la **déglutition**, constipation."]}
+          ]
+        },
+        {
+          "t": "L'heure des médicaments",
+          "b": [
+            {"l": ["Le traitement remplace la dopamine.", "L'effet varie dans la journée : la personne peut être bloquée puis à l'aise."]},
+            {"att": "Les médicaments se prennent à **heure précise**. Un retard peut **bloquer** la personne."},
+            {"ex": "Prévoir les soins quand le traitement agit bien."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel est un signe typique de Parkinson ?", "choix": ["Tremblement au repos", "Fièvre", "Toux"], "bonne": 0},
+        {"q": "Les médicaments de Parkinson se donnent...", "choix": ["quand on y pense", "à heure précise", "une fois par semaine"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "M. H. a la maladie de Parkinson. L'agent planifie sa toilette une heure après son traitement du matin, quand il bouge le mieux."},
+        {"lieu": "Domicile", "txt": "Pour aider Mme K. à démarrer la marche, l'aide à domicile lui propose de compter « un, deux » et de viser une ligne au sol."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Parkinson", "Maladie due au manque de dopamine."],
+        ["Dopamine", "Messager chimique qui aide aux mouvements."],
+        ["Tremblement", "Mouvement involontaire et répété."],
+        ["Rigidité", "Raideur des muscles."],
+        ["Akinésie", "Lenteur et difficulté à commencer un mouvement."],
+        ["Déglutition", "Action d'avaler."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Tremblement", "Au repos"], ["Akinésie", "Lenteur"], ["Rigidité", "Raideur"], ["Dopamine", "Manque"]]},
+        {"type": "vf", "items": [["Un retard de médicament peut bloquer la personne.", true, "Oui."], ["Parkinson augmente le risque de chute.", true, "Oui : petits pas, difficulté à tourner."], ["Parkinson ne touche jamais la déglutition.", false, "Si : risque de fausse route."]]},
+        {"type": "qcm", "items": [{"q": "Quand prévoir la toilette d'une personne parkinsonienne ?", "choix": ["Juste avant son traitement", "Quand le traitement agit bien", "La nuit"], "bonne": 1}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre.", "items": ["Disparition des neurones à dopamine", "Manque de dopamine", "Tremblement, lenteur, raideur"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "respiratoire",
+  "titre": "L'appareil respiratoire",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; fréquences normales et gestes de désobstruction à vérifier avec le référentiel SST/PSE en vigueur)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Le chemin de l'air",
+      "notion": [
+        {
+          "t": "Du nez aux alvéoles",
+          "b": [
+            {"svg": "appareil-respiratoire"},
+            {"ol": ["**Fosses nasales** : réchauffent, humidifient, filtrent.", "**Pharynx** : carrefour avec la voie digestive.", "**Larynx** : cordes vocales.", "**Trachée** : tube rigide.", "**Bronches**, puis **bronchioles**.", "**Alvéoles** : les échanges."]}
+          ]
+        },
+        {
+          "t": "L'épiglotte, un clapet",
+          "b": [
+            "Quand on avale, l'**épiglotte** ferme la trachée. Les aliments partent dans l'œsophage.",
+            {"att": "Si elle ferme mal (AVC, grand âge), les aliments passent dans la trachée : c'est la **fausse route**."}
+          ]
+        },
+        {
+          "t": "Le nettoyage des voies",
+          "b": [
+            {"l": ["Le **mucus** piège poussières et microbes.", "Les **cils vibratiles** les remontent vers la gorge.", "On les avale ou on les crache."]},
+            {"ex": "C'est comme un tapis roulant collant qui remonte les saletés vers la sortie."}
+          ]
+        },
+        {
+          "t": "Les poumons",
+          "b": [
+            {"l": ["**3 lobes** à droite, **2** à gauche : le cœur prend de la place.", "Entourés d'une double membrane : la **plèvre**.", "Posés sur le **diaphragme**."]},
+            {"ret": "Des centaines de millions d'**alvéoles** : une immense surface d'échange."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel organe est commun à l'air et aux aliments ?", "choix": ["La trachée", "Le pharynx", "Le larynx"], "bonne": 1},
+        {"q": "Que fait l'épiglotte ?", "choix": ["Elle ferme la trachée quand on avale", "Elle produit la voix", "Elle filtre l'air"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "M. A. a eu un AVC. Il tousse à chaque gorgée d'eau : son épiglotte se ferme mal. L'équipe lui propose de l'eau gélifiée, sur prescription."},
+        {"lieu": "Crèche", "txt": "En hiver, on aère les salles plusieurs fois par jour : moins de microbes dans l'air, moins d'infections."}
+      ],
+      "bonus": {"t": "Un tennis dans la poitrine", "txt": "Déplié, l'ensemble des alvéoles d'un adulte couvrirait une surface souvent comparée à celle d'un demi-terrain de tennis.", "verifier": true},
+      "mots": [
+        ["Pharynx", "Carrefour entre voie de l'air et voie des aliments."],
+        ["Larynx", "Organe des cordes vocales."],
+        ["Trachée", "Tube rigide qui conduit l'air aux bronches."],
+        ["Épiglotte", "Clapet qui ferme la trachée quand on avale."],
+        ["Bronche", "Tube qui conduit l'air dans le poumon."],
+        ["Alvéole", "Petit sac où se font les échanges gazeux."],
+        ["Plèvre", "Double membrane autour des poumons."],
+        ["Fausse route", "Passage d'aliments dans les voies respiratoires."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet de l'air.", "items": ["Fosses nasales", "Pharynx", "Larynx", "Trachée", "Bronches", "Alvéoles"]},
+        {"type": "vf", "items": [["Le poumon gauche a 3 lobes.", false, "Non : 2, le droit en a 3."], ["Le mucus piège les poussières.", true, "Oui."], ["L'épiglotte ferme l'œsophage.", false, "Non : elle ferme la trachée."]]},
+        {"type": "relier", "paires": [["Fosses nasales", "Réchauffer l'air"], ["Larynx", "La voix"], ["Alvéoles", "Échanges gazeux"], ["Cils vibratiles", "Nettoyage"]]},
+        {"type": "qcm", "items": [{"q": "Un résident tousse à chaque gorgée. On pense à...", "choix": ["une fausse route", "une anémie", "une phlébite"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Respirer",
+      "notion": [
+        {
+          "t": "Inspirer, expirer",
+          "b": [
+            {"svg": "ventilation"},
+            {"l": ["**Inspiration** : le diaphragme se **contracte et descend**. Le thorax grandit, l'air **entre**.", "**Expiration** : les muscles se **relâchent**. Le thorax diminue, l'air **sort**."]},
+            {"ret": "Adulte au repos : environ **12 à 20** respirations par minute."}
+          ]
+        },
+        {
+          "t": "Les échanges dans l'alvéole",
+          "b": [
+            {"svg": "alveole"},
+            {"l": ["Le **dioxygène** passe de l'alvéole vers le sang.", "Le **dioxyde de carbone** passe du sang vers l'alvéole."]},
+            {"ex": "L'air inspiré contient environ **21 %** d'O₂, l'air expiré environ **16 %**."}
+          ]
+        },
+        {
+          "t": "Qui commande ?",
+          "b": [
+            {"l": ["Le **tronc cérébral**, automatiquement, même quand on dort.", "Il accélère la respiration quand le CO₂ monte dans le sang.", "On peut aussi la changer **volontairement** : parler, chanter, retenir son souffle."]},
+            {"att": "On compte la respiration **sans prévenir** : se savoir observé la modifie."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que fait le diaphragme à l'inspiration ?", "choix": ["Il monte", "Il se contracte et descend", "Rien"], "bonne": 1},
+        {"q": "Quel gaz passe de l'alvéole vers le sang ?", "choix": ["Le dioxygène", "Le dioxyde de carbone", "L'azote"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "L'aide-soignante compte la respiration de M. F. en faisant semblant de prendre son pouls : 24 par minute, c'est rapide. Elle le transmet."},
+        {"lieu": "Crèche", "txt": "Un nourrisson respire plus vite qu'un adulte : c'est normal. On repère surtout les changements par rapport à d'habitude."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Inspiration", "Entrée de l'air dans les poumons."],
+        ["Expiration", "Sortie de l'air des poumons."],
+        ["Diaphragme", "Muscle principal de la respiration."],
+        ["Diffusion", "Passage d'un gaz du plus concentré au moins concentré."],
+        ["Fréquence respiratoire", "Nombre de respirations par minute."],
+        ["Tronc cérébral", "Partie du cerveau qui commande la respiration."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'inspiration.", "items": ["Le diaphragme se contracte", "Le thorax s'agrandit", "L'air entre"]},
+        {"type": "vf", "items": [["L'air expiré contient plus de CO₂ que l'air inspiré.", true, "Oui : environ 4 % contre 0,04 %."], ["On respire seulement quand on y pense.", false, "Non : le tronc cérébral commande tout seul."], ["Un adulte au repos respire environ 15 fois par minute.", true, "Oui, entre 12 et 20."]]},
+        {"type": "relier", "paires": [["Inspiration", "L'air entre"], ["Expiration", "L'air sort"], ["Tronc cérébral", "Commande automatique"]]},
+        {"type": "qcm", "items": [{"q": "Pourquoi compter la respiration sans prévenir ?", "choix": ["Pour aller plus vite", "Parce que se savoir observé la change", "Pour ne pas réveiller"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Les maladies respiratoires",
+      "notion": [
+        {
+          "t": "Les infections",
+          "b": [
+            {"tab": [["Maladie", "Qui ? Quels signes ?"], ["**Rhinopharyngite**", "Jeune enfant : nez qui coule, fièvre"], ["**Bronchiolite** (virus VRS)", "Nourrisson : respire vite, siffle, boit mal"], ["**Grippe**", "Fièvre brutale, courbatures ; grave si fragile"], ["**Pneumopathie**", "Fièvre, toux, essoufflement"], ["**Tuberculose**", "Toux longue, sueurs la nuit, amaigrissement"]]}
+          ]
+        },
+        {
+          "t": "Comment elles passent",
+          "b": [
+            {"l": ["Par les **gouttelettes** : toux, éternuement, parole.", "Par les **mains** et les objets.", "Par l'**air** pour certaines (tuberculose)."]},
+            {"att": "Chez la personne âgée, une pneumopathie peut se montrer seulement par une **confusion**."}
+          ]
+        },
+        {
+          "t": "L'asthme",
+          "b": [
+            "Pendant une crise, les **bronches se resserrent** : l'air passe mal.",
+            {"l": ["Signes : essoufflement, **sifflement**, toux, poitrine serrée.", "Déclencheurs : acariens, pollens, tabac, effort, froid.", "Traitement : médicaments **inhalés**."]},
+            {"ex": "À la crèche ou à l'école, le **PAI** dit quoi faire en cas de crise."}
+          ]
+        },
+        {
+          "t": "La BPCO",
+          "b": [
+            {"l": ["**B**roncho**P**neumopathie **C**hronique **O**bstructive.", "Bronches resserrées **pour toujours**.", "Cause principale : le **tabac**.", "Toux et crachats le matin, essoufflement qui s'aggrave.", "Au stade avancé : **oxygène** à la maison."]}
+          ]
+        },
+        {
+          "t": "La fausse route",
+          "b": [
+            {"tab": [["Obstruction", "Signes", "Que faire"], ["**Partielle**", "Tousse, peut parler", "Faire **tousser**, ne pas taper dans le dos"], ["**Totale**", "Ne parle plus, ne respire plus", "**Urgence** : gestes de secours et alerte"]]},
+            {"att": "Des aliments passés dans les poumons peuvent donner une **infection** quelques jours plus tard."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel virus cause souvent la bronchiolite ?", "choix": ["Le VRS", "Le VIH", "Le HPV"], "bonne": 0},
+        {"q": "Quelle est la cause principale de la BPCO ?", "choix": ["Le tabac", "Le pollen", "Le froid"], "bonne": 0},
+        {"q": "La personne s'étouffe mais tousse fort. On...", "choix": ["tape dans son dos", "l'encourage à tousser", "lui donne à boire"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Léo, 5 mois, tousse, respire vite et boit la moitié de son biberon. Bronchiolite possible : la responsable prévient les parents, on le met semi-assis, on lui lave le nez et on propose de petites quantités à boire."},
+        {"lieu": "EHPAD", "txt": "Mme C., d'habitude bien orientée, est confuse depuis ce matin et a 38,5 °C. L'agent transmet : chez la personne âgée, une infection pulmonaire peut commencer ainsi."},
+        {"lieu": "Domicile", "txt": "M. T., atteint de BPCO, a de l'oxygène à la maison. Son petit-fils fume à côté. L'aide à domicile explique le danger d'incendie et prévient sa responsable."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Bronchiolite", "Infection virale des bronchioles du nourrisson."],
+        ["Pneumopathie", "Infection des poumons."],
+        ["Asthme", "Maladie avec crises de resserrement des bronches."],
+        ["BPCO", "Maladie chronique des bronches due surtout au tabac."],
+        ["Gouttelettes", "Petites gouttes projetées en toussant ou en parlant."],
+        ["PAI", "Projet d'accueil individualisé pour un enfant malade."],
+        ["Dyspnée", "Difficulté à respirer."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Bronchiolite", "Nourrisson"], ["BPCO", "Tabac"], ["Asthme", "Bronches qui se resserrent"], ["Tuberculose", "Sueurs la nuit"]]},
+        {"type": "vf", "items": [["La grippe peut être grave chez la personne âgée.", true, "Oui : on recommande le vaccin."], ["Une obstruction totale n'est pas une urgence.", false, "Si : la personne ne respire plus."], ["Les infections respiratoires passent par les mains.", true, "Oui : d'où l'hygiène des mains."]]},
+        {"type": "qcm", "items": [{"q": "Un enfant asthmatique fait une crise à l'école. On suit...", "choix": ["son PAI", "le menu", "le règlement intérieur"], "bonne": 0}, {"q": "Une résidente devient confuse avec de la fièvre. On pense à...", "choix": ["une pneumopathie", "une entorse", "une varice"], "bonne": 0}]},
+        {"type": "ordre", "consigne": "Range l'évolution de la BPCO.", "items": ["Tabac pendant des années", "Toux et crachats le matin", "Essoufflement qui s'aggrave", "Oxygène à domicile"]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Le rôle de l'ASSP",
+      "notion": [
+        {
+          "t": "Observer la respiration",
+          "b": [
+            {"l": ["**Fréquence**, **amplitude**, **régularité**.", "**Bruits** : sifflement, encombrement.", "**Toux**, **crachats**.", "**Couleur** des lèvres et des ongles.", "**Essoufflement** en parlant ou en marchant."]},
+            {"ret": "Tout changement se **transmet**."}
+          ]
+        },
+        {
+          "t": "Aider à respirer",
+          "b": [
+            {"l": ["Installer **demi-assis** ou assis.", "**Aérer** les pièces.", "Nourrisson : **laver le nez** avant le repas et le coucher, selon le protocole."]},
+            {"ex": "Un oreiller de plus sous le dos peut soulager une personne essoufflée."}
+          ]
+        },
+        {
+          "t": "Prévenir les fausses routes",
+          "b": [
+            {"svg": "installation-repas"},
+            {"l": ["Personne **assise**, tête **un peu penchée en avant**.", "Textures et eau gélifiée **selon prescription**.", "**Petites bouchées**, sans se presser.", "Ne pas la faire parler en mangeant.", "S'asseoir **à sa hauteur**."]}
+          ]
+        },
+        {
+          "t": "Barrières et oxygène",
+          "b": [
+            {"l": ["Lavage des **mains**, **masque** si on tousse, tousser dans son **coude**, **vaccin** contre la grippe.", "L'oxygène est un **médicament prescrit** : on ne touche pas au débit."]},
+            {"att": "L'oxygène fait flamber : **ni cigarette, ni flamme**, pas de crème grasse près des lunettes à oxygène."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Comment installer une personne essoufflée ?", "choix": ["À plat", "Demi-assise", "Sur le ventre"], "bonne": 1},
+        {"q": "Pendant le repas, la tête doit être...", "choix": ["en arrière", "un peu penchée en avant", "tournée sur le côté"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Pour Mme D., qui fait des fausses routes, l'agent s'assoit à sa hauteur, attend que la bouche soit vide avant la bouchée suivante et ne lui pose pas de questions pendant qu'elle avale."},
+        {"lieu": "Domicile", "txt": "Une aide à domicile enrhumée porte un masque et se lave souvent les mains chez M. V., 90 ans, pour ne pas le contaminer."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Amplitude", "Profondeur des mouvements respiratoires."],
+        ["Encombrement", "Présence de sécrétions dans les bronches."],
+        ["Position demi-assise", "Dos relevé, qui facilite la respiration."],
+        ["Eau gélifiée", "Eau épaissie pour éviter les fausses routes."],
+        ["Oxygénothérapie", "Apport d'oxygène prescrit."],
+        ["Mesures barrières", "Gestes qui limitent la transmission des microbes."]
+      ],
+      "ex": [
+        {"type": "vf", "items": [["L'ASSP peut augmenter le débit d'oxygène.", false, "Non : c'est un médicament prescrit."], ["On peut fumer près d'une personne sous oxygène si la fenêtre est ouverte.", false, "Non : risque d'incendie."], ["On fait parler la personne pendant qu'elle avale.", false, "Non : cela favorise la fausse route."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'aide au repas d'une personne à risque.", "items": ["L'installer assise, tête penchée en avant", "S'asseoir à sa hauteur", "Donner une petite bouchée", "Attendre que la bouche soit vide"]},
+        {"type": "relier", "paires": [["Lèvres bleutées", "Manque d'oxygène"], ["Sifflement", "Bronches resserrées"], ["Encombrement", "Sécrétions"]]},
+        {"type": "qcm", "items": [{"q": "Que faire si tu tousses en travaillant en EHPAD ?", "choix": ["Rien", "Porter un masque et te laver les mains", "Prendre des antibiotiques"], "bonne": 1}]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "immunite",
+  "titre": "Le système immunitaire",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; liste des vaccins obligatoires à vérifier sur le calendrier vaccinal en vigueur)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Les premières défenses",
+      "notion": [
+        {
+          "t": "Les barrières",
+          "b": [
+            {"l": ["La **peau** : un mur.", "Les **muqueuses** et leur **mucus** : nez, bouche, intestin.", "Les **larmes**, la salive : elles contiennent des substances antimicrobiennes.", "L'**acidité** de l'estomac.", "La **flore** normale : elle prend la place des mauvais microbes."]},
+            {"ret": "Une **plaie** ouvre une porte d'entrée aux microbes."}
+          ]
+        },
+        {
+          "t": "L'inflammation",
+          "b": [
+            "Quand un microbe entre, la zone réagit : c'est l'**inflammation**.",
+            {"l": ["**Rougeur**.", "**Chaleur**.", "**Gonflement**.", "**Douleur**."]},
+            {"ex": "Une écharde dans le doigt : quelques heures après, la zone est rouge, chaude, gonflée et fait mal."}
+          ]
+        },
+        {
+          "t": "La phagocytose",
+          "b": [
+            {"svg": "phagocytose"},
+            {"ol": ["Un globule blanc (**phagocyte**) repère le microbe.", "Il l'**entoure**.", "Il l'**avale**.", "Il le **digère**."]},
+            {"att": "Le **pus** est fait de globules blancs morts et de microbes : c'est le signe d'un combat."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quels sont les 4 signes de l'inflammation ?", "choix": ["Rougeur, chaleur, gonflement, douleur", "Toux, fièvre, nausée, fatigue", "Pâleur, froid, sueur, faim"], "bonne": 0},
+        {"q": "Qu'est-ce que la phagocytose ?", "choix": ["Un globule blanc qui avale un microbe", "Une piqûre de vaccin", "Une allergie"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Autour de la plaie de M. F., la peau est rouge, chaude et gonflée. L'agent transmet : la plaie s'infecte peut-être."},
+        {"lieu": "Crèche", "txt": "On lave et on désinfecte vite une écorchure : on referme la porte d'entrée avant que les microbes ne s'installent."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Barrière naturelle", "Peau et muqueuses qui empêchent les microbes d'entrer."],
+        ["Muqueuse", "Fine couche humide qui tapisse l'intérieur des organes."],
+        ["Inflammation", "Réaction locale : rougeur, chaleur, gonflement, douleur."],
+        ["Phagocyte", "Globule blanc qui avale les microbes."],
+        ["Phagocytose", "Action d'avaler et digérer un microbe."],
+        ["Pus", "Globules blancs morts et microbes."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre la phagocytose.", "items": ["Repérer le microbe", "L'entourer", "L'avaler", "Le digérer"]},
+        {"type": "vf", "items": [["L'acidité de l'estomac tue des microbes.", true, "Oui, c'est une barrière."], ["Une plaie protège contre les microbes.", false, "Non : c'est une porte d'entrée."], ["Le pus contient des globules blancs morts.", true, "Oui."]]},
+        {"type": "relier", "paires": [["Peau", "Mur"], ["Larmes", "Substances antimicrobiennes"], ["Phagocyte", "Avale les microbes"]]},
+        {"type": "qcm", "items": [{"q": "Une plaie devient rouge, chaude et gonflée. C'est...", "choix": ["une inflammation", "une allergie au pansement à coup sûr", "normal, rien à dire"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Les défenses ciblées et la mémoire",
+      "notion": [
+        {
+          "t": "Les lymphocytes",
+          "b": [
+            "Quand les premières défenses ne suffisent pas, des globules blancs **spécialisés** entrent en jeu : les **lymphocytes**.",
+            {"tab": [["Lymphocyte", "Son arme"], ["**B**", "Fabrique des **anticorps** qui collent au microbe"], ["**T**", "Détruit les cellules infectées et dirige la défense"]]}
+          ]
+        },
+        {
+          "t": "Antigène et anticorps",
+          "b": [
+            {"l": ["L'**antigène** est la « carte d'identité » du microbe.", "L'**anticorps** reconnaît **un seul** antigène, comme une clé et sa serrure.", "Le microbe marqué est ensuite détruit."]}
+          ]
+        },
+        {
+          "t": "La mémoire",
+          "b": [
+            {"l": ["Après une infection, des lymphocytes **mémoire** restent.", "Si le même microbe revient, la réponse est **plus rapide** et **plus forte**.", "Souvent, on ne tombe même pas malade."]},
+            {"ret": "C'est pour ça qu'on attrape la varicelle en général **une seule fois**."}
+          ]
+        },
+        {
+          "t": "Les ganglions",
+          "b": [
+            "Les **ganglions lymphatiques** (cou, aisselles, aine) sont des lieux où les lymphocytes se rassemblent.",
+            {"ex": "Pendant une angine, les ganglions du cou gonflent : ils sont en plein travail."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel lymphocyte fabrique les anticorps ?", "choix": ["Le B", "Le T", "Le phagocyte"], "bonne": 0},
+        {"q": "Un anticorps reconnaît...", "choix": ["tous les microbes", "un seul antigène", "les cellules saines"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Les enfants qui entrent en collectivité tombent souvent malades la première année : leur système immunitaire rencontre beaucoup de nouveaux microbes et construit sa mémoire."},
+        {"lieu": "Domicile", "txt": "Mme G. a des ganglions gonflés au cou et mal à la gorge. Son corps se défend : l'aide à domicile l'encourage à boire et transmet."}
+      ],
+      "bonus": {"t": "Les anticorps du bébé", "txt": "Pendant la grossesse, certains anticorps de la mère passent au fœtus par le placenta. L'allaitement en apporte aussi. Ils protègent le bébé ses premiers mois.", "verifier": false},
+      "mots": [
+        ["Lymphocyte", "Globule blanc spécialisé dans la défense ciblée."],
+        ["Antigène", "Marque d'identité d'un microbe."],
+        ["Anticorps", "Molécule qui reconnaît un antigène précis."],
+        ["Mémoire immunitaire", "Souvenir d'un microbe déjà rencontré."],
+        ["Ganglion", "Petit organe où se rassemblent les lymphocytes."],
+        ["Immunité", "Capacité du corps à se défendre."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Lymphocyte B", "Anticorps"], ["Lymphocyte T", "Détruit les cellules infectées"], ["Antigène", "Carte d'identité du microbe"], ["Ganglion", "Lieu de rassemblement"]]},
+        {"type": "vf", "items": [["La seconde rencontre avec un microbe donne une réponse plus rapide.", true, "Oui, grâce à la mémoire."], ["Un anticorps reconnaît tous les microbes.", false, "Non : un seul antigène."], ["Des ganglions gonflés peuvent signaler une infection.", true, "Oui."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre.", "items": ["Le microbe entre", "Les lymphocytes reconnaissent l'antigène", "Les anticorps marquent le microbe", "Le microbe est détruit", "Des cellules mémoire restent"]},
+        {"type": "qcm", "items": [{"q": "Pourquoi n'attrape-t-on souvent qu'une fois la varicelle ?", "choix": ["Grâce à la mémoire immunitaire", "Parce que le virus disparaît", "Grâce aux antibiotiques"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "La vaccination",
+      "notion": [
+        {
+          "t": "Comment marche un vaccin",
+          "b": [
+            {"ol": ["On présente au corps un microbe **affaibli**, **tué**, ou une **partie** de microbe.", "Le corps fabrique des anticorps et des cellules **mémoire**, sans faire la maladie.", "Si le vrai microbe arrive, il est reconnu **tout de suite**."]},
+            {"ret": "Le vaccin **apprend** au corps à se défendre **avant** la maladie."}
+          ]
+        },
+        {
+          "t": "Rappels et obligations",
+          "b": [
+            {"l": ["Certains vaccins demandent des **rappels** : la mémoire s'efface avec le temps.", "En France, **11 vaccins** sont obligatoires pour les enfants nés depuis 2018 (à vérifier sur le calendrier vaccinal).", "Le **carnet de santé** garde la trace des vaccins."]}
+          ]
+        },
+        {
+          "t": "Protéger les autres",
+          "b": [
+            "Quand beaucoup de gens sont vaccinés, le microbe circule moins. Cela protège aussi ceux qui ne peuvent pas être vaccinés : bébés, personnes malades.",
+            {"ex": "Un professionnel vacciné contre la grippe protège aussi les résidents fragiles de l'EHPAD."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que contient un vaccin ?", "choix": ["Un microbe affaibli, tué ou une partie de microbe", "Des antibiotiques", "Des globules blancs"], "bonne": 0},
+        {"q": "Pourquoi faire des rappels ?", "choix": ["La mémoire s'efface avec le temps", "Pour soigner une maladie", "Pour rien"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "À l'inscription, la directrice vérifie le carnet de santé : les vaccins obligatoires doivent être à jour pour entrer en collectivité."},
+        {"lieu": "EHPAD", "txt": "Chaque automne, l'équipe propose la vaccination contre la grippe aux résidents et aux professionnels."}
+      ],
+      "bonus": {"t": "Le premier vaccin", "txt": "À la fin du XVIIIe siècle, Edward Jenner a protégé contre la variole en inoculant la vaccine, une maladie de la vache. Le mot « vaccin » vient de là.", "verifier": false},
+      "mots": [
+        ["Vaccin", "Produit qui apprend au corps à se défendre."],
+        ["Rappel", "Nouvelle dose pour entretenir la mémoire."],
+        ["Carnet de santé", "Document qui suit la santé et les vaccins de l'enfant."],
+        ["Calendrier vaccinal", "Liste officielle des vaccins et de leurs âges."],
+        ["Couverture vaccinale", "Part de la population vaccinée."],
+        ["Prévention", "Actions pour éviter une maladie."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'effet d'un vaccin.", "items": ["Injection du vaccin", "Fabrication d'anticorps", "Cellules mémoire", "Microbe reconnu tout de suite plus tard"]},
+        {"type": "vf", "items": [["Un vaccin soigne une maladie déjà là.", false, "Non : il prévient."], ["Se vacciner protège aussi les autres.", true, "Oui : le microbe circule moins."], ["Le carnet de santé garde la trace des vaccins.", true, "Oui."]]},
+        {"type": "relier", "paires": [["Vaccin", "Prévenir"], ["Antibiotique", "Soigner une infection bactérienne"], ["Rappel", "Entretenir la mémoire"]]},
+        {"type": "qcm", "items": [{"q": "Pourquoi un professionnel d'EHPAD se fait-il vacciner contre la grippe ?", "choix": ["Pour protéger aussi les résidents", "C'est inutile", "Pour éviter les antibiotiques"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Quand l'immunité se dérègle",
+      "notion": [
+        {
+          "t": "L'allergie",
+          "b": [
+            "Le corps réagit **trop fort** contre une substance **sans danger** : l'**allergène**.",
+            {"l": ["Exemples : pollens, acariens, poils, arachide, lait, œuf, piqûre de guêpe.", "Signes : éternuements, yeux qui pleurent, plaques qui grattent (**urticaire**), asthme."]}
+          ]
+        },
+        {
+          "t": "Le choc anaphylactique",
+          "b": [
+            "C'est l'allergie **la plus grave**.",
+            {"l": ["Gonflement du **visage**, de la **gorge**.", "Difficulté à **respirer**.", "Malaise, chute de la tension."]},
+            {"att": "Urgence : appeler le **15**. Si un **PAI** le prévoit, utiliser le stylo d'**adrénaline**."}
+          ]
+        },
+        {
+          "t": "L'immunodépression",
+          "b": [
+            "Les défenses sont **trop faibles**. La personne attrape plus facilement des infections.",
+            {"l": ["Causes : grand âge, chimiothérapie, VIH non traité, certains médicaments, dénutrition.", "Les infections peuvent être plus **graves**."]},
+            {"ret": "Hygiène **renforcée** : mains, surfaces, alimentation."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Qu'est-ce qu'un allergène ?", "choix": ["Une substance qui déclenche l'allergie", "Un médicament", "Un globule blanc"], "bonne": 0},
+        {"q": "Gonflement de la gorge et difficulté à respirer après une piqûre de guêpe : on...", "choix": ["attend", "appelle le 15", "met de la glace et on part"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Sacha est allergique à l'arachide. Son PAI est affiché, la cuisine prépare son repas à part et l'équipe sait où est son stylo d'adrénaline."},
+        {"lieu": "Domicile", "txt": "M. D. est sous chimiothérapie, ses défenses sont basses. L'aide à domicile se lave les mains en arrivant et ne vient pas travailler si elle a de la fièvre sans prévenir."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Allergie", "Réaction trop forte à une substance sans danger."],
+        ["Allergène", "Substance qui déclenche une allergie."],
+        ["Urticaire", "Plaques rouges qui grattent."],
+        ["Choc anaphylactique", "Allergie grave avec risque vital."],
+        ["Adrénaline", "Médicament d'urgence du choc anaphylactique."],
+        ["Immunodépression", "Défenses immunitaires trop faibles."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Allergie", "Réaction trop forte"], ["Immunodépression", "Défenses trop faibles"], ["Urticaire", "Plaques qui grattent"], ["Adrénaline", "Urgence anaphylactique"]]},
+        {"type": "vf", "items": [["Le pollen est dangereux pour tout le monde.", false, "Non : il est sans danger, sauf pour les allergiques."], ["La chimiothérapie peut baisser les défenses.", true, "Oui."], ["Un choc anaphylactique est une urgence.", true, "Oui : 15."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre la conduite face à un choc anaphylactique chez un enfant avec PAI.", "items": ["Reconnaître les signes", "Appliquer le PAI (adrénaline)", "Appeler le 15", "Surveiller jusqu'aux secours"]},
+        {"type": "qcm", "items": [{"q": "Un enfant allergique à l'arachide : que fait la cuisine ?", "choix": ["Le même repas que les autres", "Un repas préparé à part selon son PAI", "Pas de repas"], "bonne": 1}]}
+      ]
+    }
+  ]
+}

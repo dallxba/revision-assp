@@ -1,0 +1,286 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "digestif",
+  "titre": "L'appareil digestif",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Les organes de la digestion",
+      "notion": [
+        {
+          "t": "Le tube digestif",
+          "b": [
+            {"svg": "appareil-digestif"},
+            {"ol": ["**Bouche** : mâcher, saliver, avaler.", "**Pharynx**, puis **œsophage** : vers l'estomac.", "**Estomac** : brasse avec un suc acide.", "**Intestin grêle** : finit la digestion, absorbe.", "**Gros intestin** (côlon) : absorbe l'eau, fait les selles.", "**Rectum** et **anus** : évacuation."]}
+          ]
+        },
+        {
+          "t": "Les glandes annexes",
+          "b": [
+            {"tab": [["Glande", "Ce qu'elle fait"], ["**Glandes salivaires**", "La **salive**"], ["**Foie**", "La **bile**, stockée dans la **vésicule biliaire**"], ["**Pancréas**", "Le **suc pancréatique** et l'**insuline**"]]},
+            {"ret": "Bile et suc pancréatique se déversent dans le **duodénum**, début de l'intestin grêle."}
+          ]
+        },
+        {
+          "t": "Le foie, une usine",
+          "b": [
+            "Le foie est le plus gros organe interne, à **droite** sous le diaphragme.",
+            {"l": ["Il fait la **bile**.", "Il **stocke** du glucose.", "Il **détoxifie** : alcool, médicaments.", "Il fabrique des **protéines** du sang."]}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel organe fabrique la bile ?", "choix": ["La vésicule biliaire", "Le foie", "Le pancréas"], "bonne": 1},
+        {"q": "Où se fait surtout l'absorption ?", "choix": ["Dans l'estomac", "Dans l'intestin grêle", "Dans le rectum"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme O. a une prothèse dentaire qui la blesse. Elle mâche mal, se fatigue et mange moins. L'agent le signale : la digestion commence dans la bouche."},
+        {"lieu": "Crèche", "txt": "Un bébé bave beaucoup quand ses dents poussent : ses glandes salivaires travaillent fort. On essuie souvent le menton pour éviter les rougeurs."}
+      ],
+      "bonus": {"t": "Un tube très long", "txt": "L'intestin grêle mesure plusieurs mètres chez l'adulte. Il tient dans le ventre parce qu'il est replié sur lui-même.", "verifier": false},
+      "mots": [
+        ["Œsophage", "Tube qui conduit les aliments à l'estomac."],
+        ["Estomac", "Poche qui brasse les aliments avec un suc acide."],
+        ["Intestin grêle", "Long tube où les nutriments passent dans le sang."],
+        ["Côlon", "Gros intestin, qui absorbe l'eau."],
+        ["Duodénum", "Début de l'intestin grêle."],
+        ["Bile", "Liquide du foie qui aide à digérer les graisses."],
+        ["Vésicule biliaire", "Petite poche qui stocke la bile."],
+        ["Pancréas", "Glande qui fait le suc pancréatique et l'insuline."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet des aliments.", "items": ["Bouche", "Œsophage", "Estomac", "Intestin grêle", "Côlon", "Rectum"]},
+        {"type": "relier", "paires": [["Foie", "Bile"], ["Pancréas", "Insuline"], ["Glandes salivaires", "Salive"], ["Vésicule biliaire", "Stocke la bile"]]},
+        {"type": "vf", "items": [["Le foie est à gauche.", false, "Non : à droite, sous le diaphragme."], ["Le côlon absorbe l'eau.", true, "Oui."], ["La vésicule biliaire fabrique la bile.", false, "Non : elle la stocke ; c'est le foie qui la fabrique."]]},
+        {"type": "qcm", "items": [{"q": "Une prothèse dentaire qui blesse peut entraîner...", "choix": ["une dénutrition", "une phlébite", "une anémie immédiate"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Digérer et absorber",
+      "notion": [
+        {
+          "t": "Découper les aliments",
+          "b": [
+            {"l": ["**Mécanique** : mâcher, avaler, brasser, faire avancer (le **péristaltisme**).", "**Chimique** : les **enzymes** des sucs découpent les grosses molécules."]},
+            {"ex": "Garde un morceau de pain longtemps en bouche : il devient sucré. La salive commence à découper l'amidon en sucres."}
+          ]
+        },
+        {
+          "t": "Ce que deviennent les aliments",
+          "b": [
+            {"tab": [["Aliment", "Devient"], ["Amidon (glucides)", "**Glucose**"], ["Protéines", "**Acides aminés**"], ["Lipides", "**Acides gras** et glycérol"]]},
+            {"att": "L'eau, les sels minéraux et les vitamines ne sont **pas digérés** : ils passent tels quels."}
+          ]
+        },
+        {
+          "t": "L'absorption",
+          "b": [
+            {"svg": "villosites"},
+            "La paroi de l'intestin grêle a des milliers de replis, les **villosités**. Les nutriments la traversent et passent dans le **sang**.",
+            {"ret": "Plus la surface est grande, plus l'absorption est efficace."}
+          ]
+        },
+        {
+          "t": "Le gros intestin et la flore",
+          "b": [
+            {"l": ["Il **récupère l'eau**.", "Il abrite la **flore intestinale** (microbiote) : des milliards de bactéries utiles.", "Les restes forment les **selles**."]},
+            {"ex": "Les **fibres** ne sont pas digérées : elles grossissent les selles et aident le transit."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "En quoi est transformé l'amidon ?", "choix": ["En glucose", "En acides aminés", "En acides gras"], "bonne": 0},
+        {"q": "Que sont les villosités ?", "choix": ["Des bactéries", "Des replis de l'intestin", "Des dents"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "Sous antibiotiques, M. S. a la diarrhée : sa flore intestinale est perturbée. On note le nombre de selles et on l'aide à boire."},
+        {"lieu": "Cantine", "txt": "Pour éviter la constipation des enfants, le menu propose des légumes, des fruits et du pain complet : ce sont des fibres."}
+      ],
+      "bonus": {"t": "Plus de bactéries que de cellules ?", "txt": "La flore intestinale compte un nombre de bactéries du même ordre que le nombre de cellules du corps : des dizaines de milliers de milliards.", "verifier": true},
+      "mots": [
+        ["Digestion", "Transformation des aliments en nutriments."],
+        ["Enzyme", "Molécule qui découpe les aliments."],
+        ["Péristaltisme", "Contractions qui font avancer le contenu de l'intestin."],
+        ["Nutriment", "Petite molécule qui passe dans le sang."],
+        ["Villosité", "Repli de l'intestin grêle qui absorbe."],
+        ["Microbiote", "Bactéries utiles qui vivent dans l'intestin."],
+        ["Fibres", "Partie non digérée qui aide le transit."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Amidon", "Glucose"], ["Protéines", "Acides aminés"], ["Lipides", "Acides gras"]]},
+        {"type": "vf", "items": [["Les vitamines sont digérées par les enzymes.", false, "Non : elles passent telles quelles."], ["Les fibres aident le transit.", true, "Oui."], ["Les antibiotiques peuvent perturber la flore intestinale.", true, "Oui : d'où des diarrhées."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre.", "items": ["Mastication", "Brassage dans l'estomac", "Absorption dans l'intestin grêle", "Formation des selles"]},
+        {"type": "qcm", "items": [{"q": "Où les nutriments passent-ils dans le sang ?", "choix": ["Dans l'œsophage", "Dans l'intestin grêle", "Dans le rectum"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Les troubles du transit",
+      "notion": [
+        {
+          "t": "La constipation",
+          "b": [
+            "Selles **rares** et **dures**. Fréquente chez la personne âgée.",
+            {"l": ["Causes : peu bouger, peu boire, peu de fibres, médicaments, manque d'intimité.", "Risque : le **fécalome**, un bouchon de selles dures dans le rectum."]},
+            {"ret": "Prévenir : **boire**, **fibres**, **marcher**, horaires réguliers, **intimité**."}
+          ]
+        },
+        {
+          "t": "La diarrhée",
+          "b": [
+            "Selles **trop fréquentes** et **liquides**.",
+            {"l": ["Causes : infection, antibiotiques, intolérance.", "Risque principal : la **déshydratation**."]},
+            {"att": "La déshydratation va **très vite** chez le **nourrisson** et la **personne âgée**."}
+          ]
+        },
+        {
+          "t": "La gastro-entérite",
+          "b": [
+            {"l": ["Infection de l'intestin, souvent par un **virus**.", "Diarrhée, vomissements, douleurs, parfois fièvre.", "Très **contagieuse**."]},
+            {"ret": "Transmission **féco-orale** : des selles vers la bouche, par les mains et les objets."}
+          ]
+        },
+        {
+          "t": "Vomissements et reflux",
+          "b": [
+            {"l": ["**Vomissements** : risque de déshydratation et de fausse route. Installer **assis** ou **sur le côté**.", "**Reflux** (RGO) : l'acide de l'estomac remonte. Brûlures derrière le sternum, pires allongé."]},
+            {"ex": "Chez le bébé, de petits renvois après le biberon sont fréquents. On signale s'il pleure en mangeant ou prend mal du poids."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel est le principal risque d'une diarrhée chez le nourrisson ?", "choix": ["La déshydratation", "L'obésité", "La fièvre"], "bonne": 0},
+        {"q": "Comment se transmet la gastro-entérite ?", "choix": ["Par le sang", "Par les mains et les objets", "Par le soleil"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "Trois enfants vomissent dans la journée. L'équipe pense à une gastro : on prévient les parents, on renforce le lavage des mains et on désinfecte tables à langer, jouets et toilettes."},
+        {"lieu": "EHPAD", "txt": "M. B. n'est pas allé à la selle depuis 5 jours, il a le ventre gonflé. L'agent transmet à l'infirmière, propose à boire et le fait marcher après le repas."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Transit", "Avancée du contenu dans l'intestin."],
+        ["Constipation", "Selles rares et dures."],
+        ["Fécalome", "Bouchon de selles dures dans le rectum."],
+        ["Diarrhée", "Selles trop fréquentes et liquides."],
+        ["Déshydratation", "Manque d'eau dans le corps."],
+        ["Féco-orale", "Transmission des selles vers la bouche."],
+        ["Reflux", "Remontée du contenu de l'estomac."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Constipation", "Selles dures"], ["Diarrhée", "Déshydratation"], ["Gastro-entérite", "Contagieuse"], ["Reflux", "Brûlures derrière le sternum"]]},
+        {"type": "vf", "items": [["Le manque d'intimité peut favoriser la constipation.", true, "Oui : la gêne retient l'envie."], ["La gastro se transmet surtout par les mains.", true, "Oui."], ["Une personne qui vomit est installée à plat sur le dos.", false, "Non : assise ou sur le côté."]]},
+        {"type": "qcm", "items": [{"q": "Lequel aide à prévenir la constipation ?", "choix": ["Boire moins", "Manger des fibres", "Rester allongé"], "bonne": 1}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre la transmission d'une gastro.", "items": ["Virus dans les selles", "Mains mal lavées", "Objet ou aliment touché", "Une autre personne le porte à la bouche"]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Estomac, foie et intestin malades",
+      "notion": [
+        {
+          "t": "L'ulcère",
+          "b": [
+            {"l": ["Une **plaie** dans la paroi de l'estomac ou du duodénum.", "Causes : une bactérie (*Helicobacter pylori*) ou des **anti-inflammatoires**.", "Douleur en crampe au creux de l'estomac."]},
+            {"att": "Des **selles noires** ou du sang vomi : **saignement**, on transmet immédiatement."}
+          ]
+        },
+        {
+          "t": "Les hépatites",
+          "b": [
+            "Une hépatite est une **inflammation du foie**, souvent par un virus.",
+            {"tab": [["Virus", "Comment il passe"], ["**A**", "Eau, aliments souillés"], ["**B**", "Sang, rapports sexuels"], ["**C**", "Sang"]]},
+            {"ex": "Signe possible : l'**ictère** (jaunisse), peau et blanc des yeux **jaunes**. Il existe un vaccin contre A et B."}
+          ]
+        },
+        {
+          "t": "La cirrhose",
+          "b": [
+            {"l": ["Le foie est peu à peu **détruit** et remplacé par du tissu dur.", "Causes principales : l'**alcool** et les **hépatites** chroniques."]},
+            {"ret": "Un foie abîmé détoxifie mal : alcool et médicaments deviennent plus dangereux."}
+          ]
+        },
+        {
+          "t": "Le cancer colorectal",
+          "b": [
+            {"l": ["Cancer du côlon ou du rectum, l'un des plus fréquents.", "Signes : **sang dans les selles**, transit qui change, amaigrissement."]},
+            {"ret": "**Dépistage** organisé : un test qui cherche du sang dans les selles."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que signifient des selles noires chez une personne qui a un ulcère ?", "choix": ["Un saignement", "Une bonne digestion", "Une constipation"], "bonne": 0},
+        {"q": "Comment passe l'hépatite B ?", "choix": ["Par l'eau", "Par le sang", "Par l'air"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Hôpital", "txt": "Une aide-soignante se pique avec une aiguille usagée. Elle applique la conduite à tenir après accident d'exposition au sang. Être vaccinée contre l'hépatite B la protège."},
+        {"lieu": "EHPAD", "txt": "L'agent remarque que le blanc des yeux de M. E. est jaune. Il transmet : c'est peut-être un ictère."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Ulcère", "Plaie de la paroi de l'estomac ou du duodénum."],
+        ["Hépatite", "Inflammation du foie."],
+        ["Ictère", "Jaunisse : peau et yeux jaunes."],
+        ["Cirrhose", "Destruction progressive du foie."],
+        ["Colorectal", "Qui concerne le côlon et le rectum."],
+        ["Anti-inflammatoire", "Médicament contre l'inflammation, agressif pour l'estomac."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Hépatite A", "Eau et aliments"], ["Hépatite B", "Sang et rapports sexuels"], ["Cirrhose", "Alcool"], ["Ulcère", "Helicobacter pylori"]]},
+        {"type": "vf", "items": [["Il existe un vaccin contre l'hépatite B.", true, "Oui."], ["Du sang dans les selles doit être signalé.", true, "Oui : c'est un signe d'alerte."], ["La cirrhose ne touche que les buveurs d'alcool.", false, "Non : les hépatites chroniques en causent aussi."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'évolution vers la cirrhose.", "items": ["Alcool ou hépatite pendant des années", "Le foie s'enflamme", "Le foie durcit", "Le foie ne fonctionne plus bien"]},
+        {"type": "qcm", "items": [{"q": "Un résident a le blanc des yeux jaune. C'est peut-être...", "choix": ["une cyanose", "un ictère", "un œdème"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 5,
+      "t": "Le rôle de l'ASSP",
+      "notion": [
+        {
+          "t": "Observer et transmettre",
+          "b": [
+            {"l": ["**Selles** : nombre, consistance, couleur, sang.", "**Vomissements** : nombre, aspect, moment.", "**Appétit** et quantités mangées.", "**Poids**, **hydratation**, **douleurs** du ventre."]},
+            {"ret": "On décrit ce qu'on voit, avec des mots précis, et on transmet."}
+          ]
+        },
+        {
+          "t": "Aider le transit",
+          "b": [
+            {"l": ["Proposer à **boire** souvent.", "Servir les repas riches en **fibres** prévus.", "Faire **marcher**.", "Accompagner aux toilettes à **heures régulières**.", "Fermer la porte, laisser du **temps**."]}
+          ]
+        },
+        {
+          "t": "L'hygiène contre les infections",
+          "b": [
+            {"l": ["Lavage des **mains** avant les repas et après les toilettes ou un change.", "**Nettoyer** et désinfecter les surfaces.", "Respecter l'**hygiène alimentaire**.", "En cas de gastro : **précautions contact** selon le protocole."]},
+            {"att": "Un **laxatif** est un médicament : on ne le donne que s'il est prescrit."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que note-t-on sur les selles ?", "choix": ["Seulement l'heure", "Nombre, consistance, couleur, sang", "Rien"], "bonne": 1},
+        {"q": "Un résident est constipé. L'ASSP peut...", "choix": ["lui donner un laxatif de lui-même", "lui proposer à boire et transmettre", "l'empêcher de manger"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "L'agent note dans les transmissions : « 3 selles liquides ce matin, sans sang ; boit peu ». L'infirmière peut alors agir vite."},
+        {"lieu": "Crèche", "txt": "Après chaque change, l'auxiliaire se lave les mains et désinfecte le plan de change. C'est le geste qui bloque la gastro."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Transmission", "Information écrite ou orale passée à l'équipe."],
+        ["Consistance", "Aspect plus ou moins dur ou liquide des selles."],
+        ["Laxatif", "Médicament qui facilite l'évacuation des selles."],
+        ["Précautions contact", "Mesures d'hygiène renforcées contre un microbe transmis par contact."],
+        ["Hydratation", "Apport d'eau au corps."],
+        ["Intimité", "Respect de la pudeur et de la vie privée."]
+      ],
+      "ex": [
+        {"type": "vf", "items": [["L'ASSP peut donner un laxatif sans prescription.", false, "Non : c'est un médicament."], ["Se laver les mains après un change limite les gastros.", true, "Oui."], ["Fermer la porte des toilettes aide le transit.", true, "Oui : l'intimité compte."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre l'après-change.", "items": ["Jeter la couche", "Se laver les mains", "Désinfecter le plan de change", "Noter les selles si besoin"]},
+        {"type": "relier", "paires": [["Constipation", "Faire boire et marcher"], ["Diarrhée", "Surveiller l'hydratation"], ["Gastro", "Précautions contact"]]},
+        {"type": "qcm", "items": [{"q": "Quelle transmission est la plus utile ?", "choix": ["« Il va mal »", "« 3 selles liquides ce matin, sans sang »", "« Comme d'habitude »"], "bonne": 1}]}
+      ]
+    }
+  ]
+}

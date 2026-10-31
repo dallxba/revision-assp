@@ -1,0 +1,208 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "reproduction",
+  "titre": "La reproduction",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu ; durées citées comme repères moyens)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "L'appareil génital féminin",
+      "notion": [
+        {
+          "t": "Les organes",
+          "b": [
+            {"svg": "appareil-genital-feminin"},
+            {"tab": [["Organe", "Rôle"], ["**Ovaires** (2)", "Font les **ovules** et des **hormones**"], ["**Trompes**", "Lieu de la **fécondation**"], ["**Utérus**", "Accueille et nourrit l'embryon"], ["**Vagin**", "Rapports sexuels, sortie du bébé"]]}
+          ]
+        },
+        {
+          "t": "Le cycle menstruel",
+          "b": [
+            {"ol": ["Les **règles** : la muqueuse de l'utérus s'élimine (jour 1).", "La muqueuse s'épaissit à nouveau.", "**Ovulation** : un ovule est libéré, vers le **14e jour** d'un cycle de 28 jours.", "Sans fécondation, les règles reviennent."]},
+            {"ret": "Un cycle dure environ **28 jours**, mais il varie selon les femmes."}
+          ]
+        },
+        {
+          "t": "Puberté et ménopause",
+          "b": [
+            {"l": ["**Puberté** : les cycles commencent, souvent entre 10 et 15 ans.", "**Ménopause** : les cycles s'arrêtent, vers **50 ans**."]},
+            {"ex": "Après la ménopause, la baisse des hormones fragilise les os : l'**ostéoporose** devient plus fréquente."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Où a lieu la fécondation ?", "choix": ["Dans l'utérus", "Dans une trompe", "Dans l'ovaire"], "bonne": 1},
+        {"q": "Vers quel jour a lieu l'ovulation dans un cycle de 28 jours ?", "choix": ["Jour 1", "Jour 14", "Jour 28"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Collège", "txt": "Une infirmière scolaire anime une séance sur la puberté. Elle rappelle que chaque corps a son rythme et que des règles irrégulières au début sont fréquentes."},
+        {"lieu": "EHPAD", "txt": "Mme J. est ménopausée depuis 30 ans et a de l'ostéoporose. L'équipe fait très attention aux chutes."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Ovaire", "Organe qui fait les ovules."],
+        ["Ovule", "Cellule reproductrice de la femme."],
+        ["Trompe", "Conduit entre ovaire et utérus."],
+        ["Utérus", "Organe qui accueille l'embryon."],
+        ["Ovulation", "Libération d'un ovule."],
+        ["Règles", "Élimination de la muqueuse de l'utérus."],
+        ["Ménopause", "Arrêt définitif des cycles."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Ovaire", "Fait les ovules"], ["Trompe", "Fécondation"], ["Utérus", "Accueille l'embryon"], ["Vagin", "Sortie du bébé"]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre le cycle.", "items": ["Règles", "La muqueuse s'épaissit", "Ovulation", "Règles suivantes s'il n'y a pas de fécondation"]},
+        {"type": "vf", "items": [["Tous les cycles durent exactement 28 jours.", false, "Non : c'est une moyenne."], ["La ménopause arrive vers 50 ans.", true, "Oui, en moyenne."], ["Les ovaires fabriquent aussi des hormones.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Après la ménopause, quel risque augmente ?", "choix": ["L'ostéoporose", "La myopie", "L'otite"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "L'appareil génital masculin",
+      "notion": [
+        {
+          "t": "Les organes",
+          "b": [
+            {"svg": "appareil-genital-masculin"},
+            {"tab": [["Organe", "Rôle"], ["**Testicules** (2)", "Font les **spermatozoïdes** et la **testostérone**"], ["**Canaux déférents**", "Transportent les spermatozoïdes"], ["**Prostate**, vésicules séminales", "Font le liquide du **sperme**"], ["**Pénis** (urètre)", "Rapports sexuels, émission du sperme et de l'urine"]]}
+          ]
+        },
+        {
+          "t": "Les spermatozoïdes",
+          "b": [
+            {"l": ["Fabriqués en continu à partir de la **puberté**, toute la vie.", "Une tête (avec 23 chromosomes) et un **flagelle** pour nager.", "Les testicules sont hors du corps : ils ont besoin d'être un peu **plus frais**."]}
+          ]
+        },
+        {
+          "t": "La prostate avec l'âge",
+          "b": [
+            "La prostate entoure l'urètre, sous la vessie.",
+            {"att": "Avec l'âge, elle grossit souvent : l'homme urine **souvent**, mal, parfois avec une **rétention**. Le cancer de la prostate est fréquent après 50 ans."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Où sont fabriqués les spermatozoïdes ?", "choix": ["Dans la prostate", "Dans les testicules", "Dans la vessie"], "bonne": 1},
+        {"q": "Quelle hormone font les testicules ?", "choix": ["L'insuline", "La testostérone", "Le glucagon"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "M. B., 84 ans, se lève 5 fois par nuit pour uriner. L'équipe laisse un urinal à portée de main et une veilleuse : moins de risque de chute."},
+        {"lieu": "Crèche", "txt": "Au change, l'auxiliaire lave les organes génitaux du petit garçon sans décalotter de force : c'est une recommandation fréquente des pédiatres."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Testicule", "Organe qui fait les spermatozoïdes."],
+        ["Spermatozoïde", "Cellule reproductrice de l'homme."],
+        ["Testostérone", "Hormone masculine."],
+        ["Prostate", "Glande sous la vessie, autour de l'urètre."],
+        ["Sperme", "Liquide qui contient les spermatozoïdes."],
+        ["Flagelle", "Queue qui fait nager le spermatozoïde."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Testicules", "Spermatozoïdes"], ["Prostate", "Liquide du sperme"], ["Canal déférent", "Transport"], ["Flagelle", "Nage"]]},
+        {"type": "vf", "items": [["L'homme fabrique des spermatozoïdes toute sa vie à partir de la puberté.", true, "Oui."], ["La prostate est au-dessus de la vessie.", false, "Non : en dessous, autour de l'urètre."], ["Un spermatozoïde contient 46 chromosomes.", false, "Non : 23."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre le trajet des spermatozoïdes.", "items": ["Testicule", "Canal déférent", "Urètre", "Extérieur"]},
+        {"type": "qcm", "items": [{"q": "Un homme âgé se lève souvent la nuit pour uriner. On pense à...", "choix": ["la prostate", "l'œil", "l'oreille"], "bonne": 0}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "De la fécondation à la naissance",
+      "notion": [
+        {
+          "t": "La fécondation",
+          "b": [
+            {"ol": ["Un **spermatozoïde** rencontre l'**ovule** dans la trompe.", "Ils s'unissent : c'est la **cellule-œuf**, avec 23 + 23 = **46** chromosomes.", "Elle se divise en descendant vers l'utérus.", "Elle s'**implante** dans la muqueuse : la **nidation**."]}
+          ]
+        },
+        {
+          "t": "La grossesse",
+          "b": [
+            {"l": ["Environ **9 mois**.", "**Embryon** les 2 premiers mois, puis **fœtus**.", "Le **placenta** apporte nutriments et oxygène et rejette les déchets, par le **cordon ombilical**."]},
+            {"att": "Alcool, tabac et certains médicaments **passent** le placenta. **Zéro alcool** pendant la grossesse."}
+          ]
+        },
+        {
+          "t": "L'accouchement",
+          "b": [
+            {"ol": ["**Contractions** de l'utérus, de plus en plus fortes.", "Le col de l'utérus s'**ouvre** (dilatation).", "**Expulsion** du bébé.", "**Délivrance** : sortie du placenta."]},
+            {"ex": "Un bébé né avant 37 semaines d'aménorrhée est dit **prématuré** (repère à vérifier)."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Combien de chromosomes a la cellule-œuf ?", "choix": ["23", "46", "92"], "bonne": 1},
+        {"q": "Quel organe nourrit le fœtus ?", "choix": ["Le placenta", "L'estomac", "Le rein"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Maternité", "txt": "Une auxiliaire de puériculture aide une jeune maman à installer son bébé pour la tétée et observe la succion."},
+        {"lieu": "PMI", "txt": "Lors d'une séance de prévention, on explique aux futurs parents qu'aucune quantité d'alcool n'est sans risque pendant la grossesse."}
+      ],
+      "bonus": {"t": "Le cordon ombilical", "txt": "Après la naissance, le reste du cordon sèche et tombe en général en une à deux semaines. Il laisse le nombril.", "verifier": true},
+      "mots": [
+        ["Fécondation", "Union d'un ovule et d'un spermatozoïde."],
+        ["Cellule-œuf", "Première cellule du futur bébé."],
+        ["Nidation", "Implantation de l'embryon dans l'utérus."],
+        ["Embryon", "Futur bébé pendant les 2 premiers mois."],
+        ["Fœtus", "Futur bébé à partir du 3e mois."],
+        ["Placenta", "Organe d'échanges entre la mère et le fœtus."],
+        ["Prématuré", "Bébé né trop tôt."]
+      ],
+      "ex": [
+        {"type": "ordre", "consigne": "Remets dans l'ordre.", "items": ["Ovulation", "Fécondation", "Nidation", "Grossesse", "Accouchement"]},
+        {"type": "vf", "items": [["L'alcool passe le placenta.", true, "Oui : zéro alcool pendant la grossesse."], ["On parle de fœtus dès la fécondation.", false, "Non : d'abord embryon, puis fœtus vers le 3e mois."], ["La délivrance est la sortie du placenta.", true, "Oui."]]},
+        {"type": "relier", "paires": [["Placenta", "Échanges"], ["Cordon", "Relie au placenta"], ["Contractions", "Accouchement"]]},
+        {"type": "qcm", "items": [{"q": "Où a lieu la nidation ?", "choix": ["Dans la trompe", "Dans l'utérus", "Dans l'ovaire"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Contraception et IST",
+      "notion": [
+        {
+          "t": "La contraception",
+          "b": [
+            {"tab": [["Moyen", "Comment il agit"], ["**Pilule**", "Hormones qui bloquent l'ovulation"], ["**Stérilet** (DIU)", "Empêche la grossesse dans l'utérus"], ["**Implant**", "Hormones sous la peau du bras"], ["**Préservatif**", "Barrière : **protège aussi des IST**"]]},
+            {"att": "Seul le **préservatif** protège des infections sexuellement transmissibles."}
+          ]
+        },
+        {
+          "t": "Les IST",
+          "b": [
+            "**IST** : infections sexuellement transmissibles.",
+            {"l": ["**Chlamydia**, gonocoque, syphilis : bactéries, souvent **sans signe**.", "**VIH** : virus qui attaque les défenses.", "**HPV** : virus lié au cancer du col de l'utérus.", "**Hépatite B**."]}
+          ]
+        },
+        {
+          "t": "Se protéger",
+          "b": [
+            {"l": ["**Préservatif** à chaque rapport.", "**Dépistage** régulier si risque : gratuit dans certains centres.", "**Vaccins** contre HPV et hépatite B."]},
+            {"ret": "En cas d'oubli de contraception : la **contraception d'urgence** existe, à prendre le plus tôt possible."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel moyen protège aussi des IST ?", "choix": ["La pilule", "Le préservatif", "Le stérilet"], "bonne": 1},
+        {"q": "Contre quelle IST existe-t-il un vaccin ?", "choix": ["Le HPV", "La chlamydia", "La syphilis"], "bonne": 0}
+      ],
+      "terrain": [
+        {"lieu": "Lycée", "txt": "Dans un projet d'éducation à la santé, des élèves préparent un quiz sur les IST pour la journée mondiale de lutte contre le sida, le 1er décembre."},
+        {"lieu": "Foyer jeunes", "txt": "Une éducatrice rappelle aux jeunes qu'ils peuvent se faire dépister de façon confidentielle et gratuite dans un centre dédié."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Contraception", "Moyens pour éviter une grossesse."],
+        ["Préservatif", "Barrière qui protège de la grossesse et des IST."],
+        ["IST", "Infection sexuellement transmissible."],
+        ["VIH", "Virus qui attaque le système immunitaire."],
+        ["Chlamydia", "Bactérie d'IST souvent sans signe."],
+        ["Contraception d'urgence", "Moyen à prendre vite après un rapport non protégé."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Pilule", "Bloque l'ovulation"], ["Préservatif", "Protège des IST"], ["HPV", "Cancer du col"], ["VIH", "Défenses"]]},
+        {"type": "vf", "items": [["Une IST donne toujours des signes.", false, "Non : beaucoup sont silencieuses, d'où le dépistage."], ["La pilule protège des IST.", false, "Non : seul le préservatif."], ["On peut se faire dépister gratuitement dans certains centres.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Après un oubli de pilule et un rapport, on...", "choix": ["attend", "prend une contraception d'urgence au plus vite", "double la dose le mois suivant"], "bonne": 1}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre la protection idéale.", "items": ["Vaccination HPV et hépatite B", "Préservatif à chaque rapport", "Dépistage régulier si risque"]}
+      ]
+    }
+  ]
+}

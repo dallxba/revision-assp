@@ -1,0 +1,221 @@
+{
+  "format": "cours-court v1 (trame validée le 2026-10-31 : notion, je vérifie, sur le terrain, le savais-tu, progression, vocabulaire, exercices)",
+  "id": "locomoteur",
+  "titre": "Os, muscles et articulations",
+  "statut": "brouillon rédigé par Claude à partir de connaissances générales (non vérifié par un enseignant ; référentiel officiel non lu)",
+  "cours": [
+    {
+      "n": 1,
+      "t": "Le squelette et les os",
+      "notion": [
+        {
+          "t": "Le squelette",
+          "b": [
+            {"svg": "squelette"},
+            {"l": ["Environ **206 os** chez l'adulte.", "**Crâne**, **colonne vertébrale**, **cage thoracique** (côtes, sternum).", "**Membres** supérieurs et inférieurs, **bassin**."]}
+          ]
+        },
+        {
+          "t": "Les rôles des os",
+          "b": [
+            {"l": ["**Soutenir** le corps.", "**Protéger** : crâne pour le cerveau, côtes pour le cœur et les poumons.", "**Bouger**, avec les muscles.", "**Stocker** le calcium.", "**Fabriquer le sang** dans la moelle osseuse rouge."]}
+          ]
+        },
+        {
+          "t": "Un os vivant",
+          "b": [
+            {"l": ["L'os contient des **cellules**, des vaisseaux, des nerfs.", "Il est dur grâce au **calcium**.", "Il se **renouvelle** toute la vie et se répare après une fracture."]},
+            {"ret": "Pour des os solides : **calcium**, **vitamine D**, **activité physique**."}
+          ]
+        },
+        {
+          "t": "La colonne vertébrale",
+          "b": [
+            {"l": ["Empilement de **vertèbres** : cervicales, dorsales, lombaires, puis sacrum et coccyx.", "Entre elles, des **disques** qui amortissent.", "Elle protège la **moelle épinière**."]},
+            {"att": "Les **lombaires** portent le plus de poids : on les protège en pliant les jambes pour soulever."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Combien d'os chez l'adulte, environ ?", "choix": ["60", "206", "500"], "bonne": 1},
+        {"q": "Que protège la colonne vertébrale ?", "choix": ["Le cœur", "La moelle épinière", "L'estomac"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "Crèche", "txt": "On sort les enfants dehors chaque jour : la lumière du soleil aide à fabriquer la vitamine D, utile aux os."},
+        {"lieu": "EHPAD", "txt": "Pour soulever un sac de linge, l'agent plie les jambes et garde le dos droit : ses lombaires sont protégées."}
+      ],
+      "bonus": {"t": "Plus d'os chez le bébé", "txt": "Un nouveau-né a plus d'os qu'un adulte : certains se soudent entre eux en grandissant, comme ceux du crâne.", "verifier": false},
+      "mots": [
+        ["Squelette", "Ensemble des os du corps."],
+        ["Vertèbre", "Os de la colonne vertébrale."],
+        ["Disque intervertébral", "Coussin entre deux vertèbres."],
+        ["Lombaires", "Vertèbres du bas du dos."],
+        ["Calcium", "Minéral qui rend l'os dur."],
+        ["Moelle osseuse", "Tissu à l'intérieur des os qui fabrique le sang."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Crâne", "Protège le cerveau"], ["Côtes", "Protègent cœur et poumons"], ["Colonne", "Protège la moelle épinière"], ["Moelle osseuse", "Fabrique le sang"]]},
+        {"type": "ordre", "consigne": "Range les vertèbres de haut en bas.", "items": ["Cervicales", "Dorsales", "Lombaires", "Sacrum", "Coccyx"]},
+        {"type": "vf", "items": [["L'os est un tissu mort.", false, "Non : il est vivant et se renouvelle."], ["La vitamine D aide les os.", true, "Oui, avec le calcium."], ["Les disques amortissent entre les vertèbres.", true, "Oui."]]},
+        {"type": "qcm", "items": [{"q": "Pour soulever une charge, on...", "choix": ["plie le dos", "plie les jambes, dos droit", "tourne le buste"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 2,
+      "t": "Les articulations",
+      "notion": [
+        {
+          "t": "Où deux os se rencontrent",
+          "b": [
+            {"svg": "articulation"},
+            {"l": ["**Cartilage** : couvre le bout des os, lisse et glissant.", "**Liquide synovial** : lubrifie.", "**Capsule** et **ligaments** : tiennent les os ensemble."]}
+          ]
+        },
+        {
+          "t": "Plus ou moins mobiles",
+          "b": [
+            {"tab": [["Type", "Exemple"], ["**Fixe**", "Os du crâne"], ["**Peu mobile**", "Entre deux vertèbres"], ["**Très mobile**", "Épaule, genou, hanche"]]},
+            {"ex": "L'épaule est l'articulation la plus mobile : elle peut tourner dans tous les sens. Elle se luxe donc plus facilement."}
+          ]
+        },
+        {
+          "t": "Les mouvements",
+          "b": [
+            {"l": ["**Flexion** : on plie.", "**Extension** : on tend.", "**Abduction** : on écarte du corps.", "**Adduction** : on rapproche du corps.", "**Rotation** : on tourne."]}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Que fait le cartilage ?", "choix": ["Il fait glisser les os", "Il fabrique le sang", "Il contracte le muscle"], "bonne": 0},
+        {"q": "Plier le coude, c'est une...", "choix": ["extension", "flexion", "rotation"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Lors de l'habillage, l'agent fait passer d'abord le bras le plus raide dans la manche : l'épaule douloureuse bouge moins."},
+        {"lieu": "Hôpital", "txt": "Le kiné fait plier et tendre le genou de M. V. après son opération, pour que l'articulation ne se raidisse pas."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Articulation", "Zone où deux os se rencontrent."],
+        ["Cartilage", "Tissu lisse qui couvre le bout des os."],
+        ["Ligament", "Bande solide qui relie deux os."],
+        ["Liquide synovial", "Liquide qui lubrifie l'articulation."],
+        ["Flexion", "Mouvement qui plie."],
+        ["Extension", "Mouvement qui tend."],
+        ["Abduction", "Mouvement qui écarte du corps."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Flexion", "Plier"], ["Extension", "Tendre"], ["Abduction", "Écarter"], ["Adduction", "Rapprocher"]]},
+        {"type": "vf", "items": [["Les os du crâne sont très mobiles.", false, "Non : ils sont soudés."], ["Les ligaments relient les os.", true, "Oui."], ["L'épaule est très mobile.", true, "Oui, c'est la plus mobile."]]},
+        {"type": "ordre", "consigne": "Range du plus fixe au plus mobile.", "items": ["Crâne", "Vertèbres", "Épaule"]},
+        {"type": "qcm", "items": [{"q": "Pour habiller une personne qui a une épaule raide, on commence par...", "choix": ["le bras valide", "le bras raide", "peu importe"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 3,
+      "t": "Les muscles",
+      "notion": [
+        {
+          "t": "Trois sortes de muscles",
+          "b": [
+            {"tab": [["Muscle", "Où ?", "Commande"], ["**Squelettique**", "Attaché aux os", "**Volontaire**"], ["**Cardiaque**", "Cœur", "Automatique"], ["**Lisse**", "Intestin, vaisseaux, vessie", "Automatique"]]}
+          ]
+        },
+        {
+          "t": "Comment un muscle fait bouger",
+          "b": [
+            {"l": ["Le muscle est attaché à l'os par un **tendon**.", "Il se **contracte** : il raccourcit et tire sur l'os.", "Il ne sait que **tirer**, jamais pousser."]},
+            {"ex": "Biceps contracté : le coude se plie. Triceps contracté : le coude se tend. Ils travaillent **à deux**."}
+          ]
+        },
+        {
+          "t": "Garder ses muscles",
+          "b": [
+            {"l": ["Un muscle qui ne sert pas **fond** : c'est l'**amyotrophie**.", "Après quelques jours au lit, une personne âgée perd vite de la force.", "Les **protéines** et l'**activité** entretiennent les muscles."]},
+            {"ret": "Faire faire à la personne **tout ce qu'elle peut** faire seule."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Quel muscle est volontaire ?", "choix": ["Le cœur", "Le muscle squelettique", "Le muscle de l'intestin"], "bonne": 1},
+        {"q": "Qu'est-ce qui relie le muscle à l'os ?", "choix": ["Le ligament", "Le tendon", "Le cartilage"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme A. peut encore se laver le visage seule. L'agent lui tend le gant au lieu de le faire à sa place : elle garde sa force et son autonomie."},
+        {"lieu": "Hôpital", "txt": "Après 10 jours d'alitement, M. B. a du mal à tenir debout. Ses muscles ont fondu : la reprise de la marche se fait progressivement."}
+      ],
+      "bonus": {"t": "Le plus gros muscle", "txt": "Le grand fessier est le plus volumineux muscle du corps. Il sert à se lever d'une chaise, monter les escaliers et tenir debout.", "verifier": true},
+      "mots": [
+        ["Muscle squelettique", "Muscle attaché aux os, commandé volontairement."],
+        ["Muscle lisse", "Muscle automatique des organes."],
+        ["Tendon", "Cordon qui attache le muscle à l'os."],
+        ["Contraction", "Raccourcissement du muscle."],
+        ["Amyotrophie", "Fonte des muscles."],
+        ["Autonomie", "Capacité à faire seul."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Squelettique", "Volontaire"], ["Cardiaque", "Cœur"], ["Lisse", "Intestin"], ["Tendon", "Attache à l'os"]]},
+        {"type": "vf", "items": [["Un muscle peut pousser un os.", false, "Non : il ne sait que tirer."], ["L'alitement fait fondre les muscles.", true, "Oui : l'amyotrophie."], ["Le cœur est un muscle.", true, "Oui, un muscle automatique."]]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre un mouvement.", "items": ["Le cerveau donne l'ordre", "Le muscle se contracte", "Le tendon tire sur l'os", "Le membre bouge"]},
+        {"type": "qcm", "items": [{"q": "Pour garder l'autonomie d'une résidente, l'agent...", "choix": ["fait tout à sa place", "la laisse faire ce qu'elle peut", "l'empêche de bouger"], "bonne": 1}]}
+      ]
+    },
+    {
+      "n": 4,
+      "t": "Les maladies et les chutes",
+      "notion": [
+        {
+          "t": "Entorse, luxation, fracture",
+          "b": [
+            {"tab": [["Lésion", "Ce qui se passe"], ["**Entorse**", "Ligament étiré ou déchiré (cheville)"], ["**Luxation**", "Os sorti de l'articulation (épaule)"], ["**Fracture**", "Os cassé"]]},
+            {"att": "On ne bouge **pas** un membre peut-être cassé : on l'immobilise et on alerte."}
+          ]
+        },
+        {
+          "t": "L'ostéoporose",
+          "b": [
+            {"l": ["Les os deviennent **fragiles** : moins de calcium.", "Surtout chez la **femme après la ménopause** et la personne âgée.", "Une petite chute peut casser le **col du fémur**, le poignet ou une vertèbre."]}
+          ]
+        },
+        {
+          "t": "L'arthrose",
+          "b": [
+            {"l": ["**Usure du cartilage**.", "Douleur à l'effort, raideur, surtout genou et hanche.", "Fréquente avec l'âge et le surpoids."]},
+            {"ex": "Ne pas confondre avec l'**arthrite** : une **inflammation** de l'articulation (rouge, chaude, gonflée)."}
+          ]
+        },
+        {
+          "t": "Les chutes de la personne âgée",
+          "b": [
+            {"l": ["Causes : muscles faibles, vue, médicaments, sol glissant, tapis, mauvais éclairage.", "Conséquences : fractures, **peur de retomber**, perte d'autonomie."]},
+            {"ret": "Prévenir : **éclairage**, sol **dégagé**, **chaussures fermées**, aides techniques, **activité physique**."}
+          ]
+        }
+      ],
+      "verif": [
+        {"q": "Qu'est-ce qu'une entorse ?", "choix": ["Un os cassé", "Un ligament étiré ou déchiré", "Un cartilage usé"], "bonne": 1},
+        {"q": "L'ostéoporose rend les os...", "choix": ["plus solides", "fragiles", "plus longs"], "bonne": 1}
+      ],
+      "terrain": [
+        {"lieu": "EHPAD", "txt": "Mme F., 86 ans, chute et ne peut plus se relever ; sa jambe est raccourcie et tournée vers l'extérieur. On pense au col du fémur : on ne la relève pas, on la couvre et on alerte."},
+        {"lieu": "Domicile", "txt": "L'aide à domicile propose à M. C. de retirer le tapis du couloir et d'ajouter une veilleuse : deux causes de chute en moins."},
+        {"lieu": "Crèche", "txt": "Léa tombe du toboggan et pleure, le poignet gonflé. On ne force pas le mouvement, on immobilise et on prévient les parents."}
+      ],
+      "bonus": null,
+      "mots": [
+        ["Entorse", "Ligament étiré ou déchiré."],
+        ["Luxation", "Os sorti de son articulation."],
+        ["Fracture", "Os cassé."],
+        ["Ostéoporose", "Os devenus fragiles."],
+        ["Arthrose", "Usure du cartilage."],
+        ["Col du fémur", "Partie haute du fémur, fragile chez la personne âgée."],
+        ["Aide technique", "Matériel qui aide à faire seul (canne, déambulateur)."]
+      ],
+      "ex": [
+        {"type": "relier", "paires": [["Entorse", "Ligament"], ["Fracture", "Os cassé"], ["Arthrose", "Cartilage usé"], ["Luxation", "Os déboîté"]]},
+        {"type": "vf", "items": [["On relève vite une personne âgée qui a peut-être une fracture.", false, "Non : on ne la bouge pas, on alerte."], ["Un tapis peut faire chuter.", true, "Oui."], ["L'arthrite et l'arthrose, c'est pareil.", false, "Non : inflammation contre usure."]]},
+        {"type": "qcm", "items": [{"q": "Qui est le plus touché par l'ostéoporose ?", "choix": ["Les bébés", "Les femmes après la ménopause", "Les adolescents"], "bonne": 1}]},
+        {"type": "ordre", "consigne": "Remets dans l'ordre la conduite après une chute.", "items": ["Ne pas relever tout de suite", "Rassurer et observer", "Alerter", "Transmettre la chute"]}
+      ]
+    }
+  ]
+}
