@@ -15,6 +15,14 @@ Application web personnelle (PWA) pour réviser le Bac Pro ASSP, de la seconde �
 
 ## Contenu
 
+Deux sources :
+
+- `contenu/chapitres/<id>.md` : chapitres rédigés en Markdown (frontmatter YAML, `## Partie N — Titre {#pN}`,
+  `### Cartes` avec `- **Q :** … — **R :** … {#cN}`, `### Quiz` en bloc ```quiz YAML, puis `## Exercices`,
+  `## Corrigés`, `## Fiche mémo`). `scripts/build-content.mjs` les convertit au build et refuse un fichier mal formé.
+  `npm run sync` recopie les chapitres depuis le dossier du projet.
+- `src/content/assp-bloc4.ts` : les premières fiches du bloc 4, écrites directement en TypeScript.
+
 Le contenu est dans `src/content/`. Chaque fiche porte ses sources et un champ `verifiee` : il reste à `false`
 tant qu'une élève ne l'a pas comparée à son cours. Ne jamais changer l'`id` d'une fiche ou d'une carte publiée :
 la progression y est rattachée.

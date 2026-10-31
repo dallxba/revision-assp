@@ -1,5 +1,6 @@
-import type { Fiche, Matiere } from './types'
+import type { Chapitre, Fiche, Matiere } from './types'
 import { bloc4 } from './assp-bloc4'
+import generes from './generated/chapitres.json'
 
 const vide = (id: string, titre: string, sousTitre: string, epreuve: string) => ({
   id,
@@ -37,6 +38,13 @@ export const matieres: Matiere[] = [
     blocs: [],
   },
 ]
+
+// Chapitres rédigés en Markdown (contenu/chapitres/*.md), convertis au build.
+for (const { bloc, chapitre } of generes as { bloc: string; chapitre: Chapitre }[]) {
+  const cible = matieres.flatMap((m) => m.blocs).find((b) => b.id === bloc)
+  if (cible) cible.chapitres.push(chapitre)
+  else console.warn(`Chapitre ${chapitre.id} : bloc inconnu « ${bloc} »`)
+}
 
 export interface FicheRef {
   fiche: Fiche

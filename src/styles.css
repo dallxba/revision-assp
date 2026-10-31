@@ -579,6 +579,30 @@ section {
   margin: 28px 0 8px;
 }
 
+.cours h3 {
+  font-size: 17px;
+  margin: 22px 0 6px;
+}
+
+.cours details.replie {
+  margin: 14px 0;
+  padding: 0 14px;
+  background: var(--surface);
+  border: 1px solid var(--trait);
+  border-radius: 14px;
+}
+
+.cours details.replie > summary {
+  padding: 12px 0;
+  font-weight: 600;
+  color: var(--teal);
+  cursor: pointer;
+}
+
+.cours details.replie[open] {
+  padding-bottom: 6px;
+}
+
 .cours p,
 .cours ul,
 .cours ol {

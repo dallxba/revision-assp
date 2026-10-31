@@ -4,10 +4,12 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --host",
-    "build": "tsc --noEmit && vite build && node scripts/gen-sw.mjs",
+    "content": "node scripts/build-content.mjs",
+    "sync": "node scripts/sync-cours.mjs",
+    "dev": "node scripts/build-content.mjs && vite --host",
+    "build": "node scripts/build-content.mjs && tsc --noEmit && vite build && node scripts/gen-sw.mjs",
     "preview": "vite preview --host",
-    "check": "tsc --noEmit"
+    "check": "node scripts/build-content.mjs && tsc --noEmit"
   },
   "dependencies": {
     "marked": "^18.1.2",
@@ -20,6 +22,7 @@
     "@types/react-dom": "^19.3.0",
     "@vitejs/plugin-react": "^6.1.2",
     "typescript": "^5.9.3",
-    "vite": "^8.3.5"
+    "vite": "^8.3.5",
+    "yaml": "^2.9.1"
   }
 }
