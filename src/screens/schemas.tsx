@@ -1,4 +1,5 @@
 import { schemas2 } from './schemas2'
+import { schemas3 } from './schemas3'
 // Schémas dessinés, insérés dans un cours avec une ligne « ::schema[nom] ».
 // Couleurs d'illustration fixes (lisibles en clair et en sombre), textes en couleur d'encre.
 
@@ -130,7 +131,7 @@ function Couches() {
   )
 }
 
-const schemasLecon: Record<string, () => React.ReactElement> = { couches: Couches, ...schemas, ...schemas2 }
+const schemasLecon: Record<string, () => React.ReactElement> = { couches: Couches, ...schemas, ...schemas2, ...schemas3 }
 
 export function SchemaLecon({ nom }: { nom: string }) {
   const S = schemasLecon[nom]
